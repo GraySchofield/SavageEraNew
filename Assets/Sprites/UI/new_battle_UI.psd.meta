@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 3f9ed9667837bad40a3e50cd687202ed
+timeCreated: 1460001817
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: new_battle_UI_0
+    21300002: new_battle_UI_1
+    21300004: new_battle_UI_2
+    21300006: new_battle_UI_3
+    21300008: new_battle_UI_4
+    21300010: new_battle_UI_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: new_battle_UI_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 869
+        width: 659
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 327.5, y: 24.5}
+        - {x: -326.5, y: 24.5}
+        - {x: -329.5, y: 21.5}
+        - {x: -329.5, y: -20.5}
+        - {x: -326.5, y: -24.5}
+        - {x: 327.5, y: -24.5}
+        - {x: 329.5, y: -21.5}
+        - {x: 329.5, y: 21.5}
+    - name: new_battle_UI_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 782
+        width: 652
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 325, y: 20.5}
+        - {x: -326, y: 20.5}
+        - {x: -326, y: -19.5}
+        - {x: -325, y: -20.5}
+        - {x: 324, y: -20.5}
+        - {x: 326, y: -19.5}
+        - {x: 326, y: 18.5}
+    - name: new_battle_UI_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 432
+        width: 318
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: -105}
+        - {x: 146, y: -81}
+        - {x: 155, y: -59}
+        - {x: 159, y: -37}
+        - {x: 159, y: 40}
+        - {x: 150, y: 72}
+        - {x: 132, y: 103}
+        - {x: 99, y: 133}
+        - {x: 82, y: 144}
+        - {x: 72, y: 149}
+        - {x: 43, y: 159}
+        - {x: -45, y: 159}
+        - {x: -72, y: 149}
+        - {x: -103, y: 129}
+        - {x: -128, y: 106}
+        - {x: -139, y: 89}
+        - {x: -154, y: 62}
+        - {x: -159, y: 37}
+        - {x: -159, y: -36}
+        - {x: -158, y: -45}
+        - {x: -151, y: -64}
+        - {x: -146, y: -78}
+        - {x: -125, y: -110}
+        - {x: -106, y: -128}
+        - {x: -82, y: -145}
+        - {x: -59, y: -153}
+        - {x: -42, y: -159}
+        - {x: 41, y: -159}
+        - {x: 62, y: -153}
+        - {x: 82, y: -144}
+        - {x: 107, y: -127}
+    - name: new_battle_UI_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 92
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 90, y: -140}
+        - {x: 109, y: -126}
+        - {x: 135, y: -98}
+        - {x: 153, y: -67}
+        - {x: 160, y: -41}
+        - {x: 160, y: 47}
+        - {x: 145, y: 83}
+        - {x: 131, y: 102}
+        - {x: 109, y: 125}
+        - {x: 90, y: 140}
+        - {x: 60, y: 155}
+        - {x: 37, y: 160}
+        - {x: -36, y: 160}
+        - {x: -52, y: 156}
+        - {x: -81, y: 144}
+        - {x: -102, y: 130}
+        - {x: -124, y: 108}
+        - {x: -140, y: 90}
+        - {x: -159, y: 45}
+        - {x: -160, y: 30}
+        - {x: -160, y: -23}
+        - {x: -157, y: -45}
+        - {x: -148, y: -72}
+        - {x: -140, y: -90}
+        - {x: -108, y: -127}
+        - {x: -81, y: -144}
+        - {x: -44, y: -159}
+        - {x: -33, y: -160}
+        - {x: 34, y: -160}
+        - {x: 46, y: -158}
+        - {x: 54, y: -155}
+        - {x: 72, y: -148}
+    - name: new_battle_UI_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 92
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126, y: -108}
+        - {x: 140, y: -89}
+        - {x: 151, y: -67}
+        - {x: 158, y: -45}
+        - {x: 160, y: -33}
+        - {x: 160, y: 38}
+        - {x: 152, y: 67}
+        - {x: 131, y: 103}
+        - {x: 108, y: 125}
+        - {x: 89, y: 140}
+        - {x: 59, y: 155}
+        - {x: 36, y: 160}
+        - {x: -37, y: 160}
+        - {x: -53, y: 156}
+        - {x: -82, y: 144}
+        - {x: -103, y: 130}
+        - {x: -125, y: 108}
+        - {x: -139, y: 89}
+        - {x: -151, y: 66}
+        - {x: -158, y: 45}
+        - {x: -160, y: 32}
+        - {x: -160, y: -30}
+        - {x: -157, y: -53}
+        - {x: -141, y: -90}
+        - {x: -109, y: -127}
+        - {x: -82, y: -144}
+        - {x: -45, y: -159}
+        - {x: -34, y: -160}
+        - {x: 45, y: -160}
+        - {x: 90, y: -141}
+        - {x: 98, y: -133}
+    - name: new_battle_UI_5
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 435
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87, y: 157}
+        - {x: -113, y: 151}
+        - {x: -155, y: 90}
+        - {x: -157, y: 70}
+        - {x: -157, y: -66}
+        - {x: -134, y: -117}
+        - {x: -66, y: -157}
+        - {x: 76, y: -157}
+        - {x: 157, y: -103}
+        - {x: 157, y: 87}
+        - {x: 93, y: 157}
+      - - {x: -113, y: -63}
+        - {x: -119, y: 55}
+        - {x: -63, y: 114}
+        - {x: 91, y: 94}
+        - {x: 131, y: 20}
+        - {x: 121, y: -55}
+        - {x: 83, y: -102}
+        - {x: -13, y: -132}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

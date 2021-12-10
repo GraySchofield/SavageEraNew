@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="categoryType">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="Item|Building|Story"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:xs:complexType  name="requireOrProduceType">
+  <xs:attribute name="class" type="xs:string" use="required"/>
+  <xs:attribute name="category" type="categorytype" use="required"/>
+  <xs:attribute name="type" type="xs:string" use="required"/>
+  <xs:element name="Count" type="xs:negativeInteger" minOccurs="0" maxOccurs="1"/>
+  <xs:element name="Cost" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+</xs:simpleType>
+
+<xs:complexType name="eventType">
+	<xs:attribute name="type" type="xs:string" use="required"/>
+	<xs:attribute name="class" type="xs:string" use="required"/>
+
+	<xs:element name="Repeatable" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="CoolDown" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="Probability" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+
+	<xs:element name="CurrentWeather" type="weatherType" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="CurrentSeason" type="seasonType" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="TempetureAbove" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="TempetureBelow" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="HumidityAbove" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="HumidityBelow" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="HealthAbove" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="HealthBelow" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="MaxHealthAbove" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="MaxHealthBelow" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="PopulationAbove" type="xs:negativeInteger" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="PopulationBelow" type="xs:negativeInteger" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="CurrentHealthState" type="healthStateType" minOccurs="0" maxOccurs="1"/>
+	
+	<xs:element name="Story" type="xs:string" minOccurs="0" maxOccurs="1"/>
+
+	<xs:element name="Produce" type="requireOrProduceType" minOccurs="0" maxOccurs="unbounded"/>
+	<xs:element name="Require" type="requireOrProduceType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:complexType>
+
+<xs:element name="Events"/>
+	<xs:complexType>
+		<xs:element name="Event" type="eventType" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:complexType>
+</xs:element>		
+
+</xs:schema>

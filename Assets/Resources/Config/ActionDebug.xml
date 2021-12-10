@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Actions>
+	<!-- Tool -->
+	<Action type="spawn_torch" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="branch">
+			<Count>5</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="hay">
+			<Count>5</Count>
+		</Require>
+		<Produce class="Tool" category="Item" type="torch" />
+	</Action>
+  
+  <Action type="spawn_big_scissor" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="alligator_skin">
+      <Count>1</Count>
+    </Require>
+    <Require class="Resource" category="Item" type="iron">
+      <Count>100</Count>
+    </Require>
+    <Require class="Resource" category="Item" type="teeth">
+      <Count>50</Count>
+    </Require>
+    <Produce class="Tool" category="Item" type="big_scissor" />
+  </Action>
+	
+	<Action type="spawn_wood_shovel" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="branch">
+			<Count>12</Count>
+		</Require>
+		<Produce class="Tool" category="Item" type="wood_shovel" />
+	</Action>
+	
+	<Action type="spawn_axe" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Produce class="Tool" category="Item" type="axe" />
+	</Action>
+	
+	<Action type="spawn_chisel" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Produce class="Tool" category="Item" type="chisel" />
+	</Action>
+	
+	<Action type="spawn_iron_shovel" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="branch">
+			<Count>1</Count>
+		</Require>
+		
+		<Produce class="Tool" category="Item" type="iron_shovel" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_gold_chisel" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="Tool" category="Item" type="gold_chisel" />
+	</Action>
+	
+	<Action type="spawn_gold_axe" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="Tool" category="Item" type="gold_axe" />
+	</Action>
+	
+	<Action type="spawn_wood_trap" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="branch">
+			<Count>35</Count>
+		</Require>
+		
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="Tool" category="Item" type="wood_trap" />
+	</Action>
+	
+	<Action type="spawn_tent" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="Tool" category="Item" type="tent" />
+	</Action>
+	
+	
+	<Action type="spawn_scarecrow" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="Tool" category="Item" type="scarecrow" />
+	</Action>
+	
+	
+	<Action type="spawn_camp_fire" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="Tool" category="Item" type="camp_fire" />
+	</Action>
+	
+	
+	<Action type="spawn_umbrella" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="Tool" category="Item" type="umbrella" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_wool_glove" class="MakeToolAction">
+		
+		<Require class="Resource" category="Item" type="wool">
+			<Count>15</Count>
+		</Require>
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="Tool" category="Item" type="wool_glove" />
+	</Action>
+	
+	
+	<Action type="spawn_spike_trap" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="teeth">
+			<Count>75</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="wood">
+			<Count>50</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="iron">
+			<Count>25</Count>
+		</Require>
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="spike_trap" />
+	</Action>
+	
+	<Action type="spawn_fishing_rod" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="redwood">
+			<Count>30</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="hay">
+			<Count>60</Count>
+		</Require>
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="fishing_rod" />
+	</Action>
+	
+
+	<Action type="spawn_cold_machine" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="ice_core">
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="crystal">
+			<Count>50</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="gold">
+			<Count>25</Count>
+		</Require>
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="cold_machine" />
+	</Action>
+	
+	
+	<Action type="spawn_warm_machine" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="warm_machine" />
+	</Action>
+	
+	
+	<Action type="spawn_dry_machine" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="wind_core">
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="crystal">
+			<Count>50</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="gold">
+			<Count>25</Count>
+		</Require>
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="dry_machine" />
+	</Action>
+	
+	<Action type="spawn_humid_machine" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="blue_crystal">
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="crystal">
+			<Count>50</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="gold">
+			<Count>25</Count>
+		</Require>
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="humid_machine" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_moonlight_totem" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="branch">
+			<Count>1</Count>
+		</Require>
+		
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="moonlight_totem" />
+	</Action>
+	
+	
+	<Action type="spawn_evil_totem" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="branch">
+			<Count>1</Count>
+		</Require>
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="evil_totem" />
+	</Action>
+	
+	<Action type="spawn_lucky_totem" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="soul">
+			<Count>1</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="flower">
+			<Count>1</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood">
+			<Count>20</Count>
+		</Require>
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="lucky_totem" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_climate_glue" class="MakeToolAction">
+		<Require class="Resource" category="Item" type="ice_core">
+			<Count>1</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="fire_core">
+			<Count>1</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="wind_core">
+			<Count>1</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="blue_crystal">
+			<Count>1</Count>
+		</Require>
+		<Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="climate_glue" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_music_box" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="Tool" category="Item" type="music_box" />
+	</Action>
+	
+	<!-- Building -->
+	
+	<Action type="spawn_wooden_house" class="BuildConstructionAction">
+		<Require class="Resource" category="Item" type="branch">
+			<Count>1</Count>
+		</Require>
+		
+		<Produce class="House" category="Building" type="wooden_house">
+			<Count>1</Count>
+		</Produce>
+	</Action>
+	
+	
+	<Action type="spawn_science_lvl_1" class="BuildConstructionAction">
+		<Require class="Resource" category="Item" type="branch">
+			<Count>1</Count>
+		</Require>
+		<Produce class="AcademicConstruction" type="science_lvl_1" />
+	</Action>
+	
+	
+	<Action type="spawn_weather_instrument" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Produce class="AcademicConstruction" type="weather_instrument" />
+	</Action>
+	
+	
+	<Action type="spawn_grass_land" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="ProductionConstruction" category="Building" type="grass_land" />
+	</Action>
+	
+	
+	<Action type="spawn_stone_mine" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="ProductionConstruction" category="Building" type="stone_mine" />
+	</Action>
+	
+	
+	<Action type="spawn_black_smith" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="TechnologyConstruction" category="Building" type="black_smith" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_basic_farm" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="ProductionConstruction" category="Building" type="basic_farm" />
+	</Action>
+	
+	
+	<Action type="spawn_basic_pasture" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="ProductionConstruction" category="Building" type="basic_pasture" />
+	</Action>
+	
+	
+
+	<Action type="spawn_iron_cook_pot" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_1" />
+		<Produce class="TechnologyConstruction" category="Building" type="iron_cook_pot"/>
+	</Action>
+	
+	
+	
+	<Action type="spawn_science_lvl_2" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Produce class="AcademicConstruction" type="science_lvl_2" />
+	</Action>
+	
+	
+	
+	
+	<Action type="spawn_advanced_farm" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+    <Require class="ProductionConstruction" category="Building" type="basic_farm" />
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="ProductionConstruction" category="Building" type="advanced_farm" />
+	</Action>
+	
+	
+	<Action type="spawn_advanced_pasture" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+    <Require class="ProductionConstruction" category="Building" type="basic_pasture" />
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="ProductionConstruction" category="Building" type="advanced_pasture" />
+	</Action>
+	
+	<Action type="spawn_research_facility" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="TechnologyConstruction" category="Building" type="research_facility" />
+	</Action>
+	
+	
+	<Action type="spawn_element_hall" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="TechnologyConstruction" category="Building" type="research_facility" />
+		<Produce class="TechnologyConstruction" category="Building" type="element_hall" />
+	</Action>
+	
+	
+	<Action type="spawn_gear_shop" class="BuildConstructionAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Require class="AcademicConstruction" category="Building" type="science_lvl_2" />
+		<Produce class="TechnologyConstruction" category="Building" type="gear_shop" />
+	</Action>
+	
+	<!--weapons and gears .................................................................................................................-->
+
+
+	<!--Weapons .........................................-->
+	<Action type="spawn_weapon_iron_sword" class="MakeWeaponAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Produce class="Weapon" category="Item" type="weapon_iron_sword" />
+	</Action>
+	
+	
+	<Action type="spawn_weapon_spike_glove" class="MakeWeaponAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Produce class="Weapon" category="Item" type="weapon_spike_glove" />
+	</Action>
+	
+	<Action type="spawn_weapon_crystal_sword" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_crystal_sword" />
+		<Require class="Resource" category="Item" type="crystal" >
+			<Count>70</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>50</Count>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_crystal_sword" />
+	</Action>
+	
+	<Action type="spawn_weapon_ice_sword" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_ice_sword" />
+		<Require class="Resource" category="Item" type="iron" >
+			<Count>100</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="ice_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		
+		<Produce class="Weapon" category="Item" type="weapon_ice_sword" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_weapon_ice_gun" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_ice_gun" />
+		<Require class="Resource" category="Item" type="iron" >
+			<Count>70</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="ice_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_ice_gun" />
+	</Action>
+	
+	
+	<Action type="spawn_weapon_ice_lancer" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_ice_lancer" />
+		<Require class="Resource" category="Item" type="iron" >
+			<Count>100</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>20</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="ice_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_ice_lancer" />
+	</Action>
+	
+	
+	<Action type="spawn_weapon_ice_hammer" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_ice_hammer" />
+		<Require class="Resource" category="Item" type="gold" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>20</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="ice_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_ice_hammer" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_weapon_ice_reap" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_ice_reap" />
+		<Require class="Resource" category="Item" type="cyrstal" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="blue_crystal" >
+			<Count>20</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="ice_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_ice_reap" />
+	</Action>
+	
+	
+	<Action type="spawn_weapon_ice_giant_sword" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_ice_giant_sword" />
+		<Require class="Resource" category="Item" type="cyrstal" >
+			<Count>60</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="blue_crystal" >
+			<Count>30</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="ice_core" >
+			<Count>2</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_ice_giant_sword" />
+	</Action>
+	
+	
+	
+	
+	
+	<Action type="spawn_weapon_fire_bow" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_fire_bow" />
+		<Require class="Resource" category="Item" type="iron" >
+			<Count>100</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="fire_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_fire_bow" />
+	</Action>
+	
+	<Action type="spawn_weapon_fire_knife" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_fire_knife" />
+		<Require class="Resource" category="Item" type="iron" >
+			<Count>70</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="fire_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_fire_knife" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_weapon_fire_axe" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_fire_axe" />
+		<Require class="Resource" category="Item" type="gold" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="fire_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_fire_axe" />
+	</Action>
+	
+	
+	<Action type="spawn_weapon_fire_sword" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_fire_sword" />
+		<Require class="Resource" category="Item" type="gold" >
+			<Count>80</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="fire_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_fire_sword" />
+	</Action>
+	
+	
+	<Action type="spawn_weapon_fire_big_sword" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_fire_big_sword" />
+		<Require class="Resource" category="Item" type="gold" >
+			<Count>80</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="crystal" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="fire_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_fire_big_sword" />
+	</Action>
+	
+	<Action type="spawn_weapon_fire_big_staff" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_fire_big_staff" />
+		<Require class="Resource" category="Item" type="crystal" >
+			<Count>60</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="red_crystal" >
+			<Count>10</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="fire_core" >
+			<Count>2</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_fire_big_staff" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_weapon_wind_sword" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_wind_sword" />
+		<Require class="Resource" category="Item" type="iron" >
+			<Count>100</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="wind_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_wind_sword" />
+	</Action>
+	
+	
+	<Action type="spawn_weapon_wind_whip" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_wind_whip" />
+		<Require class="Resource" category="Item" type="iron" >
+			<Count>70</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="wind_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_wind_whip" />
+	</Action>
+	
+	
+	
+	<Action type="spawn_weapon_wind_dart" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_wind_dart" />
+		<Require class="Resource" category="Item" type="gold" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>30</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="wind_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_wind_dart" />
+	</Action>
+	
+	
+	<Action type="spawn_weapon_wind_big_sword" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_wind_big_sword" />
+		<Require class="Resource" category="Item" type="gold" >
+			<Count>70</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="wind_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_wind_big_sword" />
+	</Action>
+	
+		
+	<Action type="spawn_weapon_wind_big_axe" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_wind_big_axe" />
+		<Require class="Resource" category="Item" type="crystal" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="gold" >
+			<Count>50</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="wind_core" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_wind_big_axe" />
+	</Action>
+	
+	<Action type="spawn_weapon_wind_big_dart" class="MakeWeaponAction">
+		<Require class="Scroll" category="Item" type="scroll_wind_big_dart" />
+		<Require class="Resource" category="Item" type="blue_crystal" >
+			<Count>5</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="red_cyrstal" >
+			<Count>5</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="wind_core" >
+			<Count>2</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Weapon" category="Item" type="weapon_wind_big_dart" />
+	</Action>
+	
+	
+	
+	
+	<!--Armors .........................................-->
+	<Action type="spawn_armor_grass_suit" class="MakeArmorAction">
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Produce class="Armor" category="Item" type="armor_grass_suit" />
+	</Action>
+	
+	<Action type="spawn_fur_suit" class="MakeArmorAction">
+		<Require class="Scroll" category="Item" type="scroll_fur_suit" />
+		<Require class="Resource" category="Item" type="wool" >
+			<Count>100</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="cowhide" >
+			<Count>25</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="wolf_skin" >
+			<Count>30</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Armor" category="Item" type="armor_fur_suit" />
+	</Action>
+	
+	
+	<Action type="spawn_armor_log_suit" class="MakeArmorAction">
+		<Require class="Scroll" category="Item" type="scroll_log_suit" />
+		<Require class="Resource" category="Item" type="wood" >
+			<Count>100</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="redwood" >
+			<Count>35</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="hay" >
+			<Count>150</Count>
+		</Require>
+		<Produce class="Armor" category="Item" type="armor_log_suit" />
+	</Action>
+	
+	
+	<Action type="spawn_armor_iron_suit" class="MakeArmorAction">
+		<Require class="Scroll" category="Item" type="scroll_iron_suit" />
+		<Require class="Resource" category="Item" type="iron" >
+			<Count>80</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="gold" >
+			<Count>10</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="cowhide" >
+			<Count>10</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Armor" category="Item" type="armor_iron_suit" />
+	</Action>
+	
+	
+	
+	
+	<Action type="spawn_armor_wolf_suit" class="MakeArmorAction">
+		<Require class="Resource" category="Item" type="wool" >
+			<Count>80</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="wolf_skin" >
+			<Count>12</Count>
+		</Require>
+		<Produce class="Armor" category="Item" type="armor_wolf_suit" />
+	</Action>
+	
+	
+	<Action type="spawn_armor_tiger_suit" class="MakeArmorAction">
+		<Require class="Resource" category="Item" type="wool" >
+			<Count>80</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="cowhide" >
+			<Count>20</Count>
+		</Require>
+		<Produce class="Armor" category="Item" type="armor_tiger_suit" />
+	</Action>
+	
+	<!--Accessorys .........................................-->
+	<Action type="spawn_accessory_tooth_necklace" class="MakeAccessoryAction">
+		<Require class="Resource" category="Item" type="teeth" >
+			<Count>50</Count>
+		</Require>
+		<Require class="Resource" category="Item" type="pig_tail">
+			<Count>5</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Accessory" category="Item" type="accessory_tooth_necklace" />
+	</Action>
+	
+	<Action type="spawn_accessory_flower_ring" class="MakeAccessoryAction">
+		<Require class="Scroll" category="Item" type="scroll_flower_ring" />
+		<Require class="Resource" category="Item" type="flower" >
+			<Count>10</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="pig_tail" >
+			<Count>1</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Accessory" category="Item" type="accessory_flower_ring" />
+	</Action>
+
+	<Action type="spawn_accessory_feather_hat" class="MakeAccessoryAction">
+		<Require class="Scroll" category="Item" type="scroll_feather_hat" />
+		<Require class="Resource" category="Item" type="flower" >
+			<Count>5</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="feather" >
+			<Count>10</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Require class="Resource" category="Item" type="hay" >
+			<Count>100</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Accessory" category="Item" type="accessory_feather_hat" />
+	</Action>
+	
+	
+	
+	<!--Skills .......................................................................................-->
+	<Action type="spawn_ulti_skill_hard_strike" class="LearnSkillAction">
+		<Require class="Resource" category="Item" type="soul" >
+			<Count>1</Count>
+		</Require>
+		<Produce class="Skill" type="ulti_skill_swipe" />
+	</Action>
+	
+	
+	<Action type="spawn_ulti_skill_wind_pulse" class="LearnSkillAction">
+    <Require class="Scroll" category="Item" type="scroll_wind_pulse" />
+    <Require class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Require>
+
+    <Produce class="Skill" type="ulti_skill_wind_pulse" />
+	</Action>
+	
+	<Action type="spawn_ulti_skill_wind_wave" class="LearnSkillAction">
+		<Require class="Scroll" category="Item" type="scroll_wind_wave" />
+		<Require class="Resource" category="Item" type="soul" >
+			<Count>5</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Skill" type="ulti_skill_wind_wave" />
+	</Action>
+	
+	<Action type="spawn_ulti_skill_fire_pulse" class="LearnSkillAction">
+		<Require class="Scroll" category="Item" type="scroll_ulti_skill_fire_pulse" />
+		<Require class="Resource" category="Item" type="soul" >
+			<Count>3</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Skill" type="ulti_skill_fire_pulse" />
+	</Action>
+	
+	<Action type="spawn_ulti_skill_fire_wave" class="LearnSkillAction">
+		<Require class="Scroll" category="Item" type="scroll_fire_wave" />
+		<Require class="Resource" category="Item" type="soul" >
+			<Count>5</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Skill" type="ulti_skill_fire_wave" />
+	</Action>
+
+	<Action type="spawn_ulti_skill_ice_pulse" class="LearnSkillAction">
+		<Require class="Scroll" category="Item" type="scroll_ulti_skill_ice_pulse" />
+		<Require class="Resource" category="Item" type="soul" >
+			<Count>3</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Skill" type="ulti_skill_ice_pulse" />
+	</Action>
+	
+	<Action type="spawn_ulti_skill_ice_wave" class="LearnSkillAction">
+		<Require class="Scroll" category="Item" type="scroll_ice_wave" />
+		<Require class="Resource" category="Item" type="soul" >
+			<Count>5</Count>
+			<SpawnIgnore>true</SpawnIgnore>
+		</Require>
+		<Produce class="Skill" type="ulti_skill_ice_wave" />
+	</Action>
+
+
+  <Action type="spawn_weapon_dark_sword" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_dark_sword" />
+    <Require class="Resource" category="Item" type="gold" >
+      <Count>70</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="redwood" >
+      <Count>50</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="dark_core" >
+      <Count>1</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_dark_sword" />
+  </Action>
+
+  <Action type="spawn_weapon_dark_lancer" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_dark_lancer" />
+    <Require class="Resource" category="Item" type="blue_crystal" >
+      <Count>20</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="redwood" >
+      <Count>60</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="dark_core" >
+      <Count>2</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_dark_lancer" />
+  </Action>
+
+
+  <Action type="spawn_weapon_dark_giant_axe" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_dark_giant_axe" />
+    <Require class="Resource" category="Item" type="blue_crystal" >
+      <Count>30</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="redwood" >
+      <Count>60</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="dark_core" >
+      <Count>3</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_dark_giant_axe" />
+  </Action>
+
+  <Action type="spawn_weapon_dark_giant_reaper" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_dark_giant_reaper" />
+    <Require class="Resource" category="Item" type="blue_crystal" >
+      <Count>40</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="redwood" >
+      <Count>100</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="dark_core" >
+      <Count>5</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_dark_giant_reaper" />
+  </Action>
+
+  <Action type="spawn_weapon_dark_demon_sword" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_dark_demon_sword" />
+    <Require class="Resource" category="Item" type="blue_crystal" >
+      <Count>60</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="dark_core" >
+      <Count>10</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_dark_demon_sword" />
+  </Action>
+
+
+  <Action type="spawn_weapon_holy_staff" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_holy_staff" />
+    <Require class="Resource" category="Item" type="gold" >
+      <Count>70</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="crystal" >
+      <Count>50</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="holy_core" >
+      <Count>1</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_holy_staff" />
+  </Action>
+
+
+  <Action type="spawn_weapon_holy_hammer" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_holy_hammer"/>
+    <Require class="Resource" category="Item" type="red_crystal" >
+      <Count>20</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="crystal" >
+      <Count>60</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="holy_core" >
+      <Count>2</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_holy_hammer" />
+  </Action>
+
+  <Action type="spawn_weapon_holy_light_sword" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_holy_light_sword"/>
+    <Require class="Resource" category="Item" type="red_crystal" >
+      <Count>30</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="crystal" >
+      <Count>60</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="holy_core" >
+      <Count>3</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_holy_light_sword" />
+  </Action>
+
+
+  <Action type="spawn_weapon_holy_light_lancer" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_holy_light_lancer"/>
+    <Require class="Resource" category="Item" type="red_crystal" >
+      <Count>40</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="crystal" >
+      <Count>100</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="holy_core" >
+      <Count>5</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_holy_light_lancer" />
+  </Action>
+
+
+  <Action type="spawn_weapon_holy_saint_book" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_holy_saint_book"/>
+    <Require class="Resource" category="Item" type="red_crystal" >
+      <Count>50</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="holy_core" >
+      <Count>10</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_holy_saint_book" />
+  </Action>
+
+  <Action type="spawn_weapon_normal_sword" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_normal_sword" />
+    <Require class="Resource" category="Item" type="blue_crystal" >
+      <Count>5</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="red_crystal" >
+      <Count>5</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="winter_wood" >
+      <Count>30</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_normal_sword" />
+  </Action>
+
+
+  <Action type="spawn_armor_crystal_suit" class="MakeArmorAction">
+    <Require class="Scroll" category="Item" type="scroll_crystal_suit" />
+    <Require class="Resource" category="Item" type="crystal" >
+      <Count>80</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="gold" >
+      <Count>50</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Armor" category="Item" type="armor_crystal_suit" />
+  </Action>
+  
+  <Action type="spawn_ulti_skill_holy_spirit" class="LearnSkillAction">
+    <Require class="Scroll" category="Item" type="scroll_holy_spirit" />
+    <Require class="Resource" category="Item" type="soul" >
+      <Count>5</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="holy_core" >
+      <Count>3</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Skill" type="ulti_skill_holy_spirit" />
+  </Action>
+
+
+  <Action type="spawn_ulti_skill_armor_break" class="LearnSkillAction">
+    <Require class="Scroll" category="Item" type="scroll_armor_break" />
+    <Require class="Resource" category="Item" type="soul" >
+      <Count>5</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="dark_core" >
+      <Count>3</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Skill" type="ulti_skill_armor_break" />
+  </Action>
+
+
+  <Action type="spawn_weapon_metal_sword" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_metal_sword" />
+    <Require class="Resource" category="Item" type="crystal" >
+      <Count>50</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="iron" >
+      <Count>50</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="gold" >
+      <Count>50</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_metal_sword" />
+  </Action>
+
+
+  <Action type="spawn_armor_metal_suit" class="MakeArmorAction">
+    <Require class="Scroll" category="Item" type="scroll_metal_suit" />
+    <Require class="Resource" category="Item" type="iron" >
+      <Count>60</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="gold" >
+      <Count>60</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="crystal" >
+      <Count>60</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Armor" category="Item" type="armor_metal_suit" />
+  </Action>
+
+  <Action type="spawn_accessory_metal_necklace" class="MakeAccessoryAction">
+    <Require class="Scroll" category="Item" type="scroll_metal_necklace" />
+    <Require class="Resource" category="Item" type="crystal" >
+      <Count>20</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="gold">
+      <Count>20</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="feather">
+      <Count>10</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Accessory" category="Item" type="accessory_metal_necklace" />
+  </Action>
+
+  <Action type="spawn_ulti_skill_ice_body" class="LearnSkillAction">
+    <Require class="Scroll" category="Item" type="scroll_ice_body" />
+    <Require class="Resource" category="Item" type="soul" >
+      <Count>3</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Skill" type="ulti_skill_ice_body" />
+  </Action>
+
+  <Action type="spawn_ulti_skill_fire_stun" class="LearnSkillAction">
+    <Require class="Scroll" category="Item" type="scroll_fire_stun" />
+    <Require class="Resource" category="Item" type="soul" >
+      <Count>3</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Skill" type="ulti_skill_fire_stun" />
+  </Action>
+
+  <Action type="spawn_ulti_skill_wind_fast" class="LearnSkillAction">
+    <Require class="Scroll" category="Item" type="scroll_ulti_skill_wind_fast" />
+    <Require class="Resource" category="Item" type="soul" >
+      <Count>3</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Skill" type="ulti_skill_wind_fast" />
+  </Action>
+
+
+  <Action type="spawn_weapon_qumo_sword" class="MakeWeaponAction">
+    <Require class="Scroll" category="Item" type="scroll_qumo_sword" />
+    <Require class="Resource" category="Item" type="red_cyrstal" >
+      <Count>5</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="iron" >
+      <Count>50</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Require class="Resource" category="Item" type="rewood" >
+      <Count>50</Count>
+      <SpawnIgnore>true</SpawnIgnore>
+    </Require>
+    <Produce class="Weapon" category="Item" type="weapon_qumo_sword" />
+  </Action>
+
+
+  <Action type="spawn_elf_light_totem" class="MakeToolAction">
+    <Require class="Resource" category="Item" type="flower">
+      <Count>5</Count>
+    </Require>
+    
+    <Require class="Resource" category="Item" type="moon_grass">
+      <Count>5</Count>
+    </Require>
+    
+    <Produce class="Tool" category="Item" type="elf_light_totem" />
+  </Action>
+
+
+
+
+</Actions>
+
+

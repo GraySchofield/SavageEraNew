@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Stories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Story.xsd">
+
+	<Story type="story_rain">
+	</Story>
+	<Story type="story_snow">
+	</Story>
+	<Story type="story_sunny">
+	</Story>
+	<Story type="story_fog">
+	</Story>
+	<Story type="story_spring">
+	</Story>
+  <Story type="story_spring_hint_monsters">
+	</Story>
+  <Story type="story_summer">
+	</Story>
+	<Story type="story_autumn">
+	</Story>
+	<Story type="story_winter">
+	</Story>
+  
+  <Story type="story_hint_pick_resource">
+  </Story>
+  
+  <Story type="story_hint_make_tool">
+  </Story>
+  
+  <Story type="story_hint_storage">
+  </Story>
+  
+  <Story type="story_hint_use_tool">
+  </Story>
+  
+
+  <Story type="story_hint_tool">
+	</Story>
+	<Story type="story_hint_tool_change">
+	</Story>
+	<Story type="story_hint_house">
+	</Story>
+	<Story type="story_hint_umbrella">
+	</Story>
+	<Story type="story_hint_hungary">
+	</Story>
+	<Story type="story_hint_trap">
+	</Story>
+	<Story type="story_hint_battle">
+	</Story>
+	<Story type="story_hint_cook">
+	</Story>
+	<Story type="story_hint_darknees">
+	</Story>
+  <Story type="story_hint_welcome">
+  </Story>
+  <Story type="story_hint_death">
+  </Story>
+  <Story type="story_hint_night_bad_for_adventure">
+  </Story>
+	
+	<Story type="story_hint_night_summer_two">
+	</Story>
+
+
+
+  <Story type="story_spring_mouse_eaten">
+    <Option type="option_dummy">
+      <Consequence type="cons_loose_random_food" />
+    </Option>
+  </Story>
+
+  <Story type="story_boss_day_20">
+    <NeedPop>true</NeedPop>
+		<Option type="option_fight">
+			<Consequence type="cons_fight_boss_20" />
+		</Option>
+	</Story>
+  
+  
+  <Story type="story_boss_20_hint">
+    <NeedPop>true</NeedPop>
+		<Option type="option_confirm">
+		</Option>
+	</Story>
+  
+   <Story type="story_boss_35_hint">
+    <NeedPop>true</NeedPop>
+		<Option type="option_confirm">
+		</Option>
+	</Story>
+    
+  
+ <Story type="story_boss_50_hint">
+    <NeedPop>true</NeedPop>
+		<Option type="option_confirm">
+		</Option>
+	</Story>
+    
+	
+	
+	<Story type="story_boss_day_35">
+    <NeedPop>true</NeedPop>
+    <Option type="option_fight">
+			<Consequence type="cons_fight_boss_35" />
+		</Option>
+	</Story>
+	
+	<Story type="story_boss_day_50">
+    <NeedPop>true</NeedPop>
+    <Option type="option_fight">
+			<Consequence type="cons_fight_boss_50" />
+		</Option>
+	</Story>
+	
+	
+	<Story type="story_boss_day_65">
+    <NeedPop>true</NeedPop>
+    <Option type="option_fight">
+			<Consequence type="cons_fight_boss_65" />
+		</Option>
+	</Story>
+	
+	
+	<Story type="story_hint_night">
+		<Option type="option_dummy">
+			<Consequence type="cons_hint_night" />
+		</Option>
+	</Story>
+	<Story type="story_hint_sunny">
+		<Option type="option_dummy">
+			<Consequence type="cons_hint_sunny" />
+		</Option>
+	</Story>
+	<Story type="story_hint_rain">
+		<Option type="option_dummy">
+			<Consequence type="cons_hint_rain" />
+		</Option>
+	</Story>
+	
+	<Story type="story_hint_snow">
+		<Option type="option_dummy">
+			<Consequence type="cons_hint_snow" />
+		</Option>
+	</Story>
+	
+	<Story type="story_hint_fog">
+		<Option type="option_dummy">
+			<Consequence type="cons_hint_fog" />
+		</Option>
+	</Story>
+	
+	<Story type="story_hint_special_resource">
+	</Story>
+	<Story type="story_hint_winter_comming">
+	</Story>
+	<Story type="story_hint_cook_two">
+	</Story>
+  
+  <Story type="story_hint_soul">
+  </Story>
+	<Story type="story_hint_world_story_1">
+  </Story>
+  <Story type="story_hint_world_story_2">
+  </Story>
+  <Story type="story_hint_world_story_3">
+  </Story>
+  <Story type="story_hint_world_story_4">
+  </Story>
+  <Story type="story_hint_world_story_5">
+  </Story>
+  <Story type="story_hint_world_story_6">
+  </Story>
+  <Story type="story_hint_world_story_7">
+  </Story>
+  <Story type="story_hint_world_story_8">
+  </Story>
+  <Story type="story_hint_world_story_9">
+  </Story>
+  
+  <Story type="story_go_to_shop">
+    <NeedPop>true</NeedPop>
+    <Option type="option_confirm">
+    </Option>
+  </Story>
+	
+	<Story type="story_heatstroke">
+		<Option type="option_dummy">
+			<Consequence type="cons_heatstroke" />
+		</Option>
+	</Story>
+	<Story type="story_dizzy">
+		<Option type="option_dummy">
+			<Consequence type="cons_dizzy" />
+		</Option>
+	</Story>
+	<Story type="story_frozen">
+		<Option type="option_dummy">
+			<Consequence type="cons_frozen" />
+		</Option>
+	</Story>
+	
+	<Story type="story_crow_attack">
+		<Option type="option_dummy">
+			<Consequence type="cons_harvest_stop"/>
+		</Option>
+	</Story>
+	
+	<Story type="story_mouse_attack_one">
+		<Option type="option_dummy">
+			<Configs>
+				<Exclusive>true</Exclusive>
+				<Weighted>true</Weighted>
+			</Configs>
+			<Consequence type="cons_lose_carrot_10">
+				<Configs>
+					<Probability>0.2</Probability>
+				</Configs>
+			</Consequence>
+			<Consequence type="cons_lose_potato_5">
+				<Configs>
+					<Probability>0.2</Probability>
+				</Configs>
+			</Consequence>
+			<Consequence type="cons_lose_potato_10">
+				<Configs>
+					<Probability>0.2</Probability>
+				</Configs>
+			</Consequence>
+			<Consequence type="cons_lose_carrot_20">
+				<Configs>
+					<Probability>0.2</Probability>
+				</Configs>
+			</Consequence>
+			<Consequence type="cons_lose_tomato_10">
+				<Configs>
+					<Probability>0.2</Probability>
+				</Configs>
+			</Consequence>
+		</Option>
+	</Story>
+	
+	
+
+  
+<Story type="story_weather_too_humid_loose_resource">
+  <Option type="option_dummy">
+    <Consequence type="cons_loose_random_resource_from_wet" />
+  </Option>
+</Story>
+
+
+  <Story type="story_weather_too_hot_loose_food">
+    <Option type="option_dummy">
+      <Consequence type="cons_loose_random_food_from_heat"/>
+    </Option>
+  </Story>
+
+  
+
+
+
+  <Story type="story_hot_lose_lamp">
+		<Option type="option_dummy">
+			<Consequence type="cons_lose_lamp_10" />
+		</Option>
+	</Story>
+	
+	
+	<Story type="story_villagers_frozen">
+		<Option type="option_dummy">
+			<Consequence type="cons_pop_down_5" />
+		</Option>
+	</Story>	
+	
+	<Story type="story_villagers_heatstroke">
+		<Option type="option_dummy">
+			<Consequence type="cons_pop_down_3" />
+		</Option>
+	</Story>
+	
+	<Story type="story_villagers_stonemine_accident">
+		<Option type="option_dummy">
+			<Consequence type="cons_pop_down_2" />
+		</Option>
+	</Story>
+	
+	<Story type="story_elf_dry">
+		<Option type="option_dummy">
+			<Consequence type="cons_pop_down_2" />
+		</Option>
+	</Story>
+	
+
+	<Story type="story_too_dry_to_work">
+		<Option type="option_dummy">
+			<Consequence type="cons_harvest_stop" />
+		</Option>
+	</Story>
+	
+	<Story type="story_wooden_house_rain_broken">
+		<Option type="option_dummy">
+			<Consequence type="cons_wooden_house_broken" />
+		</Option>
+	</Story>
+	
+	<Story type="story_wooden_house_burn">
+		<Option type="option_dummy">
+			<Consequence type="cons_wooden_house_broken_3" />
+		</Option>
+	</Story>
+
+	
+	<Story type="story_people_enter_one">
+		<Option type="option_dummy">
+			<Consequence type="cons_pop_up_1" />
+		</Option>
+	</Story>
+	
+	<Story type="story_people_enter_two">
+		<Option type="option_dummy">
+			<Consequence type="cons_pop_up_2" />
+		</Option>
+	</Story>
+	
+	<Story type="story_people_enter_three">
+		<Option type="option_dummy">
+			<Consequence type="cons_pop_up_3" />
+		</Option>
+	</Story>
+	
+	<Story type="story_people_enter_five">
+		<Option type="option_dummy">
+			<Consequence type="cons_pop_up_5">
+			</Consequence>
+		</Option>
+	</Story>
+	
+	
+	<Story type="story_new_elf_one_by_totem">
+		<Option type="option_dummy">
+			<Consequence type="cons_pop_up_1">
+			</Consequence>
+		</Option>
+	</Story>
+	
+	
+	
+	<Story type="story_find_map_dust_land">
+		<Option type="option_dummy">
+			<Consequence type="cons_get_map_dust_land" />
+		</Option>
+	</Story>
+
+
+  <Story type ="story_evil_totem_attracks_monster">
+    <Option type="option_dummy">
+      <Consequence type="cons_evil_totem" />
+    </Option>
+  </Story>
+
+  
+  <Story type ="story_stuff_stolen">
+    <Option type="option_dummy">
+      <Consequence type="cons_loose_random_resource" />
+    </Option>
+  </Story>
+
+
+  <Story type ="story_night_attracks_monster">
+    <Option type="option_dummy">
+      <Consequence type="cons_evil_totem" />
+    </Option>
+  </Story>
+
+
+  <Story type="story_lucky_one">
+		<Option type="option_dummy">
+			<Configs>
+				<Exclusive>true</Exclusive>
+				<Weighted>true</Weighted>
+			</Configs>
+			<Consequence type="cons_gain_random_food">
+				<Configs>
+					<Probability>0.33</Probability>
+				</Configs>
+			</Consequence>	
+			<Consequence type="cons_gain_random_normal_resource">
+				<Configs>
+					<Probability>0.33</Probability>
+				</Configs>
+			</Consequence>
+			<Consequence type="cons_gain_random_tool">
+				<Configs>
+					<Probability>0.34</Probability>
+				</Configs>
+			</Consequence>
+					
+		</Option>
+	</Story>
+	
+
+	<Story type="story_lucky_two">
+		<Option type="option_dummy">
+			<Configs>
+				<Exclusive>true</Exclusive>
+				<Weighted>true</Weighted>
+			</Configs>
+			<Consequence type="cons_gain_random_food">
+				<Configs>
+					<Probability>0.25</Probability>
+				</Configs>
+			</Consequence>	
+			<Consequence type="cons_gain_random_normal_resource">
+				<Configs>
+					<Probability>0.25</Probability>
+				</Configs>
+			</Consequence>
+			<Consequence type="cons_gain_random_rare_resource">
+				<Configs>
+					<Probability>0.25</Probability>
+				</Configs>
+			</Consequence>
+			<Consequence type="cons_gain_random_tool">
+				<Configs>
+					<Probability>0.25</Probability>
+				</Configs>
+			</Consequence>
+					
+		</Option>
+	</Story>
+	
+	<Story type="story_unlucky_one">
+		<Option type="option_dummy">
+			<Configs>
+				<Exclusive>true</Exclusive>
+				<Weighted>true</Weighted>
+			</Configs>
+			<Consequence type="cons_loose_random_food">
+				<Configs>
+					<Probability>0.5</Probability>
+				</Configs>
+			</Consequence>	
+			<Consequence type="cons_loose_random_resource">
+				<Configs>
+					<Probability>0.5</Probability>
+				</Configs>
+			</Consequence>		
+		</Option>
+	</Story>
+
+
+  
+<Story type="story_viper_attack_elf">
+  <Option type="option_yes">
+    <Consequence type="cons_goodness_up">
+    </Consequence>
+    <Consequence type="cons_fight_vipers">
+    </Consequence>
+    <Consequence type="cons_pop_down_5">
+    </Consequence>
+  </Option>
+  <Option type="option_no">
+    <Consequence type="cons_pop_down_5">
+    </Consequence>
+  </Option>
+</Story>
+
+  
+
+  <Story type="story_injured_bear">
+    <Option type="option_kill">
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+      <Consequence type="cons_kill_bear">
+      </Consequence>
+    </Option>
+    <Option type="option_set_free">
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+    </Option>
+  </Story>
+
+
+  <Story type="story_strange_box_one">
+		<Option type="option_open">
+			<Consequence type="cons_ice_box">	
+			</Consequence>
+		</Option>
+		<Option type="option_cancel">
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+		</Option>
+	</Story>
+  
+	
+	<Story type="story_strange_box_two">
+		<Option type="option_open">
+			<Consequence type="cons_mud_box">	
+			</Consequence>
+		</Option>
+		<Option type="option_cancel">
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+		</Option>
+	</Story>
+
+  
+  <Story type="story_find_dead_body">
+    <Option type="option_yes">
+      <Consequence type="cons_search_dead_body">
+      </Consequence>
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+    </Option>
+  <Option type="option_no">
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+  </Option>
+  </Story>
+
+  
+  <Story type="story_professor">
+    <Option type="option_give">
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+      <Consequence type="cons_ask_professor">
+      </Consequence>      
+    </Option>
+    <Option type="option_no_give">
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+    </Option>
+  </Story>
+
+  <Story type="story_exchange_potato">
+    <Option type="option_exchange">
+      <Consequence type="cons_exchange_potato">
+      </Consequence>
+    </Option>
+    <Option type="option_cancel">
+    </Option>
+  </Story>
+
+  <Story type="story_exchange_lamp">
+    <Option type="option_exchange">
+      <Consequence type="cons_exchange_lamp">
+      </Consequence>
+    </Option>
+    <Option type="option_cancel">
+    </Option>
+  </Story>
+
+
+  <Story type="story_strange_fish">
+		<Option type="option_eat">
+			<Configs>
+				<Exclusive>true</Exclusive>
+				<Weighted>true</Weighted>
+			</Configs>
+			<Consequence type="cons_health_up_100">
+				<Configs>
+					<Probability>0.2</Probability>
+				</Configs>
+			</Consequence>
+			<Consequence type="cons_health_up_50">
+				<Configs>
+					<Probability>0.8</Probability>
+				</Configs>
+			</Consequence>
+		</Option>
+		<Option type="option_cancel">
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+		</Option>
+	</Story>
+
+  <Story type="story_tramp">
+		<Option type="option_give_10_potato">
+      <Consequence type="cons_tramp_took_10_potato">
+      </Consequence>
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+		</Option>
+		<Option type="option_no_give">
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+		</Option>
+	</Story>
+  
+	
+	<Story type="story_shadow_in_fog">
+		<Option type="option_follow">
+			<Consequence type="cons_shadow_in_fog">
+			</Consequence>
+		</Option>
+		<Option type="option_no">
+		</Option>
+	</Story>
+	
+	<Story type="story_bear">
+		<Option type="option_stop_it">
+			<Consequence type="cons_stop_bear">
+			</Consequence>
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+		</Option>
+		<Option type="option_no">
+			<Consequence type="cons_bear_destroy_tree">
+			</Consequence>
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+		</Option>
+	</Story>
+	
+	<Story type="story_wolf">
+		<Option type="option_yes">
+			<Configs>
+				<Exclusive>true</Exclusive>
+				<Weighted>true</Weighted>
+			</Configs>
+			<Consequence type="cons_wolf_not_found">
+				<Configs>
+					<Probability>0.5</Probability>
+				</Configs>
+			</Consequence>
+			<Consequence type="cons_wolf_found">
+				<Configs>
+					<Probability>0.5</Probability>
+				</Configs>
+			</Consequence>
+		</Option>
+		<Option type="option_no">
+		</Option>
+	</Story>
+
+
+  <Story type="story_high_keeper_come">
+    <Option type="option_challenge">
+      <Consequence type="cons_fight_holy_keeper">
+      </Consequence>
+    </Option>
+    <Option type="option_give_up">
+    </Option>
+  </Story>
+
+
+
+  <Story type="story_lost_soldier">
+		<Option type="option_give_30_potato">
+			<Consequence type="cons_lost_soldier">
+			</Consequence>
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+		</Option>
+		<Option type="option_no_give">
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+		</Option>
+	</Story>
+
+  
+	<Story type="story_scholar">
+		<Option type="option_give_seed">
+			<Consequence type="cons_scholar_take_one_seed">
+			</Consequence>
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+		</Option>
+		<Option type="option_no_give">
+		</Option>
+	</Story>
+  
+
+	
+	<Story type="story_live_tree">
+		<Option type="option_stop_it">
+			<Consequence type="cons_stop_treeman">
+			</Consequence>
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+		</Option>
+		<Option type="option_let_it_go">
+			<Consequence type="cons_wooden_house_broken">	
+			</Consequence>
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+		</Option>
+	</Story>
+	
+	<Story type="story_stone_statue">
+		<Option type="option_take">
+			<Consequence type="cons_take_blue_crystal">
+			</Consequence>
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+		</Option>
+		<Option type="option_cancel">
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+		</Option>
+	</Story>
+	
+	
+	
+	
+	<Story type="story_young_blade_master">
+		<Option type="option_challenge">
+			<Consequence type="cons_fight_young_blade_master">
+			</Consequence>
+		</Option>
+		<Option type="option_give_up">
+		</Option>
+	</Story>
+	
+	
+	<Story type="story_old_blade_master">
+		<Option type="option_challenge">
+			<Consequence type="cons_fight_old_blade_master">
+			</Consequence>
+		</Option>
+		<Option type="option_give_up">
+		</Option>
+	</Story>
+	
+	
+	<Story type="story_great_blade_master">
+		<Option type="option_challenge">
+			<Consequence type="cons_fight_great_blade_master">
+			</Consequence>
+		</Option>
+		<Option type="option_give_up">
+		</Option>
+	</Story>
+
+
+  <Story type="story_injured_hunter">
+    <Option type="option_yes">
+      <Consequence type="cons_heal_injured_hunter">
+      </Consequence>
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+    </Option>
+    <Option type="option_no">
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+    </Option>
+  </Story>
+
+
+
+<Story type="story_hungary_hunter">
+  <Option type="option_rob">
+    <Consequence type="cons_rob_hungary_hunter">
+    </Consequence>
+    <Consequence type="cons_goodness_down">
+    </Consequence>
+  </Option>
+  <Option type="option_give_food">
+    <Consequence type="cons_give_hunter_food">
+    </Consequence>
+    <Consequence type="cons_goodness_up">
+    </Consequence>
+  </Option>
+  <Option type="option_dont_care">
+  </Option>
+</Story>
+
+ <Story type="story_sound_sing">
+    <Option type="option_investigate">
+      <Consequence type="cons_investigate_song">
+      </Consequence>
+    </Option>
+    <Option type="option_enjoy_song">
+      <Consequence type="cons_engjoy_song">
+      </Consequence>
+    </Option>
+    <Option type="option_dont_care">
+      <Consequence type="cons_ignore_song">
+      </Consequence>
+    </Option>
+  </Story>
+
+
+  <Story type="story_fury_hunter">
+    <Option type="option_save_elf">
+      <Consequence type="cons_save_elfs">
+      </Consequence>
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+    </Option>
+    <Option type="option_hide">
+      <Consequence type="cons_hide">
+      </Consequence>
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+    </Option>
+  </Story>
+
+  <Story type="story_holy_blessing">
+    <Option type="option_accept_blessing">
+      <Consequence type="cons_accept_blessing">
+      </Consequence>
+    </Option>
+    <Option type="option_offer">
+      <Consequence type="cons_offer_blessing">
+      </Consequence>
+    </Option>
+    <Option type="option_ignore">
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+    </Option>
+  </Story>
+  
+  <Story type="story_rich_man">
+    <Option type="option_beg">
+      <Consequence type="cons_beg_rich_man">
+      </Consequence>
+    </Option>
+    <Option type="option_rob">
+      <Consequence type="cons_rob_rich_man">
+      </Consequence>
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+    </Option>
+    <Option type="option_ignore">
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+    </Option>
+  </Story>
+  
+  <Story type="story_honey_bee">
+    <Option type="option_yes">
+      <Consequence type="cons_steal_honey">
+      </Consequence>
+    </Option>
+    <Option type="option_no">
+    </Option>
+  </Story>
+
+  
+  <Story type="story_vulture_attack">
+    <Option type="option_attack">
+      <Consequence type="cons_attack_vulture">
+      </Consequence>
+    </Option>
+    <Option type="option_ignore">
+      <Consequence type="cons_ignore_vulture">
+      </Consequence>
+    </Option>
+  </Story>
+
+  <Story type="story_poison_smoke">  
+    <Option type="option_save_elf">
+      <Consequence type="cons_goodness_up">
+      </Consequence>    
+      <Consequence type="cons_save_elfs_from_poison">
+      </Consequence>
+    </Option>
+    <Option type="option_hide">
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+      <Consequence type="cons_leave_elfs_with_poison">
+      </Consequence>
+    </Option>
+  </Story>
+  
+    
+  <Story type="story_dark_witch">  
+    <Option type="option_give">
+      <Consequence type="cons_goodness_down">
+      </Consequence>    
+      <Consequence type="cons_sacrifice_elf">
+      </Consequence>
+    </Option>
+    <Option type="option_no_give">
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+      <Consequence type="cons_no_sacrifice_elf">
+      </Consequence>
+    </Option>
+  </Story>
+  
+  
+  
+  
+  <!--story in map 888888888888888888888888888888888888888888888888888888888888888888888888888-->
+  <!-- map1 888888888888888888888888888888888888888888888888888888888888888888888888888-->
+
+  <Story type="story_map_event_dig_grave">
+		<Option type="option_yes">
+			<Consequence type="cons_dig_grave">
+			</Consequence>
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+		</Option>
+		<Option type="option_no">
+		</Option>
+	</Story>
+
+	<Story type="story_map_event_young_witch">
+		<Option type="option_battle">
+			<Consequence type="cons_fight_young_witch">
+			</Consequence>
+      <Consequence type="cons_goodness_up">
+      </Consequence>
+		</Option>
+		<Option type="option_give_up">
+		</Option>
+	</Story>
+  
+	
+	<Story type="story_map_event_dig_mine">
+		<Option type="option_yes">
+			<Consequence type="cons_dig_mine">
+			</Consequence>
+		</Option>
+		<Option type="option_no">
+		</Option>
+	</Story>
+	
+	
+	<Story type="story_map_event_yeti_house">
+		<Option type="option_yes">
+			<Consequence type="cons_enter_yeti_house">
+			</Consequence>
+		</Option>
+		<Option type="option_no">
+		</Option>
+	</Story>
+	
+	<Story type="story_map_event_gear_scroll_lvl1">
+		<Option type="option_yes">
+			<Consequence type="cons_take_scroll_lvl1">
+			</Consequence>
+		</Option>
+		<Option type="option_no">
+		</Option>
+	</Story>
+
+
+  <Story type="story_map_event_gear_scroll_lvl2">
+    <Option type="option_yes">
+      <Consequence type="cons_take_scroll_lvl2">
+      </Consequence>
+    </Option>
+    <Option type="option_no">
+    </Option>
+  </Story>
+
+
+  <Story type="story_map_event_research_man">
+    <Option type="option_exchange">
+      <Consequence type="cons_trade_with_research_man">
+      </Consequence>
+    </Option>
+    <Option type="option_cancel">
+    </Option>
+  </Story>
+
+  <Story type="story_map_event_saved_man">
+    <Option type="option_take_reward">
+      <Consequence type="cons_take_reward_from_saved_man">
+      </Consequence>
+    </Option>
+    <Option type="option_no_need">
+    </Option>
+  </Story>
+
+
+  <Story type="story_soul_well">
+		<Option type="option_yes">
+			<Consequence type="cons_exchange_soul">
+			</Consequence>
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+		</Option>
+		<Option type="option_no">
+		</Option>
+	</Story>
+	
+	
+	<Story type="story_water_well">
+		<Option type="option_heal">
+			<Consequence type="cons_life_water_heal">
+			</Consequence>
+		</Option>
+		<Option type="option_take">
+			<Consequence type="cons_life_water_take">
+			</Consequence>
+		</Option>
+	</Story>
+	
+	
+	<Story type="story_soul_dealer">
+		<Option type="option_give">
+			<Consequence type="cons_deal_soul">
+			</Consequence>
+      <Consequence type="cons_goodness_down">
+      </Consequence>
+		</Option>
+		<Option type="option_no_give">
+		</Option>
+	</Story>
+	
+	<Story type="story_map_event_fire_soul">
+		<Option type="option_yes">
+			<Consequence type="cons_break_fire_soul">
+			</Consequence>
+		</Option>
+		<Option type="option_no">
+		</Option>
+	</Story>
+	
+	<Story type="story_map_event_ice_soul">
+		<Option type="option_yes">
+			<Consequence type="cons_break_ice_soul">
+			</Consequence>
+		</Option>
+		<Option type="option_no">
+		</Option>
+	</Story>
+	
+	
+	<Story type="story_map_event_wind_soul">
+		<Option type="option_yes">
+			<Consequence type="cons_break_wind_soul">
+			</Consequence>
+		</Option>
+		<Option type="option_no">
+		</Option>
+	</Story>  
+
+  <Story type="story_map_event_mystery_box">
+    <Option type="option_yes">
+      <Consequence type="cons_open_yeti_box">
+      </Consequence>
+    </Option>
+    <Option type="option_no">
+    </Option>
+  </Story>
+
+<Story type="story_map_event_wind_soul">
+  <Option type="option_yes">
+    <Consequence type="cons_break_wind_soul">
+    </Consequence>
+  </Option>
+  <Option type="option_no">
+  </Option>
+</Story>
+  
+  
+ <Story type="story_map_event_high_altar">
+  <Option type="option_open">
+    <Consequence type="cons_open_high_altar">
+    </Consequence>
+  </Option>
+  <Option type="option_leave">
+  </Option>
+</Story>
+
+ <Story type="story_map_event_ice_cave">
+    <Option type="option_yes">
+      <Consequence type="cons_break_ice_cave">
+      </Consequence>
+    </Option>
+    <Option type="option_no">
+    </Option>
+  </Story>
+
+
+  <Story type="story_map_event_ice_beast">
+    <Option type="option_yes">
+      <Consequence type="cons_attracks_ice_beast">
+      </Consequence>
+    </Option>
+    <Option type="option_no">
+    </Option>
+  </Story>
+
+  <Story type="story_map_event_fire_cave">
+    <Option type="option_forge">
+      <Consequence type="cons_forge_light_flower">
+      </Consequence>
+    </Option>
+    <Option type="option_leave">
+    </Option>
+  </Story>
+
+  <Story type="story_map_event_medi_doctor">
+    <Option type="option_give">
+      <Consequence type="cons_trade_light_flower">
+      </Consequence>
+    </Option>
+    <Option type="option_leave">
+    </Option>
+  </Story>
+
+  <Story type="story_map_event_dry_soul">
+    <Option type="option_yes">
+      <Consequence type="cons_fill_dead_spirit">
+      </Consequence>
+    </Option>
+    <Option type="option_no">
+    </Option>
+  </Story>
+
+  <Story type="story_map_event_skeleton_king">
+    <Option type="option_fill">
+      <Consequence type="cons_summon_skelecton_king">
+      </Consequence>
+    </Option>
+    <Option type="option_leave">
+    </Option>
+  </Story>
+  
+  <Story type="story_holy_water">
+    <Option type="option_fill">
+      <Consequence type="cons_pull_light_water">
+      </Consequence>
+    </Option>
+    <Option type="option_leave">
+    </Option>
+  </Story>
+
+
+  <Story type="story_holy_fete">
+    <Option type="option_yes">
+      <Consequence type="cons_summon_light_fete">
+      </Consequence>
+    </Option>
+    <Option type="option_no">
+    </Option>
+  </Story>
+
+
+  <Story type="story_map_event_fishing">
+    <Option type="option_yes">
+      <Consequence type="cons_fish_in_the_pool">
+      </Consequence>
+    </Option>
+    <Option type="option_no">
+    </Option>
+  </Story>
+
+
+  
+<Story type="story_map_event_chop_winter_tree">
+  <Option type="option_yes">   
+    <Consequence type="cons_chop_winter_wood">
+    </Consequence>
+  </Option>
+  <Option type="option_no">
+  </Option>
+</Story>
+
+
+  <Story type="story_map_event_blacksmith">
+    <Option type="option_give">
+      <Consequence type="cons_make_with_black_smith">
+      </Consequence>
+    </Option>
+    <Option type="option_no_give">
+    </Option>
+  </Story>
+
+
+
+  
+  <Story type="story_map_event_crystal_armor">
+    <Option type="option_give">
+      <Consequence type="cons_trade_crystal_suit">
+      </Consequence>
+    </Option>
+    <Option type="option_no_give">
+    </Option>
+  </Story>
+
+
+  <Story type="story_map_event_normal_sword">
+    <Option type="option_give">
+      <Consequence type="cons_trade_normal_sword">
+      </Consequence>
+    </Option>
+    <Option type="option_no_give">
+    </Option>
+  </Story>
+
+
+<Story type="story_map_event_gaint_stone">
+  <Option type="option_yes">
+    <Consequence type="cons_pull_sword_from_stone">
+    </Consequence>
+  </Option>
+  <Option type="option_no">
+  </Option>
+</Story>
+
+  
+  <Story type="story_map_event_treasure_ghost">
+    <Option type="option_yes">
+      <Consequence type="cons_open_treasure_ghost_box">
+      </Consequence>
+    </Option>
+    <Option type="option_no">
+    </Option>
+  </Story>
+
+
+  
+
+
+
+</Stories>

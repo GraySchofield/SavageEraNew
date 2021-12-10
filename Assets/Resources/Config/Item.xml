@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Item type="seed" class="Resource"/>
+	<Item type="hay" class="Resource"/>
+	<Item type="flint" class="Resource"/>
+	<Item type="branch" class="Resource"/>
+	<Item type="gold" class="Resource"/>
+	<Item type="iron" class="Resource"/>
+	<Item type="rope" class="Resource"/>
+	<Item type="wood" class="Resource"/>
+	<Item type="wool" class="Resource"/>
+	<Item type="teeth" class="Resource"/>
+	<Item type="redwood" class="Resource"/>
+	<Item type="crystal" class="Resource"/>
+	<Item type="ice_core" class="Resource">
+		<SpawnIgnore>true</SpawnIgnore>
+	</Item>
+	<Item type="fire_core" class="Resource">
+		<SpawnIgnore>true</SpawnIgnore>
+	</Item>
+	<Item type="wind_core" class="Resource">
+		<SpawnIgnore>true</SpawnIgnore>
+	</Item>
+	<Item type="dark_core" class="Resource">
+		<SpawnIgnore>true</SpawnIgnore>
+	</Item>
+	<Item type="holy_core" class="Resource">
+		<SpawnIgnore>true</SpawnIgnore>
+	</Item>
+	<Item type="pig_tail" class="Resource"/>
+	<Item type="cowhide" class="Resource"/>
+	<Item type="moon_grass" class="Resource"/>
+	<Item type="winter_wood" class="Resource"/>
+	<Item type="blue_crystal" class="Resource">
+		<SpawnIgnore>true</SpawnIgnore>
+	</Item>
+	<Item type="red_crystal" class="Resource">
+		<SpawnIgnore>true</SpawnIgnore>
+	</Item>
+	<Item type="soul" class="Resource">
+		<SpawnIgnore>true</SpawnIgnore>
+	</Item>
+  
+	<Item type="flower" class="Resource">
+	</Item>
+  
+	<Item type="wolf_skin" class="Resource">
+		<SpawnIgnore>true</SpawnIgnore>
+	</Item>
+  
+	<Item type="feather" class="Resource">
+	</Item>
+  
+  <Item type="dust" class="Resource">
+  </Item>
+  
+  <Item type="lava" class="Resource">
+  </Item>
+  
+  <Item type="yeti_key" class="Resource">
+  </Item>
+
+  <Item type="fish_hand" class="Resource">
+  </Item>
+  
+   <Item type="alligator_skin" class="Resource">
+  </Item>
+  
+  <Item type="fox_fur" class="Resource">
+  </Item>
+  
+   <Item type="fire_teeth" class="Resource">
+  </Item>
+  
+   <Item type="dark_sign" class="Resource">
+     		<SpawnIgnore>true</SpawnIgnore>
+  </Item>
+  
+   <Item type="holy_sign" class="Resource">
+     		<SpawnIgnore>true</SpawnIgnore>
+  </Item>
+  
+    <Item type="high_sky_flower" class="Resource">
+  </Item>
+  
+    <Item type="ice_stone" class="Resource">
+  </Item>
+  
+   <Item type="fire_amber" class="Resource">
+  </Item>
+  
+   <Item type="bat_wing" class="Resource">
+  </Item>
+  
+  <Item type="fat_soul" class="Resource">
+  </Item>
+  
+   <Item type="light_water" class="Resource">
+  </Item>
+  
+   <Item type="black_iron" class="Resource">
+  </Item>
+
+  <Item type="fire_key" class="Resource">
+  </Item>
+  
+  <Item type="wind_key" class="Resource">
+  </Item>
+  
+  <!--Tools aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+    
+	<Item type="torch" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+	<Item type="wood_shovel" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+	<Item type="axe" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+	<Item type="chisel" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+	<Item type="iron_shovel" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+	<Item type="gold_chisel" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+  
+  <Item type="big_scissor" class="Tool">
+    <InitRemaining>1</InitRemaining>
+    <IsEquipment>false</IsEquipment>
+  </Item>
+
+  <Item type="gold_axe" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+	<Item type="wood_trap" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>true</IsEquipment>
+	</Item>
+	<Item type="scarecrow" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+		<IsOneTime>true</IsOneTime>
+	</Item>
+	<Item type="camp_fire" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>true</IsEquipment>
+	</Item>
+	<Item type="tent" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+    <IsOneTime>true</IsOneTime>
+  </Item>
+	<Item type="umbrella" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+	<Item type="wool_glove" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+	<Item type="spike_trap" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>true</IsEquipment>
+	</Item>
+	<Item type="fishing_rod" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+	<Item type="warm_machine" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>true</IsEquipment>
+	</Item>
+	<Item type="cold_machine" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>true</IsEquipment>
+	</Item>
+	<Item type="dry_machine" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>true</IsEquipment>
+	</Item>
+	<Item type="humid_machine" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>true</IsEquipment>
+	</Item>
+  
+	<Item type="moonlight_totem" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>true</IsEquipment>
+	</Item>
+  
+	<Item type="music_box" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+    <IsOneTime>true</IsOneTime>
+  </Item>
+  
+	<Item type="evil_totem" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>true</IsEquipment>
+		<IsOneTime>true</IsOneTime>
+	</Item>
+	<Item type="lucky_totem" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>true</IsEquipment>
+		<IsOneTime>true</IsOneTime>
+	</Item>
+  
+	<Item type="climate_glue" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+		<IsOneTime>true</IsOneTime>
+	</Item> 
+  
+  <Item type="fish_made_fan" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+	</Item>
+  
+  <Item type="elf_light_totem" class="Tool">
+		<InitRemaining>1</InitRemaining>
+		<IsEquipment>false</IsEquipment>
+		<IsOneTime>true</IsOneTime>
+	</Item>
+  
+  
+  
+    
+    <!--Foods aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+
+  <Item type="shadow_heart" class="Food">
+    <HealValue>-100</HealValue>
+    <IsIngredient>false</IsIngredient>
+  </Item>
+
+  <Item type="honey" class="Food">
+    <HealValue>150</HealValue>
+    <CoolDown>10</CoolDown>
+    <IsIngredient>true</IsIngredient>
+  </Item>
+
+
+  <Item type="snake_meat" class="Food">
+		<HealValue>15</HealValue>
+		<IsIngredient>true</IsIngredient>
+		<SubClass>~meat</SubClass>
+	</Item>
+  
+  <Item type="snake_blood" class="Food">
+		<HealValue>100</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <CoolDown>3</CoolDown>
+	</Item>
+  
+  
+    
+	<Item type="carrot" class="Food">
+		<HealValue>3</HealValue>
+		<IsIngredient>true</IsIngredient>
+		<SubClass>~vegetable</SubClass>
+	</Item>
+	<Item type="mushroom" class="Food">
+		<HealValue>1</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~vegetable</SubClass>
+	</Item>
+	<Item type="potato" class="Food">
+		<HealValue>10</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~vegetable</SubClass>
+	</Item>
+	<Item type="lamp" class="Food">
+		<HealValue>3</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~meat</SubClass>
+	</Item>
+	<Item type="rabbit_meat" class="Food">
+		<HealValue>5</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~meat</SubClass>
+	</Item>
+	<Item type="unicon_blood" class="Food">
+		<HealValue>100</HealValue>
+		<IsIngredient>true</IsIngredient>
+	</Item>
+	<Item type="shrimp" class="Food">
+		<HealValue>5</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~seafood</SubClass>
+	</Item>
+	<Item type="fish" class="Food">
+		<HealValue>8</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~seafood</SubClass>
+	</Item>
+	<Item type="pork" class="Food">
+		<HealValue>10</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~meat</SubClass>
+	</Item>
+	<Item type="dream_fruit" class="Food">
+		<HealValue>0</HealValue>
+    <IsIngredient>false</IsIngredient>
+    <SubClass>~fruit</SubClass>
+  </Item>
+	<Item type="snow_ball" class="Food">
+		<HealValue>-10</HealValue>
+		<IsIngredient>true</IsIngredient>
+	</Item>
+	<Item type="yeti_heart" class="Food">
+		<HealValue>50</HealValue>
+    <IsIngredient>false</IsIngredient>
+  </Item>
+	<Item type="crap" class="Food">
+		<HealValue>30</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <CoolDown>2</CoolDown>
+    <SubClass>~seafood</SubClass>
+	</Item>
+	<Item type="apple" class="Food">
+		<HealValue>25</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~fruit</SubClass>
+	</Item>
+	<Item type="pear" class="Food">
+		<HealValue>20</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~fruit</SubClass>
+	</Item>
+	<Item type="orange" class="Food">
+		<HealValue>15</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~fruit</SubClass>
+	</Item>
+	<Item type="strawberry" class="Food">
+		<HealValue>50</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~fruit</SubClass>
+	</Item>
+	<Item type="tomato" class="Food">
+		<HealValue>5</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~vegetable</SubClass>
+	</Item>
+	<Item type="chili" class="Food">
+		<HealValue>1</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~vegetable</SubClass>
+	</Item>
+	<Item type="milk" class="Food">
+		<HealValue>5</HealValue>
+		<IsIngredient>true</IsIngredient>
+	</Item>
+	<Item type="beef" class="Food">
+		<HealValue>10</HealValue>
+		<IsIngredient>true</IsIngredient>
+    <SubClass>~meat</SubClass>
+	</Item>
+	<Item type="bear_paw" class="Food">
+		<HealValue>30</HealValue>
+		<IsIngredient>true</IsIngredient>
+	</Item>
+
+  <Item type="bear_paw_stew" class="Food">
+    <HealValue>50</HealValue>
+    <IsIngredient>false</IsIngredient>
+  </Item>
+
+  <Item type="bat_poison" class="Food">
+		<HealValue>-30</HealValue>
+		<IsIngredient>true</IsIngredient>
+	</Item>
+	<Item type="life_water" class="Food">
+		<HealValue>70</HealValue>
+    <CoolDown>3</CoolDown>
+	</Item>
+	<Item type="wet_goop" class="Food">
+		<HealValue>1</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="lamp_stew" class="Food">
+		<HealValue>35</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="muddy_meat" class="Food">
+		<HealValue>18</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="patty" class="Food">
+		<HealValue>16</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="cooked_rabbit" class="Food">
+		<HealValue>25</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="red_meat" class="Food">
+		<HealValue>33</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>2</CoolDown>
+	</Item>
+	<Item type="small_meat_soup" class="Food">
+		<HealValue>30</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>4</CoolDown>
+  </Item>
+	<Item type="meat_soup" class="Food">
+		<HealValue>50</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>3</CoolDown>
+	</Item>
+	<Item type="meat_stew" class="Food">
+		<HealValue>80</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>7</CoolDown>
+  </Item>
+	<Item type="twice_cooked_meat" class="Food">
+		<HealValue>45</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>4</CoolDown>
+  </Item>
+	<Item type="vegetable_carnival" class="Food">
+		<HealValue>38</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>7</CoolDown>
+	</Item>
+	<Item type="unicorn_soup" class="Food">
+		<HealValue>10</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="fantasy_carnival" class="Food">
+		<HealValue>-50</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="sashimi" class="Food">
+		<HealValue>70</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>2</CoolDown>
+  </Item>
+	<Item type="chili_fish" class="Food">
+		<HealValue>85</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>4</CoolDown>
+	</Item>
+	<Item type="kung_pao_shrimp" class="Food">
+		<HealValue>80</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>3</CoolDown>
+	</Item>
+	<Item type="crystal_shrimp" class="Food">
+		<HealValue>90</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>3</CoolDown>
+	</Item>
+
+  <Item type="honey_meat" class="Food">
+    <HealValue>60</HealValue>
+    <IsIngredient>false</IsIngredient>
+    <CoolDown>2</CoolDown>
+  </Item>
+
+  <Item type="honey_fish" class="Food">
+    <HealValue>100</HealValue>
+    <IsIngredient>false</IsIngredient>
+    <CoolDown>2</CoolDown>
+  </Item>
+
+  <Item type="steak" class="Food">
+		<HealValue>70</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>7</CoolDown>
+	</Item>
+	<Item type="icy_drink" class="Food">
+		<HealValue>30</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>1</CoolDown>
+	</Item>
+	<Item type="crap_soup" class="Food">
+		<HealValue>85</HealValue>
+		<IsIngredient>false</IsIngredient>
+   <CoolDown>2</CoolDown>
+	</Item>
+  
+  <Item type="seafood_patty" class="Food">
+		<HealValue>120</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>8</CoolDown>
+	</Item>
+  
+	<Item type="steamed_crap" class="Food">
+		<HealValue>70</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>2</CoolDown>
+	</Item>
+	<Item type="chili_crap" class="Food">
+		<HealValue>100</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>3</CoolDown>
+	</Item>
+	<Item type="fruit_milk_shake" class="Food">
+		<HealValue>40</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="apple_pie" class="Food">
+		<HealValue>10</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="milk_pear" class="Food">
+		<HealValue>30</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="fruit_carnival" class="Food">
+		<HealValue>10</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="fig" class="Food">
+		<HealValue>0</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+	<Item type="poison_enhancer" class="Food">
+		<HealValue>-40</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+
+  <Item type="fruit_salad" class="Food">
+		<HealValue>29</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>1</CoolDown>
+	</Item>
+  
+ <Item type="cooked_snake" class="Food">
+		<HealValue>40</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>1</CoolDown>
+	</Item>
+  
+  <Item type="snake_soup" class="Food">
+		<HealValue>60</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>2</CoolDown>
+	</Item>
+  
+   <Item type="evil_breath" class="Food">
+		<HealValue>-199</HealValue>
+		<IsIngredient>false</IsIngredient>
+	</Item>
+    
+  <Item type="seafood_salad" class="Food">
+		<HealValue>60</HealValue>
+		<IsIngredient>false</IsIngredient>
+    <CoolDown>2</CoolDown>
+	</Item>
+
+  <Item type="three_xian_soup" class="Food">
+    <HealValue>180</HealValue>
+    <IsIngredient>false</IsIngredient>
+    <CoolDown>3</CoolDown>
+  </Item>
+
+  <Item type="big_heal_pill" class="Food">
+    <HealValue>250</HealValue>
+    <IsIngredient>false</IsIngredient>
+    <CoolDown>3</CoolDown>
+  </Item>
+  
+   <Item type="fruit_milk_pudding" class="Food">
+    <HealValue>0</HealValue>
+    <IsIngredient>false</IsIngredient>
+    <CoolDown>4</CoolDown>
+  </Item>
+  
+  
+  <Item type="dong_xiao_xian" class="Food">
+    <HealValue>0</HealValue>
+    <IsIngredient>false</IsIngredient>
+    <CoolDown>4</CoolDown>
+  </Item>
+  
+  
+  <Item type="honey_snake" class="Food">
+    <HealValue>0</HealValue>
+    <IsIngredient>false</IsIngredient>
+    <CoolDown>3</CoolDown>
+  </Item>
+  
+  
+  
+  <!--Weapons aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+
+
+	<Item type="weapon_iron_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>1.66</AttackRangeUpper>
+		<AttackRangeLower>0.66</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>3</CD>
+		<RingSpeed>1.5</RingSpeed>
+	</Item>
+  
+	<Item type="weapon_spike_glove" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>3</AttackRangeUpper>
+		<AttackRangeLower>1</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>2</CD>
+		<RingSpeed>2</RingSpeed>
+	</Item>
+  
+  
+   <Item type="weapon_metal_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>13</AttackRangeUpper>
+		<AttackRangeLower>6</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>3</CD>
+		<RingSpeed>1.8</RingSpeed>
+    <Tier>1</Tier>
+	</Item>
+
+
+  <Item type="weapon_qumo_sword" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <AttackRangeUpper>15</AttackRangeUpper>
+    <AttackRangeLower>5</AttackRangeLower>
+    <ElementType>Holy</ElementType>
+    <CD>2</CD>
+    <RingSpeed>1.75</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+
+
+  <Item type="weapon_chuanjia_knife" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <AttackRangeUpper>30</AttackRangeUpper>
+    <AttackRangeLower>10</AttackRangeLower>
+    <ElementType>Wind</ElementType>
+    <CD>1</CD>
+    <RingSpeed>2.0</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+
+  <Item type="weapon_new_fire_gun" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <AttackRangeUpper>30</AttackRangeUpper>
+    <AttackRangeLower>10</AttackRangeLower>
+    <ElementType>Fire</ElementType>
+    <CD>1</CD>
+    <RingSpeed>2.0</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+
+
+  <Item type="weapon_small_ice_knife" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <AttackRangeUpper>30</AttackRangeUpper>
+    <AttackRangeLower>10</AttackRangeLower>
+    <ElementType>Ice</ElementType>
+    <CD>1</CD>
+    <RingSpeed>2.0</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+
+
+
+  <Item type="weapon_blood_drink_sword" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.065</Cost>
+    <AttackRangeUpper>23</AttackRangeUpper>
+    <AttackRangeLower>8</AttackRangeLower>
+    <ElementType>Dark</ElementType>
+    <CD>3</CD>
+    <RingSpeed>1.8</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+
+
+
+  <Item type="weapon_young_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>4</AttackRangeUpper>
+		<AttackRangeLower>2</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>3</CD>
+		<RingSpeed>1</RingSpeed>
+    <Tier>1</Tier>
+  </Item>
+  
+	<Item type="weapon_old_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>15</AttackRangeUpper>
+		<AttackRangeLower>9</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>3</CD>
+		<RingSpeed>2</RingSpeed>
+    <Tier>1</Tier>
+  </Item>
+  
+	<Item type="weapon_great_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>60</AttackRangeUpper>
+		<AttackRangeLower>40</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>1</CD>
+		<RingSpeed>0.4</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+  
+	<Item type="weapon_crystal_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>6</AttackRangeUpper>
+		<AttackRangeLower>2</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>3</CD>
+		<RingSpeed>1.8</RingSpeed>
+    <Tier>1</Tier>
+	</Item>
+  
+  <Item type="weapon_fish_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.06</Cost>
+		<AttackRangeUpper>17</AttackRangeUpper>
+		<AttackRangeLower>8</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>1</CD>
+		<RingSpeed>1.8</RingSpeed>
+    <Tier>1</Tier>
+
+  </Item>
+
+  <Item type="weapon_normal_sword" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.02</Cost>
+    <AttackRangeUpper>35</AttackRangeUpper>
+    <AttackRangeLower>10</AttackRangeLower>
+    <ElementType>None</ElementType>
+    <CD>2</CD>
+    <RingSpeed>1.8</RingSpeed>
+  </Item>
+
+
+  
+  
+  
+  <Item type="weapon_break_blade_sword" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.035</Cost>
+    <AttackRangeUpper>30</AttackRangeUpper>
+    <AttackRangeLower>12</AttackRangeLower>
+    <ElementType>Holy</ElementType>
+    <CD>3</CD>
+    <RingSpeed>1.9</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+  
+
+  <Item type="weapon_light_spear" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <AttackRangeUpper>15</AttackRangeUpper>
+    <AttackRangeLower>9</AttackRangeLower>
+    <ElementType>None</ElementType>
+    <CD>3</CD>
+    <RingSpeed>1.7</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+
+  <Item type="weapon_normal_black_iron_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>25</AttackRangeUpper>
+		<AttackRangeLower>10</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>1</CD>
+		<RingSpeed>1.7</RingSpeed>
+    <Tier>1</Tier>
+  </Item>
+  
+  <Item type="weapon_sepical_black_iron_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>35</AttackRangeUpper>
+		<AttackRangeLower>20</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>1</CD>
+		<RingSpeed>1.7</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+  
+   <Item type="weapon_master_black_iron_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>65</AttackRangeUpper>
+		<AttackRangeLower>30</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>1</CD>
+		<RingSpeed>1.9</RingSpeed>
+    <Tier>3</Tier>
+   </Item>
+  
+  
+   <Item type="weapon_deep_fish_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>28</AttackRangeUpper>
+		<AttackRangeLower>12</AttackRangeLower>
+		<ElementType>None</ElementType>
+		<CD>3</CD>
+		<RingSpeed>2.0</RingSpeed>
+    <Tier>2</Tier>
+   </Item>
+
+  <Item type="weapon_ice_blink_sword" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <AttackRangeUpper>34</AttackRangeUpper>
+    <AttackRangeLower>21</AttackRangeLower>
+    <ElementType>Ice</ElementType>
+    <CD>2</CD>
+    <RingSpeed>2.0</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+
+
+  <Item type="weapon_acient_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>22</AttackRangeUpper>
+		<AttackRangeLower>13</AttackRangeLower>
+		<ElementType>Dark</ElementType>
+		<CD>1</CD>
+		<RingSpeed>2.0</RingSpeed>
+    <Tier>2</Tier>
+   </Item>
+    
+    
+	<Item type="weapon_ice_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>16</AttackRangeUpper>
+		<AttackRangeLower>7</AttackRangeLower>
+		<ElementType>Ice</ElementType>
+		<CD>2</CD>
+		<RingSpeed>1.8</RingSpeed>
+    <Tier>1</Tier>
+
+  </Item>
+  
+	<Item type="weapon_ice_gun" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>8</AttackRangeUpper>
+		<AttackRangeLower>4</AttackRangeLower>
+		<ElementType>Ice</ElementType>
+		<CD>2</CD>
+		<RingSpeed>2</RingSpeed>
+	</Item>
+  
+	<Item type="weapon_ice_lancer" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>10</AttackRangeUpper>
+		<AttackRangeLower>5</AttackRangeLower>
+		<ElementType>Ice</ElementType>
+		<CD>1</CD>
+		<RingSpeed>1.8</RingSpeed>
+    <Tier>1</Tier>
+
+  </Item>
+	<Item type="weapon_ice_hammer" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>25</AttackRangeUpper>
+		<AttackRangeLower>12</AttackRangeLower>
+		<ElementType>Ice</ElementType>
+		<CD>2</CD>
+		<RingSpeed>2</RingSpeed>
+    <Tier>1</Tier>
+
+  </Item>
+	<Item type="weapon_ice_reap" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>45</AttackRangeUpper>
+		<AttackRangeLower>20</AttackRangeLower>
+		<ElementType>Ice</ElementType>
+		<CD>5</CD>
+		<RingSpeed>2</RingSpeed>
+    <Tier>2</Tier>
+
+  </Item>
+	<Item type="weapon_ice_giant_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>60</AttackRangeUpper>
+		<AttackRangeLower>35</AttackRangeLower>
+		<ElementType>Ice</ElementType>
+		<CD>3</CD>
+		<RingSpeed>1.7</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+  
+	<Item type="weapon_fire_bow" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>10</AttackRangeUpper>
+		<AttackRangeLower>5</AttackRangeLower>
+		<ElementType>Fire</ElementType>
+		<CD>3</CD>
+		<RingSpeed>1.7</RingSpeed>
+    <Tier>1</Tier>
+	</Item>
+  
+	<Item type="weapon_fire_knife" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>11</AttackRangeUpper>
+		<AttackRangeLower>5</AttackRangeLower>
+		<ElementType>Fire</ElementType>
+		<CD>3</CD>
+		<RingSpeed>1.6</RingSpeed>
+	</Item>
+  
+	<Item type="weapon_fire_axe" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>13</AttackRangeUpper>
+		<AttackRangeLower>6</AttackRangeLower>
+		<ElementType>Fire</ElementType>
+		<CD>3</CD>
+		<RingSpeed>1.6</RingSpeed>
+    <Tier>1</Tier>
+  </Item>
+  
+	<Item type="weapon_fire_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>22</AttackRangeUpper>
+		<AttackRangeLower>10</AttackRangeLower>
+		<ElementType>Fire</ElementType>
+		<CD>2</CD>
+		<RingSpeed>1.7</RingSpeed>
+    <Tier>1</Tier>
+  </Item>
+  
+	<Item type="weapon_fire_big_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>38</AttackRangeUpper>
+		<AttackRangeLower>19</AttackRangeLower>
+		<ElementType>Fire</ElementType>
+		<CD>2</CD>
+		<RingSpeed>1.5</RingSpeed>
+    <Tier>2</Tier>
+
+  </Item>
+  
+	<Item type="weapon_fire_big_staff" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>70</AttackRangeUpper>
+		<AttackRangeLower>43</AttackRangeLower>
+		<ElementType>Fire</ElementType>
+		<CD>2</CD>
+		<RingSpeed>1.7</RingSpeed>
+    <Tier>2</Tier>
+
+  </Item>
+  
+	<Item type="weapon_wind_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<AttackRangeUpper>13</AttackRangeUpper>
+		<AttackRangeLower>5</AttackRangeLower>
+		<ElementType>Wind</ElementType>
+		<CD>1</CD>
+		<RingSpeed>2</RingSpeed>
+    <Tier>1</Tier>
+	</Item>
+  
+	<Item type="weapon_wind_whip" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>10</AttackRangeUpper>
+		<AttackRangeLower>4</AttackRangeLower>
+		<ElementType>Wind</ElementType>
+		<CD>3</CD>
+		<RingSpeed>1.8</RingSpeed>
+	</Item>
+  
+	<Item type="weapon_wind_dart" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>10</AttackRangeUpper>
+		<AttackRangeLower>5</AttackRangeLower>
+		<ElementType>Wind</ElementType>
+		<CD>1</CD>
+		<RingSpeed>2</RingSpeed>
+    <Tier>1</Tier>
+  </Item>
+  
+	<Item type="weapon_wind_big_sword" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>21</AttackRangeUpper>
+		<AttackRangeLower>12</AttackRangeLower>
+		<ElementType>Wind</ElementType>
+		<CD>1</CD>
+		<RingSpeed>1.5</RingSpeed>
+    <Tier>1</Tier>
+
+	</Item>
+	<Item type="weapon_wind_big_axe" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>42</AttackRangeUpper>
+		<AttackRangeLower>24</AttackRangeLower>
+		<ElementType>Wind</ElementType>
+		<CD>2</CD>
+		<RingSpeed>1.7</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+  
+	<Item type="weapon_wind_big_dart" class="Weapon">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<AttackRangeUpper>55</AttackRangeUpper>
+		<AttackRangeLower>35</AttackRangeLower>
+		<ElementType>Wind</ElementType>
+		<CD>2</CD>
+		<RingSpeed>1.8</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+
+
+  <Item type="weapon_dark_claw" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.1</Cost>
+    <AttackRangeUpper>22</AttackRangeUpper>
+    <AttackRangeLower>12</AttackRangeLower>
+    <ElementType>Dark</ElementType>
+    <CD>2</CD>
+    <RingSpeed>1.7</RingSpeed>
+    <Tier>2</Tier>
+  </Item>
+
+  
+  <Item type="weapon_dark_wudu_staff" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <AttackRangeUpper>32</AttackRangeUpper>
+    <AttackRangeLower>16</AttackRangeLower>
+    <ElementType>Dark</ElementType>
+    <CD>1</CD>
+    <RingSpeed>1.5</RingSpeed>
+    <Tier>1</Tier>
+
+  </Item>
+
+
+  <Item type="weapon_dark_sword" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <AttackRangeUpper>26</AttackRangeUpper>
+    <AttackRangeLower>17</AttackRangeLower>
+    <ElementType>Dark</ElementType>
+    <CD>1</CD>
+    <RingSpeed>1.5</RingSpeed>
+  </Item>
+
+  <Item type="weapon_dark_lancer" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <AttackRangeUpper>40</AttackRangeUpper>
+    <AttackRangeLower>22</AttackRangeLower>
+    <ElementType>Dark</ElementType>
+    <CD>1</CD>
+    <RingSpeed>1.5</RingSpeed>
+
+  </Item>
+
+  <Item type="weapon_dark_giant_axe" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <AttackRangeUpper>70</AttackRangeUpper>
+    <AttackRangeLower>40</AttackRangeLower>
+    <ElementType>Dark</ElementType>
+    <CD>2</CD>
+    <RingSpeed>1.9</RingSpeed>
+    <Tier>1</Tier>
+
+  </Item>
+
+  <Item type="weapon_dark_giant_reaper" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <AttackRangeUpper>105</AttackRangeUpper>
+    <AttackRangeLower>56</AttackRangeLower>
+    <ElementType>Dark</ElementType>
+    <CD>2</CD>
+    <RingSpeed>1.9</RingSpeed>
+    <Tier>2</Tier>
+
+  </Item>
+
+
+  <Item type="weapon_dark_demon_sword" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <AttackRangeUpper>165</AttackRangeUpper>
+    <AttackRangeLower>85</AttackRangeLower>
+    <ElementType>Dark</ElementType>
+    <CD>2</CD>
+    <RingSpeed>1.9</RingSpeed>
+    <Tier>2</Tier>
+
+  </Item>
+
+  
+  <Item type="weapon_holy_justice_hammer" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <AttackRangeUpper>25</AttackRangeUpper>
+    <AttackRangeLower>13</AttackRangeLower>
+    <ElementType>Holy</ElementType>
+    <CD>2</CD>
+    <RingSpeed>1.8</RingSpeed>
+    <Tier>1</Tier>
+
+  </Item>
+
+  <Item type="weapon_holy_judge_staff" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <AttackRangeUpper>22</AttackRangeUpper>
+    <AttackRangeLower>15</AttackRangeLower>
+    <ElementType>Holy</ElementType>
+    <CD>1</CD>
+    <RingSpeed>1.5</RingSpeed>
+    <Tier>1</Tier>
+
+  </Item>
+
+  <Item type="weapon_holy_staff" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <AttackRangeUpper>18</AttackRangeUpper>
+    <AttackRangeLower>13</AttackRangeLower>
+    <ElementType>Holy</ElementType>
+    <CD>1</CD>
+    <RingSpeed>1.8</RingSpeed>
+  </Item>
+
+  <Item type="weapon_holy_hammer" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <AttackRangeUpper>30</AttackRangeUpper>
+    <AttackRangeLower>16</AttackRangeLower>
+    <ElementType>Holy</ElementType>
+    <CD>2</CD>
+    <RingSpeed>1.8</RingSpeed>
+  </Item>
+
+
+  <Item type="weapon_holy_light_sword" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <AttackRangeUpper>40</AttackRangeUpper>
+    <AttackRangeLower>25</AttackRangeLower>
+    <ElementType>Holy</ElementType>
+    <CD>1</CD>
+    <RingSpeed>1.8</RingSpeed>
+    <Tier>1</Tier>
+
+  </Item>
+
+  <Item type="weapon_holy_light_lancer" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <AttackRangeUpper>56</AttackRangeUpper>
+    <AttackRangeLower>37</AttackRangeLower>
+    <ElementType>Holy</ElementType>
+    <CD>1</CD>
+    <RingSpeed>1.8</RingSpeed>
+    <Tier>1</Tier>
+
+  </Item>
+
+
+  <Item type="weapon_holy_saint_book" class="Weapon">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <AttackRangeUpper>80</AttackRangeUpper>
+    <AttackRangeLower>48</AttackRangeLower>
+    <ElementType>Holy</ElementType>
+    <CD>1</CD>
+    <RingSpeed>1.8</RingSpeed>
+    <Tier>2</Tier>
+
+  </Item>
+  
+  
+
+  <!--Armor aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+   
+	<Item type="armor_grass_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.02</Cost>
+		<DefenseRangeUpper>2</DefenseRangeUpper>
+		<DefenseRangeLower>1</DefenseRangeLower>
+		<HealthRangeUpper>10</HealthRangeUpper>
+		<HealthRangeLower>5</HealthRangeLower>
+	</Item>  
+    
+	<Item type="armor_log_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>10</DefenseRangeUpper>
+		<DefenseRangeLower>4</DefenseRangeLower>
+		<HealthRangeUpper>0</HealthRangeUpper>
+		<HealthRangeLower>0</HealthRangeLower>
+    <Tier>1</Tier>
+  </Item>
+	
+    
+    
+  <Item type="armor_iron_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>25</DefenseRangeUpper>
+		<DefenseRangeLower>7</DefenseRangeLower>
+		<HealthRangeUpper>0</HealthRangeUpper>
+		<HealthRangeLower>0</HealthRangeLower>
+    <Tier>2</Tier>
+  </Item>
+    
+  <Item type="armor_crystal_suit" class="Armor">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <DefenseRangeUpper>40</DefenseRangeUpper>
+    <DefenseRangeLower>10</DefenseRangeLower>
+    <HealthRangeUpper>0</HealthRangeUpper>
+    <HealthRangeLower>0</HealthRangeLower>
+    <Tier>1</Tier>
+  </Item>
+
+  <Item type="armor_wolf_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<DefenseRangeUpper>4.5</DefenseRangeUpper>
+		<DefenseRangeLower>2.5</DefenseRangeLower>
+		<HealthRangeUpper>15</HealthRangeUpper>
+		<HealthRangeLower>10</HealthRangeLower>
+		<ElementResisUpper>0.98</ElementResisUpper>
+		<ElementResisLower>0.92</ElementResisLower>
+	</Item>
+  
+	<Item type="armor_tiger_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<DefenseRangeUpper>5</DefenseRangeUpper>
+		<DefenseRangeLower>3</DefenseRangeLower>
+		<HealthRangeUpper>15</HealthRangeUpper>
+		<HealthRangeLower>10</HealthRangeLower>
+		<ElementResisUpper>0.98</ElementResisUpper>
+		<ElementResisLower>0.92</ElementResisLower>
+	</Item>
+  
+    
+  <Item type="armor_metal_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>15</DefenseRangeUpper>
+		<DefenseRangeLower>5</DefenseRangeLower>
+		<HealthRangeUpper>40</HealthRangeUpper>
+		<HealthRangeLower>10</HealthRangeLower>
+    <ElementResisUpper>0.98</ElementResisUpper>
+		<ElementResisLower>0.85</ElementResisLower>
+    <Tier>1</Tier>
+  </Item>
+
+
+
+  <Item type="armor_glorious_suit" class="Armor">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.1</Cost>
+    <DefenseRangeUpper>25</DefenseRangeUpper>
+    <DefenseRangeLower>8</DefenseRangeLower>
+    <HealthRangeUpper>50</HealthRangeUpper>
+    <HealthRangeLower>10</HealthRangeLower>
+    <ElementResisUpper>0.98</ElementResisUpper>
+    <ElementResisLower>0.85</ElementResisLower>
+    <Tier>2</Tier>
+  </Item>
+  
+    
+    
+	<Item type="armor_fur_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>12</DefenseRangeUpper>
+		<DefenseRangeLower>8</DefenseRangeLower>
+		<HealthRangeUpper>45</HealthRangeUpper>
+		<HealthRangeLower>15</HealthRangeLower>
+		<ElementResisUpper>0.95</ElementResisUpper>
+		<ElementResisLower>0.85</ElementResisLower>
+    <Tier>1</Tier>
+  </Item>
+  
+  <Item type="armor_fog_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.04</Cost>
+		<DefenseRangeUpper>15</DefenseRangeUpper>
+		<DefenseRangeLower>13</DefenseRangeLower>
+		<HealthRangeUpper>56</HealthRangeUpper>
+		<HealthRangeLower>32</HealthRangeLower>
+    <Tier>2</Tier>
+  </Item>
+   
+  
+  <Item type="armor_normal_black_iron_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.04</Cost>
+		<DefenseRangeUpper>45</DefenseRangeUpper>
+		<DefenseRangeLower>20</DefenseRangeLower>
+		<HealthRangeUpper>100</HealthRangeUpper>
+		<HealthRangeLower>50</HealthRangeLower>
+		<ElementResisUpper>0.95</ElementResisUpper>
+		<ElementResisLower>0.72</ElementResisLower>
+    <Tier>1</Tier>
+  </Item>
+  
+  <Item type="armor_justice_armor" class="Armor">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.03</Cost>
+    <DefenseRangeUpper>55</DefenseRangeUpper>
+    <DefenseRangeLower>25</DefenseRangeLower>
+    <HealthRangeUpper>150</HealthRangeUpper>
+    <HealthRangeLower>40</HealthRangeLower>
+    <ElementResisUpper>0.85</ElementResisUpper>
+	<ElementResisLower>0.77</ElementResisLower>
+    <Tier>2</Tier>
+  </Item>
+
+  <Item type="armor_special_black_iron_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.04</Cost>
+		<DefenseRangeUpper>65</DefenseRangeUpper>
+		<DefenseRangeLower>26</DefenseRangeLower>
+		<HealthRangeUpper>150</HealthRangeUpper>
+		<HealthRangeLower>50</HealthRangeLower>
+		<ElementResisUpper>0.92</ElementResisUpper>
+		<ElementResisLower>0.65</ElementResisLower>
+    <Tier>2</Tier>
+   </Item>
+  
+  
+   <Item type="armor_master_black_iron_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>75</DefenseRangeUpper>
+		<DefenseRangeLower>35</DefenseRangeLower>
+		<HealthRangeUpper>200</HealthRangeUpper>
+		<HealthRangeLower>100</HealthRangeLower>
+		<ElementResisUpper>0.85</ElementResisUpper>
+		<ElementResisLower>0.40</ElementResisLower>
+    <Tier>3</Tier>
+
+   </Item>
+  
+  <Item type="armor_demon_energy_suit" class="Armor">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.065</Cost>
+    <DefenseRangeUpper>35</DefenseRangeUpper>
+    <DefenseRangeLower>5</DefenseRangeLower>
+    <HealthRangeUpper>65</HealthRangeUpper>
+    <HealthRangeLower>5</HealthRangeLower>
+    <ElementResisUpper>0.90</ElementResisUpper>
+    <ElementResisLower>0.80</ElementResisLower>
+    <Tier>2</Tier>
+  </Item>
+
+
+  <Item type="armor_fox_suit" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.05</Cost>
+		<DefenseRangeUpper>35</DefenseRangeUpper>
+		<DefenseRangeLower>20</DefenseRangeLower>
+		<HealthRangeUpper>150</HealthRangeUpper>
+		<HealthRangeLower>50</HealthRangeLower>
+		<ElementResisUpper>0.80</ElementResisUpper>
+		<ElementResisLower>0.60</ElementResisLower>
+    <Tier>1</Tier>
+
+  </Item>
+  
+   <Item type="armor_ice_beast_armor" class="Armor">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>55</DefenseRangeUpper>
+		<DefenseRangeLower>32</DefenseRangeLower>
+		<HealthRangeUpper>250</HealthRangeUpper>
+		<HealthRangeLower>150</HealthRangeLower>
+		<ElementResisUpper>0.7</ElementResisUpper>
+		<ElementResisLower>0.5</ElementResisLower>
+    <Tier>3</Tier>
+
+   </Item>
+  
+    
+  <!--Accessory aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+	<Item type="accessory_tooth_necklace" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>2</DefenseRangeUpper>
+		<DefenseRangeLower>1</DefenseRangeLower>
+		<HealthRangeUpper>10</HealthRangeUpper>
+		<HealthRangeLower>1</HealthRangeLower>
+		<AttackRangeUpper>3</AttackRangeUpper>
+		<AttackRangeLower>1</AttackRangeLower>
+		<ElementResisRangeUpper>0.95</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.85</ElementResisRangeLower>
+		<AttributeCount>1</AttributeCount>
+    <ElementAttackRangeUpper>0.05</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.01</ElementAttackRangeLower>
+    <Health>10</Health>
+  </Item>
+    
+	<Item type="accessory_flower_ring" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>10</DefenseRangeUpper>
+		<DefenseRangeLower>3</DefenseRangeLower>
+		<HealthRangeUpper>35</HealthRangeUpper>
+		<HealthRangeLower>1</HealthRangeLower>
+		<AttackRangeUpper>10</AttackRangeUpper>
+		<AttackRangeLower>1</AttackRangeLower>
+		<ElementResisRangeUpper>0.98</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.80</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.15</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.05</ElementAttackRangeLower>
+		<AttributeCount>3</AttributeCount>
+    <Attack>3</Attack>
+    <Tier>1</Tier>
+  </Item>
+  
+  <Item type="accessory_ice_necklace" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>15</DefenseRangeUpper>
+		<DefenseRangeLower>10</DefenseRangeLower>
+		<HealthRangeUpper>30</HealthRangeUpper>
+		<HealthRangeLower>15</HealthRangeLower>
+		<AttackRangeUpper>15</AttackRangeUpper>
+		<AttackRangeLower>5</AttackRangeLower>
+		<ElementResisRangeUpper>0.95</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.85</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.18</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.10</ElementAttackRangeLower>
+		<AttributeCount>4</AttributeCount>
+    <ElementAttackIce>0.3</ElementAttackIce>
+    <Tier>2</Tier>
+  </Item>
+    
+	<Item type="accessory_feather_hat" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>12</DefenseRangeUpper>
+		<DefenseRangeLower>5</DefenseRangeLower>
+		<HealthRangeUpper>20</HealthRangeUpper>
+		<HealthRangeLower>15</HealthRangeLower>
+		<AttackRangeUpper>7</AttackRangeUpper>
+		<AttackRangeLower>1</AttackRangeLower>
+		<ElementResisRangeUpper>0.9</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.8</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.10</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.03</ElementAttackRangeLower>
+		<AttributeCount>3</AttributeCount>
+    <Tier>1</Tier>
+  </Item>
+  
+  
+  <Item type="accessory_metal_necklace" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>10</DefenseRangeUpper>
+		<DefenseRangeLower>3</DefenseRangeLower>
+		<HealthRangeUpper>20</HealthRangeUpper>
+		<HealthRangeLower>15</HealthRangeLower>
+		<AttackRangeUpper>7</AttackRangeUpper>
+		<AttackRangeLower>1</AttackRangeLower>
+		<ElementResisRangeUpper>0.9</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.8</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.10</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.03</ElementAttackRangeLower>
+		<AttributeCount>2</AttributeCount>
+    <Tier>1</Tier>
+    <Defense>8</Defense>
+  </Item>
+  
+  
+  
+   <Item type="accessory_fire_teeth_necklace" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>38</DefenseRangeUpper>
+		<DefenseRangeLower>10</DefenseRangeLower>
+		<HealthRangeUpper>65</HealthRangeUpper>
+		<HealthRangeLower>10</HealthRangeLower>
+		<AttackRangeUpper>25</AttackRangeUpper>
+		<AttackRangeLower>10</AttackRangeLower>
+		<ElementResisRangeUpper>0.9</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.85</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.15</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.05</ElementAttackRangeLower>
+		<AttributeCount>3</AttributeCount>
+    <ElementAttackFire>0.2</ElementAttackFire>
+    <Tier>1</Tier>
+   </Item>
+  
+  
+  <Item type="accessory_alligator_belt" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>33</DefenseRangeUpper>
+		<DefenseRangeLower>10</DefenseRangeLower>
+		<HealthRangeUpper>50</HealthRangeUpper>
+		<HealthRangeLower>20</HealthRangeLower>
+		<AttackRangeUpper>12</AttackRangeUpper>
+		<AttackRangeLower>1</AttackRangeLower>
+		<ElementResisRangeUpper>0.95</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.8</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.18</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.10</ElementAttackRangeLower>
+		<AttributeCount>4</AttributeCount>
+    <Tier>1</Tier>
+  </Item>
+
+
+  
+
+  <Item type="accessory_blessing_ring" class="Accessory">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <DefenseRangeUpper>45</DefenseRangeUpper>
+    <DefenseRangeLower>10</DefenseRangeLower>
+    <HealthRangeUpper>80</HealthRangeUpper>
+    <HealthRangeLower>10</HealthRangeLower>
+    <AttackRangeUpper>30</AttackRangeUpper>
+    <AttackRangeLower>10</AttackRangeLower>
+    <ElementResisRangeUpper>0.98</ElementResisRangeUpper>
+    <ElementResisRangeLower>0.9</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.2</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.05</ElementAttackRangeLower>
+    <AttributeCount>5</AttributeCount>
+    <ElementResisDark>0.6</ElementResisDark>
+    <ElementAttackHoly>0.5</ElementAttackHoly>
+    <Tier>3</Tier>
+  </Item>
+
+
+  <Item type="accessory_old_gold_ring" class="Accessory">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <DefenseRangeUpper>20</DefenseRangeUpper>
+    <DefenseRangeLower>5</DefenseRangeLower>
+    <HealthRangeUpper>80</HealthRangeUpper>
+    <HealthRangeLower>10</HealthRangeLower>
+    <AttackRangeUpper>25</AttackRangeUpper>
+    <AttackRangeLower>5</AttackRangeLower>
+    <ElementResisRangeUpper>0.98</ElementResisRangeUpper>
+    <ElementResisRangeLower>0.8</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.1</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.05</ElementAttackRangeLower>
+    <AttributeCount>5</AttributeCount>
+    <ElementAttackFire>0.25</ElementAttackFire>
+    <Tier>2</Tier>
+  </Item>
+
+  <Item type="accessory_shiny_ear_ring" class="Accessory">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <DefenseRangeUpper>28</DefenseRangeUpper>
+    <DefenseRangeLower>10</DefenseRangeLower>
+    <HealthRangeUpper>80</HealthRangeUpper>
+    <HealthRangeLower>10</HealthRangeLower>
+    <AttackRangeUpper>25</AttackRangeUpper>
+    <AttackRangeLower>5</AttackRangeLower>
+    <ElementResisRangeUpper>0.98</ElementResisRangeUpper>
+    <ElementResisRangeLower>0.8</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.1</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.05</ElementAttackRangeLower>
+    <AttributeCount>5</AttributeCount>
+    <ElementAttackIce>0.25</ElementAttackIce>
+    <Tier>2</Tier>
+  </Item>
+
+
+  <Item type="accessory_brozen_metal" class="Accessory">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.05</Cost>
+    <DefenseRangeUpper>20</DefenseRangeUpper>
+    <DefenseRangeLower>5</DefenseRangeLower>
+    <HealthRangeUpper>80</HealthRangeUpper>
+    <HealthRangeLower>10</HealthRangeLower>
+    <AttackRangeUpper>25</AttackRangeUpper>
+    <AttackRangeLower>5</AttackRangeLower>
+    <ElementResisRangeUpper>0.98</ElementResisRangeUpper>
+    <ElementResisRangeLower>0.8</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.1</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.05</ElementAttackRangeLower>
+    <AttributeCount>5</AttributeCount>
+    <ElementAttackWind>0.25</ElementAttackWind>
+    <Tier>2</Tier>
+  </Item>
+
+
+
+
+  <Item type="accessory_skeleton_ring" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>40</DefenseRangeUpper>
+		<DefenseRangeLower>10</DefenseRangeLower>
+		<HealthRangeUpper>30</HealthRangeUpper>
+		<HealthRangeLower>10</HealthRangeLower>
+		<AttackRangeUpper>25</AttackRangeUpper>
+		<AttackRangeLower>15</AttackRangeLower>
+		<ElementResisRangeUpper>0.85</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.8</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.35</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.10</ElementAttackRangeLower>
+		<AttributeCount>5</AttributeCount>
+    <Attack>10</Attack>
+    <Tier>3</Tier>
+  </Item>
+  
+  
+ <Item type="accessory_holy_hat" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>40</DefenseRangeUpper>
+		<DefenseRangeLower>10</DefenseRangeLower>
+		<HealthRangeUpper>100</HealthRangeUpper>
+		<HealthRangeLower>50</HealthRangeLower>
+		<AttackRangeUpper>15</AttackRangeUpper>
+		<AttackRangeLower>5</AttackRangeLower>
+		<ElementResisRangeUpper>0.8</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.65</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.35</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.10</ElementAttackRangeLower>
+		<AttributeCount>5</AttributeCount>
+    <ElementResisDark>0.7</ElementResisDark>
+    <Tier>3</Tier>
+
+ </Item>
+  
+  <Item type="accessory_normal_black_iron_necklace" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.04</Cost>
+		<DefenseRangeUpper>25</DefenseRangeUpper>
+		<DefenseRangeLower>5</DefenseRangeLower>
+		<HealthRangeUpper>35</HealthRangeUpper>
+		<HealthRangeLower>20</HealthRangeLower>
+		<AttackRangeUpper>8</AttackRangeUpper>
+		<AttackRangeLower>5</AttackRangeLower>
+		<ElementResisRangeUpper>0.98</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.90</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.18</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.10</ElementAttackRangeLower>
+		<AttributeCount>4</AttributeCount>
+    <Tier>1</Tier>
+
+  </Item>
+  
+  <Item type="accessory_light_necklace" class="Accessory">
+    <InitRemaining>1</InitRemaining>
+    <Cost>0.035</Cost>
+    <DefenseRangeUpper>35</DefenseRangeUpper>
+    <DefenseRangeLower>5</DefenseRangeLower>
+    <HealthRangeUpper>85</HealthRangeUpper>
+    <HealthRangeLower>30</HealthRangeLower>
+    <AttackRangeUpper>17</AttackRangeUpper>
+    <AttackRangeLower>8</AttackRangeLower>
+    <ElementResisRangeUpper>0.95</ElementResisRangeUpper>
+    <ElementResisRangeLower>0.8</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.15</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.05</ElementAttackRangeLower>
+    <AttributeCount>3</AttributeCount>
+    <ElementResisDark>0.8</ElementResisDark>
+    <Tier>2</Tier>
+  </Item>
+
+  <Item type="accessory_special_black_iron_necklace" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.04</Cost>
+		<DefenseRangeUpper>25</DefenseRangeUpper>
+		<DefenseRangeLower>5</DefenseRangeLower>
+		<HealthRangeUpper>50</HealthRangeUpper>
+		<HealthRangeLower>30</HealthRangeLower>
+		<AttackRangeUpper>12</AttackRangeUpper>
+		<AttackRangeLower>8</AttackRangeLower>
+		<ElementResisRangeUpper>0.95</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.85</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.28</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.15</ElementAttackRangeLower>
+		<AttributeCount>5</AttributeCount>
+    <Tier>2</Tier>
+
+  </Item>
+  
+   <Item type="accessory_master_black_iron_necklace" class="Accessory">
+		<InitRemaining>1</InitRemaining>
+		<Cost>0.03</Cost>
+		<DefenseRangeUpper>35</DefenseRangeUpper>
+		<DefenseRangeLower>5</DefenseRangeLower>
+		<HealthRangeUpper>66</HealthRangeUpper>
+		<HealthRangeLower>30</HealthRangeLower>
+		<AttackRangeUpper>16</AttackRangeUpper>
+		<AttackRangeLower>8</AttackRangeLower>
+		<ElementResisRangeUpper>0.92</ElementResisRangeUpper>
+		<ElementResisRangeLower>0.75</ElementResisRangeLower>
+    <ElementAttackRangeUpper>0.40</ElementAttackRangeUpper>
+    <ElementAttackRangeLower>0.25</ElementAttackRangeLower>
+		<AttributeCount>7</AttributeCount>
+    <Tier>3</Tier>
+
+   </Item>
+
+
+
+</Items>

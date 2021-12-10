@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="categoryType">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="Item|Building|Story"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:xs:complexType  name="requireOrProduceType">
+  <xs:attribute name="class" type="xs:string" use="required"/>
+  <xs:attribute name="category" type="categorytype" use="required"/>
+  <xs:attribute name="type" type="xs:string" use="required"/>
+  <xs:element name="Count" type="xs:negativeInteger" minOccurs="0" maxOccurs="1"/>
+</xs:simpleType>
+
+<xs:complexType name="buildingType">
+	<xs:attribute name="type" type="xs:string" use="required"/>
+	<xs:element name="Occupation" type="xs:string" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="Capacity" type="xs:negativeInteger" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="Produce" type="requireOrProduceType" minOccurs="0" maxOccurs="unbounded"/>
+	<xs:element name="Require" type="requireOrProduceType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:complexType>
+
+<xs:element name="Buildings"/>
+	<xs:complexType>
+		<xs:element name="Building" type="buildingType" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:complexType>
+</xs:element>		
+
+</xs:schema>

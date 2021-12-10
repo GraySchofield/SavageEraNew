@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Buildings
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Building.xsd">
+
+<Building type="wooden_house" class="House">
+	<Capacity>5</Capacity>
+</Building>
+
+<Building type="science_lvl_1" class="AcademicConstruction"/>
+
+<Building type="weather_instrument" class="AcademicConstruction"/>
+
+<Building type="science_lvl_2" class="AcademicConstruction"/>
+
+<Building type="grass_land" class="ProductionConstruction">
+	<Occupation>grass_land_worker</Occupation>
+	<Produce class="Resource" category="Item" type="hay">
+		<Count>50</Count>
+	</Produce>
+	<Require class="Resource" category="Item" type="branch">
+		<Count>10</Count>
+	</Require>
+</Building>
+
+<Building type="stone_mine" class="ProductionConstruction">
+	<Occupation>stone_miner</Occupation>
+	<Produce class="Resource" category="Item" type="flint">
+		<Count>40</Count>
+	</Produce>
+	<Require class="Resource" category="Item" type="hay">
+		<Count>10</Count>
+	</Require>
+</Building>
+
+<Building type="basic_farm" class="ProductionConstruction">
+	<Occupation>farmer</Occupation>
+	
+	<Produce class="Food" category="Item" type="carrot">
+		<Count>10</Count>
+	</Produce>
+	<Produce class="Food" category="Item" type="potato">
+		<Count>2</Count>
+	</Produce>
+	<Require class="Resource" category="Item" type="hay">
+		<Count>15</Count>
+	</Require>
+	<Require class="Resource" category="Item" type="flint">
+		<Count>20</Count>
+	</Require>
+</Building>
+
+<Building type="basic_pasture" class="ProductionConstruction">	
+	<Occupation>herder</Occupation>	
+	
+	<Produce class="Food" category="Item" type="lamp">
+		<Count>5</Count>
+	</Produce>
+	<Produce class="Resource" category="Item" type="wool">
+		<Count>5</Count>
+	</Produce>
+	<Require class="Resource" category="Item" type="flint">
+		<Count>5</Count>
+	</Require>
+	<Require class="Food" category="Item" type="carrot">
+		<Count>9</Count>
+	</Require>
+</Building>
+
+<Building type="iron_cook_pot" class="TechnologyConstruction"/>	
+
+<Building type="black_smith" class="TechnologyConstruction"/>	
+
+
+<Building type="advanced_farm" class="ProductionConstruction">
+	<Occupation>farmer</Occupation>
+	<Produce class="Food" category="Item" type="carrot">
+		<Count>10</Count>
+	</Produce>
+	<Produce class="Food" category="Item" type="potato">
+		<Count>2</Count>
+	</Produce>
+	<Produce class="Food" category="Item" type="tomato">
+		<Count>1</Count>
+	</Produce>
+	<Produce class="Food" category="Item" type="chili">
+		<Count>1</Count>
+	</Produce>
+	<Require class="Resource" category="Item" type="hay">
+		<Count>15</Count>
+	</Require>
+	<Require class="Resource" category="Item" type="flint">
+		<Count>20</Count>
+	</Require>
+</Building>
+
+
+<Building type="advanced_pasture" class="ProductionConstruction">	
+	<Occupation>herder</Occupation>	
+	
+	<Produce class="Food" category="Item" type="lamp">
+		<Count>3</Count>
+	</Produce>
+	
+	<Produce class="Resource" category="Item" type="wool">
+		<Count>5</Count>
+	</Produce>
+	
+	<Produce class="Food" category="Item" type="beef">
+		<Count>1</Count>
+	</Produce>
+	
+	<Produce class="Food" category="Item" type="milk">
+		<Count>1</Count>
+	</Produce>
+	
+	<Require class="Resource" category="Item" type="flint">
+		<Count>5</Count>
+	</Require>
+	<Require class="Food" category="Item" type="carrot">
+		<Count>9</Count>
+	</Require>
+</Building>
+
+<Building type="gear_shop" class="TechnologyConstruction"/>	
+
+<Building type="research_facility" class="TechnologyConstruction"/>	
+
+<Building type="element_hall" class="TechnologyConstruction"/>
+
+
+<Building type="evil_chamber" class="TechnologyConstruction"/>
+  
+
+</Buildings>

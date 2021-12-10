@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 74b90b2f78e1b614aa6651e3b0765d06
+timeCreated: 1458027078
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: white_buttons_2_0
+    21300002: white_buttons_2_1
+    21300004: white_buttons_2_2
+    21300006: white_buttons_2_3
+    21300008: white_buttons_2_4
+    21300010: white_buttons_2_5
+    21300012: white_buttons_2_6
+    21300014: white_buttons_2_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: white_buttons_2_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 814
+        width: 357
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -178.5, y: 47.5}
+        - {x: -178.5, y: -47.5}
+        - {x: 178.5, y: -47.5}
+        - {x: 178.5, y: 47.5}
+      - - {x: -172.5, y: 41.5}
+        - {x: 172.5, y: 41.5}
+        - {x: 172.5, y: -41.5}
+        - {x: -172.5, y: -41.5}
+    - name: white_buttons_2_1
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 813
+        width: 357
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -178.5, y: 47.5}
+        - {x: -178.5, y: -47.5}
+        - {x: 178.5, y: -47.5}
+        - {x: 178.5, y: 47.5}
+    - name: white_buttons_2_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 713
+        width: 185
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92.5, y: 36}
+        - {x: -92.5, y: -36}
+        - {x: 92.5, y: -36}
+        - {x: 92.5, y: 36}
+      - - {x: -86.5, y: 30}
+        - {x: 86.5, y: 30}
+        - {x: 86.5, y: -30}
+        - {x: -86.5, y: -30}
+    - name: white_buttons_2_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 712
+        width: 185
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92.5, y: 36}
+        - {x: -92.5, y: -36}
+        - {x: 92.5, y: -36}
+        - {x: 92.5, y: 36}
+    - name: white_buttons_2_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 617
+        width: 600
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -300, y: 17.5}
+        - {x: -300, y: -17.5}
+        - {x: 300, y: -17.5}
+        - {x: 300, y: 17.5}
+    - name: white_buttons_2_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 476
+        width: 620
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -306, y: 28}
+        - {x: -309, y: 25}
+        - {x: -310, y: 22}
+        - {x: -310, y: -21}
+        - {x: -309, y: -24}
+        - {x: -306, y: -27}
+        - {x: -303, y: -28}
+        - {x: 310, y: -28}
+        - {x: 310, y: 27}
+        - {x: 308, y: 28}
+    - name: white_buttons_2_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 34
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -150, y: 150}
+        - {x: -150, y: -150}
+        - {x: 150, y: -150}
+        - {x: 150, y: 150}
+    - name: white_buttons_2_7
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 301
+        width: 296
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -148, y: 63.5}
+        - {x: -148, y: -63.5}
+        - {x: 148, y: -63.5}
+        - {x: 148, y: 63.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

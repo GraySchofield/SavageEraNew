@@ -1,0 +1,1182 @@
+fileFormatVersion: 2
+guid: d32de507931a5c14084c7f35570ed48d
+timeCreated: 1460970381
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UI_FULL_RIGHT_0
+    21300002: UI_FULL_RIGHT_2
+    21300004: UI_FULL_RIGHT_3
+    21300006: UI_FULL_RIGHT_4
+    21300008: UI_FULL_RIGHT_5
+    21300010: UI_FULL_RIGHT_6
+    21300012: UI_FULL_RIGHT_7
+    21300014: UI_FULL_RIGHT_8
+    21300016: UI_FULL_RIGHT_11
+    21300018: UI_FULL_RIGHT_12
+    21300020: UI_FULL_RIGHT_13
+    21300022: UI_FULL_RIGHT_14
+    21300024: UI_FULL_RIGHT_15
+    21300026: UI_FULL_RIGHT_16
+    21300028: UI_FULL_RIGHT_17
+    21300030: UI_FULL_RIGHT_18
+    21300032: UI_FULL_RIGHT_19
+    21300034: UI_FULL_RIGHT_20
+    21300036: UI_FULL_RIGHT_21
+    21300038: UI_FULL_RIGHT_22
+    21300040: UI_FULL_RIGHT_23
+    21300042: UI_FULL_RIGHT_24
+    21300044: UI_FULL_RIGHT_25
+    21300046: UI_FULL_RIGHT_26
+    21300048: UI_FULL_RIGHT_27
+    21300050: UI_FULL_RIGHT_28
+    21300052: UI_FULL_RIGHT_29
+    21300054: UI_FULL_RIGHT_30
+    21300056: UI_FULL_RIGHT_31
+    21300058: UI_FULL_RIGHT_32
+    21300060: UI_FULL_RIGHT_33
+    21300062: UI_FULL_RIGHT_34
+    21300064: UI_FULL_RIGHT_35
+    21300066: UI_FULL_RIGHT_36
+    21300068: UI_FULL_RIGHT_37
+    21300070: UI_FULL_RIGHT_38
+    21300072: UI_FULL_RIGHT_39
+    21300074: UI_FULL_RIGHT_40
+    21300076: UI_FULL_RIGHT_41
+    21300078: UI_FULL_RIGHT_42
+    21300080: UI_FULL_RIGHT_43
+    21300082: UI_FULL_RIGHT_44
+    21300084: UI_FULL_RIGHT_45
+    21300086: UI_FULL_RIGHT_46
+    21300088: UI_FULL_RIGHT_47
+    21300090: UI_FULL_RIGHT_48
+    21300092: UI_FULL_RIGHT_49
+    21300094: UI_FULL_RIGHT_50
+    21300096: UI_FULL_RIGHT_51
+    21300098: UI_FULL_RIGHT_52
+    21300100: UI_FULL_RIGHT_53
+    21300102: UI_FULL_RIGHT_54
+    21300104: UI_FULL_RIGHT_55
+    21300106: UI_FULL_RIGHT_56
+    21300108: UI_FULL_RIGHT_57
+    21300110: UI_FULL_RIGHT_58
+    21300112: UI_FULL_RIGHT_59
+    21300114: UI_FULL_RIGHT_60
+    21300116: UI_FULL_RIGHT_61
+    21300118: UI_FULL_RIGHT_1
+    21300120: UI_FULL_RIGHT_9
+    21300122: UI_FULL_RIGHT_10
+    21300124: UI_FULL_RIGHT_62
+    21300126: UI_FULL_RIGHT_63
+    21300128: UI_FULL_RIGHT_64
+    21300130: UI_FULL_RIGHT_65
+    21300132: UI_FULL_RIGHT_66
+    21300134: UI_FULL_RIGHT_67
+    21300136: UI_FULL_RIGHT_68
+    21300138: UI_FULL_RIGHT_69
+    21300140: UI_FULL_RIGHT_70
+    21300142: UI_FULL_RIGHT_71
+    21300144: UI_FULL_RIGHT_72
+    21300146: UI_FULL_RIGHT_73
+    21300148: UI_FULL_RIGHT_74
+    21300150: UI_FULL_RIGHT_75
+    21300152: UI_FULL_RIGHT_76
+    21300154: UI_FULL_RIGHT_77
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: UI_FULL_RIGHT_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 980
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 971
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 19}
+        - {x: -18.5, y: -19}
+        - {x: 18.5, y: -19}
+        - {x: 18.5, y: 19}
+    - name: UI_FULL_RIGHT_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 972
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 19}
+        - {x: -18.5, y: -19}
+        - {x: 18.5, y: -19}
+        - {x: 18.5, y: 19}
+    - name: UI_FULL_RIGHT_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 975
+        width: 175
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87.5, y: 17.5}
+        - {x: -87.5, y: -17.5}
+        - {x: 87.5, y: -17.5}
+        - {x: 87.5, y: 17.5}
+    - name: UI_FULL_RIGHT_5
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 980
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 979
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_7
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 883
+        width: 118
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 62.5}
+        - {x: -59, y: -62.5}
+        - {x: 59, y: -62.5}
+        - {x: 59, y: 62.5}
+    - name: UI_FULL_RIGHT_8
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 983
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_11
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 965
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 909
+        width: 121
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.5, y: 19}
+        - {x: -60.5, y: -19}
+        - {x: 60.5, y: -19}
+        - {x: 60.5, y: 19}
+    - name: UI_FULL_RIGHT_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 919
+        width: 77
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_14
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 919
+        width: 77
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 941
+        width: 100
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 858
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 858
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 862
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_19
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 862
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_20
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 861
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_21
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 861
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 884
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_23
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 884
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_24
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 770
+        width: 84
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 84.5}
+        - {x: -42, y: -84.5}
+        - {x: 42, y: -84.5}
+        - {x: 42, y: 84.5}
+    - name: UI_FULL_RIGHT_25
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 770
+        width: 84
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 84.5}
+        - {x: -42, y: -84.5}
+        - {x: 42, y: -84.5}
+        - {x: 42, y: 84.5}
+    - name: UI_FULL_RIGHT_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 853
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 774
+        width: 118
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 41}
+        - {x: -59, y: -41}
+        - {x: 59, y: -41}
+        - {x: 59, y: 41}
+    - name: UI_FULL_RIGHT_28
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 827
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_29
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 813
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 813
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 812
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 812
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_33
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 787
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_34
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 558
+        width: 161
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80.5, y: 120}
+        - {x: -80.5, y: -119}
+        - {x: -79.5, y: -120}
+        - {x: 79.5, y: -120}
+        - {x: 80.5, y: -119}
+        - {x: 80.5, y: 120}
+    - name: UI_FULL_RIGHT_35
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 769
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_36
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 769
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_37
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 769
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_38
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 769
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_39
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 797
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_40
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 707
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 17.5}
+        - {x: -17.5, y: 9.5}
+        - {x: -17.5, y: -9.5}
+        - {x: -10.5, y: -17.5}
+        - {x: 13.5, y: -17.5}
+        - {x: 17.5, y: -15.5}
+        - {x: 17.5, y: 15.5}
+        - {x: 13.5, y: 17.5}
+    - name: UI_FULL_RIGHT_41
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 713
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_42
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 502
+        width: 159
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: 119.5}
+        - {x: -79.5, y: -119.5}
+        - {x: 79.5, y: -119.5}
+        - {x: 79.5, y: 119.5}
+    - name: UI_FULL_RIGHT_43
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 690
+        width: 80
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 23}
+        - {x: -40, y: -23}
+        - {x: 40, y: -23}
+        - {x: 40, y: 23}
+    - name: UI_FULL_RIGHT_44
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 698
+        width: 176
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88, y: 17.5}
+        - {x: -88, y: -17.5}
+        - {x: 88, y: -17.5}
+        - {x: 88, y: 17.5}
+    - name: UI_FULL_RIGHT_45
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 674
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 674
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_47
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 625
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_48
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 625
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_49
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 591
+        width: 83
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: 34}
+        - {x: -41.5, y: -34}
+        - {x: 41.5, y: -34}
+        - {x: 41.5, y: 34}
+    - name: UI_FULL_RIGHT_50
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 468
+        width: 176
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88, y: 98}
+        - {x: -88, y: -98}
+        - {x: 88, y: -98}
+        - {x: 88, y: 98}
+    - name: UI_FULL_RIGHT_51
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 546
+        width: 118
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 32}
+        - {x: -59, y: -32}
+        - {x: 59, y: -32}
+        - {x: 59, y: 32}
+    - name: UI_FULL_RIGHT_52
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 495
+        width: 175
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87.5, y: 17.5}
+        - {x: -87.5, y: -17.5}
+        - {x: 87.5, y: -17.5}
+        - {x: 87.5, y: 17.5}
+    - name: UI_FULL_RIGHT_53
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 448
+        width: 176
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88, y: 17.5}
+        - {x: -88, y: -17.5}
+        - {x: 88, y: -17.5}
+        - {x: 88, y: 17.5}
+    - name: UI_FULL_RIGHT_54
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 460
+        width: 68
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_55
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 287
+        width: 128
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 70}
+        - {x: -64, y: -70}
+        - {x: 64, y: -70}
+        - {x: 64, y: 70}
+    - name: UI_FULL_RIGHT_56
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 295
+        width: 7
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_57
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 413
+        width: 87
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_58
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 427
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_59
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 383
+        width: 186
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 40.5}
+        - {x: -93, y: -40.5}
+        - {x: 93, y: -40.5}
+        - {x: 93, y: 40.5}
+    - name: UI_FULL_RIGHT_60
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 373
+        width: 88
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_61
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 393
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_FULL_RIGHT_62
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 191
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -24}
+        - {x: 24, y: -24}
+        - {x: 24, y: 24}
+    - name: UI_FULL_RIGHT_63
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 191
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -24}
+        - {x: 24, y: -24}
+        - {x: 24, y: 24}
+    - name: UI_FULL_RIGHT_64
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 115
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -24}
+        - {x: 24, y: -24}
+        - {x: 24, y: 24}
+    - name: UI_FULL_RIGHT_65
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 115
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 23, y: -23}
+        - {x: 23, y: 23}
+    - name: UI_FULL_RIGHT_66
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 32
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -24}
+        - {x: 24, y: -24}
+        - {x: 24, y: 24}
+    - name: UI_FULL_RIGHT_67
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 34
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -24}
+        - {x: 24, y: -24}
+        - {x: 24, y: 24}
+    - name: UI_FULL_RIGHT_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 60
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -85, y: 85}
+        - {x: -85, y: -85}
+        - {x: 85, y: -85}
+        - {x: 85, y: 85}
+    - name: UI_FULL_RIGHT_9
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 317
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -24}
+        - {x: 24, y: -24}
+        - {x: 24, y: 24}
+    - name: UI_FULL_RIGHT_10
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 319
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 23, y: -23}
+        - {x: 23, y: 23}
+    - name: UI_FULL_RIGHT_68
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 316
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 23, y: -23}
+        - {x: 23, y: 23}
+    - name: UI_FULL_RIGHT_69
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 317
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 23, y: -23}
+        - {x: 23, y: 23}
+    - name: UI_FULL_RIGHT_70
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 248
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -24}
+        - {x: 24, y: -24}
+        - {x: 24, y: 24}
+    - name: UI_FULL_RIGHT_71
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 249
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 23, y: -23}
+        - {x: 23, y: 23}
+    - name: UI_FULL_RIGHT_72
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 249
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 23, y: -23}
+        - {x: 23, y: 23}
+    - name: UI_FULL_RIGHT_73
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 185
+        width: 176
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88, y: 17.5}
+        - {x: -88, y: -17.5}
+        - {x: 88, y: -17.5}
+        - {x: 88, y: 17.5}
+    - name: UI_FULL_RIGHT_74
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 104
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 28}
+        - {x: -20.5, y: 28}
+        - {x: -26.5, y: 23}
+        - {x: -30.5, y: 19}
+        - {x: -30.5, y: -9}
+        - {x: -13.5, y: -28}
+        - {x: 11.5, y: -28}
+        - {x: 27.5, y: -11}
+        - {x: 30.5, y: -8}
+        - {x: 30.5, y: 19}
+    - name: UI_FULL_RIGHT_75
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 236
+        width: 264
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 127, y: 65}
+        - {x: 126, y: 64}
+        - {x: 126, y: 61}
+        - {x: -126, y: 61}
+        - {x: -126, y: 64}
+        - {x: -127, y: 65}
+        - {x: -132, y: 65}
+        - {x: -132, y: -65}
+        - {x: 132, y: -65}
+        - {x: 132, y: 65}
+    - name: UI_FULL_RIGHT_76
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 6
+        width: 264
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 127, y: -42.5}
+        - {x: 132, y: -42.5}
+        - {x: 132, y: 42.5}
+        - {x: -132, y: 42.5}
+        - {x: -132, y: -42.5}
+        - {x: -126, y: -42.5}
+        - {x: -125, y: -39.5}
+        - {x: 126, y: -38.5}
+        - {x: 126, y: -41.5}
+    - name: UI_FULL_RIGHT_77
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 110
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 23}
+        - {x: -23, y: -23}
+        - {x: 23, y: -23}
+        - {x: 23, y: 23}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

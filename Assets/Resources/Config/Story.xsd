@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:xs:complexType  name="consequenceType">
+  <xs:attribute name="type" type="xs:string" use="required"/>
+  <xs:element name="Weight" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+</xs:simpleType>
+
+<xs:complexType name="optionType">
+	<xs:attribute name="type" type="xs:string" use="required"/>
+	<xs:element name="Consequence" type="consequenceType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:complexType>
+
+<xs:complexType name="storyType">
+	<xs:attribute name="type" type="xs:string" use="required"/>
+	<xs:element name="Option" type="optionType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:complexType>
+
+<xs:element name="Stories"/>
+	<xs:complexType>
+		<xs:element name="Story" type="storyType" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:complexType>
+</xs:element>		
+
+</xs:schema>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Recipes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Cookbook.xsd">
+ 
+  
+	<Recipe>
+		<Ingredient>~vegetable</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Ingredient>~meat</Ingredient>
+		<Food>patty</Food>
+	</Recipe>
+  
+	
+	<Recipe>
+		<Ingredient>~vegetable</Ingredient>
+		<Ingredient>~meat</Ingredient>
+		<Ingredient>~meat</Ingredient>
+		<Food>muddy_meat</Food>
+	</Recipe>
+
+  <Recipe>
+    <Ingredient>~meat</Ingredient>
+    <Ingredient>~meat</Ingredient>
+    <Ingredient>~meat</Ingredient>
+    <Food>muddy_meat</Food>
+  </Recipe>
+	
+	<Recipe>
+		<Ingredient>~vegetable</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Ingredient>rabbit_meat</Ingredient>
+		<Food>cooked_rabbit</Food>
+	</Recipe>
+
+	<Recipe>
+		<Ingredient>lamp</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Ingredient>mushroom</Ingredient>
+		<Food>lamp_stew</Food>
+	</Recipe>
+
+  <Recipe>
+    <Ingredient>lamp</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Ingredient>~meat</Ingredient>
+    <Food>lamp_stew</Food>
+  </Recipe>
+
+	<Recipe>
+		<Ingredient>pork</Ingredient>
+		<Ingredient>~meat</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>twice_cooked_meat</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>pork</Ingredient>
+		<Ingredient>chili</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>twice_cooked_meat</Food>
+	</Recipe>
+	
+	
+	<Recipe>
+		<Ingredient>pork</Ingredient>
+		<Ingredient>milk</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>meat_soup</Food>
+	</Recipe>
+
+  
+  <Recipe>
+    <Ingredient>~meat</Ingredient>
+    <Ingredient>milk</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Food>meat_soup</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>~meat</Ingredient>
+    <Ingredient>milk</Ingredient>
+    <Ingredient>~meat</Ingredient>
+    <Food>meat_soup</Food>
+  </Recipe>
+
+  <Recipe>
+		<Ingredient>pork</Ingredient>
+		<Ingredient>beef</Ingredient>
+		<Ingredient>~meat</Ingredient>
+		<Food>meat_stew</Food>
+	</Recipe>
+
+	<Recipe>
+		<Ingredient>~vegetable</Ingredient>
+		<Ingredient>tomato</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>vegetable_carnival</Food>
+	</Recipe>
+		
+	<Recipe>
+		<Ingredient>unicon_blood</Ingredient>
+		<Ingredient>milk</Ingredient>
+		<Ingredient>~meat</Ingredient>
+		<Food>unicorn_soup</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>unicon_blood</Ingredient>
+		<Ingredient>milk</Ingredient>
+		<Ingredient>~seafood</Ingredient>
+		<Food>unicorn_soup</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>unicon_blood</Ingredient>
+		<Ingredient>milk</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>unicorn_soup</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>~seafood</Ingredient>
+		<Ingredient>~seafood</Ingredient>
+		<Ingredient>snow_ball</Ingredient>
+		<Food>sashimi</Food>
+	</Recipe>
+
+  <Recipe>
+    <Ingredient>~seafood</Ingredient>
+    <Ingredient>~seafood</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Food>seafood_patty</Food>
+  </Recipe>
+	
+	<Recipe>
+		<Ingredient>fish</Ingredient>
+		<Ingredient>chili</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>chili_fish</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>shrimp</Ingredient>
+		<Ingredient>tomato</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>kung_pao_shrimp</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>shrimp</Ingredient>
+		<Ingredient>snow_ball</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>crystal_shrimp</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>beef</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>steak</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>snow_ball</Ingredient>
+		<Ingredient>~fruit</Ingredient>
+		<Ingredient>~fruit</Ingredient>
+		<Food>icy_drink</Food>
+	</Recipe>
+	
+	
+	<Recipe>
+		<Ingredient>crap</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Ingredient>milk</Ingredient>
+		<Food>crap_soup</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>crap</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>steamed_crap</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>crap</Ingredient>
+		<Ingredient>chili</Ingredient>
+		<Ingredient>~vegetable</Ingredient>
+		<Food>chili_crap</Food>
+	</Recipe>
+ 
+  <Recipe>
+		<Ingredient>milk</Ingredient>
+		<Ingredient>~fruit</Ingredient>
+    <Ingredient>~fruit</Ingredient>
+    <Food>fruit_milk_shake</Food>
+	</Recipe>
+
+  <Recipe>
+    <Ingredient>milk</Ingredient>
+    <Ingredient>~fruit</Ingredient>
+    <Ingredient>milk</Ingredient>
+    <Food>fruit_milk_shake</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>~fruit</Ingredient>
+    <Ingredient>~fruit</Ingredient>
+    <Ingredient>~fruit</Ingredient>
+    <Food>fruit_carnival</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>~fruit</Ingredient>
+    <Ingredient>~fruit</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Food>fruit_salad</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>~fruit</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Food>fruit_salad</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>snake_meat</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Ingredient>milk</Ingredient>
+    <Food>snake_soup</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>snake_meat</Ingredient>
+    <Ingredient>tomato</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Food>cooked_snake</Food>
+  </Recipe>
+
+  <Recipe>
+		<Ingredient>bat_poison</Ingredient>
+    <Ingredient>milk</Ingredient>
+    <Ingredient>~meat</Ingredient>
+		<Food>poison_enhancer</Food>
+	</Recipe>
+	
+	<Recipe>
+		<Ingredient>bear_paw</Ingredient>
+    <Ingredient>mushroom</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Food>bear_paw_stew</Food>
+	</Recipe>
+
+  <Recipe>
+    <Ingredient>honey</Ingredient>
+    <Ingredient>tomato</Ingredient>
+    <Ingredient>~meat</Ingredient>
+    <Food>honey_meat</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>honey</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Ingredient>fish</Ingredient>
+    <Food>honey_fish</Food>
+  </Recipe>
+
+
+  <Recipe>
+    <Ingredient>~seafood</Ingredient>
+    <Ingredient>~vegetable</Ingredient>
+    <Ingredient>~fruit</Ingredient>
+    <Food>seafood_salad</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>snake_blood</Ingredient>
+    <Ingredient>bear_paw</Ingredient>
+    <Ingredient>bat_poison</Ingredient>
+    <Food>big_heal_pill</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>snake_blood</Ingredient>
+    <Ingredient>~seafood</Ingredient>
+    <Ingredient>~meat</Ingredient>
+    <Food>three_xian_soup</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>~fruit</Ingredient>
+    <Ingredient>milk</Ingredient>
+    <Ingredient>snow_ball</Ingredient>
+    <Food>fruit_milk_pudding</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>~seafood</Ingredient>
+    <Ingredient>snake_meat</Ingredient>
+    <Ingredient>snow_ball</Ingredient>
+    <Food>dong_xiao_xian</Food>
+  </Recipe>
+
+  <Recipe>
+    <Ingredient>honey</Ingredient>
+    <Ingredient>snake_meat</Ingredient>
+    <Ingredient>tomato</Ingredient>
+    <Food>honey_snake</Food>
+  </Recipe>
+
+
+</Recipes>

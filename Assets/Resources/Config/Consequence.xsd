@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="categoryType">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="Item|Building|Story"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:xs:complexType  name="requireOrProduceType">
+  <xs:attribute name="class" type="xs:string" use="required"/>
+  <xs:attribute name="category" type="categorytype" use="required"/>
+  <xs:attribute name="type" type="xs:string" use="required"/>
+  <xs:element name="Count" type="xs:negativeInteger" minOccurs="0" maxOccurs="1"/>
+</xs:simpleType>
+
+<xs:simpleType name="weatherType">
+  <xs:restriction base="xs:string">
+      <xs:enumeration value="Sunny"/>
+      <xs:enumeration value="Rain"/>
+      <xs:enumeration value="Snow"/>
+      <xs:enumeration value="Windy"/>
+      <xs:enumeration value="Lightening"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="seasonType">
+  <xs:restriction base="xs:string">
+      <xs:enumeration value="Spring"/>
+      <xs:enumeration value="Summer"/>
+      <xs:enumeration value="Autumn"/>
+      <xs:enumeration value="Winter"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="healthStateType">
+  <xs:restriction base="xs:string">
+      <xs:enumeration value="Normal"/>
+      <xs:enumeration value="Frozen"/>
+      <xs:enumeration value="Heatstroke"/>
+      <xs:enumeration value="Dizzy"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="consequenceType">
+	<xs:attribute name="type" type="xs:string" use="required"/>
+	
+	<xs:element name="CurrentWeather" type="weatherType" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="CurrentSeason" type="seasonType" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="TempetureUp" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="TempetureDown" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="HumidityUp" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="HumidityDown" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="HealthUp" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="HealthDown" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="MaxHealthUp" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="MaxHealthDown" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="PopulationUp" type="xs:negativeInteger" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="PopulationDown" type="xs:negativeInteger" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="CurrentHealthState" type="healthStateType" minOccurs="0" maxOccurs="1"/>
+	
+	<xs:element name="Produce" type="requireOrProduceType" minOccurs="0" maxOccurs="unbounded"/>
+	<xs:element name="Require" type="requireOrProduceType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:complexType>
+
+<xs:element name="Consequences"/>
+	<xs:complexType>
+		<xs:element name="Consequence" type="consequenceType" minOccurs="0" maxOccurs="unbounded"/>
+	</xs:complexType>
+</xs:element>		
+
+</xs:schema>

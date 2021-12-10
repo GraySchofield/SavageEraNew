@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Consequences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Consequence.xsd">
+
+	<Consequence type="cons1">
+		<Produce class="Resource" category="Item" type="branch">
+			<Count>1</Count>
+		</Produce>
+		<Result>
+			<MethodName>Dummy</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_frozen">
+    <Result>
+      <MethodName>AddGlobalState</MethodName>
+      <Duration>900</Duration>
+      <Type>state_frozen</Type>
+    </Result>
+	</Consequence>
+	
+	<Consequence type="cons_heatstroke">
+    <Result>
+      <MethodName>AddGlobalState</MethodName>
+      <Duration>900</Duration>
+      <Type>state_heatstroke</Type>
+    </Result>
+	</Consequence>
+	
+	<Consequence type="cons_dizzy">
+    <Result>
+      <MethodName>AddGlobalState</MethodName>
+      <Duration>900</Duration>
+      <Type>state_dizzy</Type>
+    </Result>
+	</Consequence>
+	
+	<Consequence type="cons_weather_rain">
+		<CurrentWeather>Rain</CurrentWeather>
+	</Consequence>
+	
+	<Consequence type="cons_temparature_up_10">
+		<TempetureUp>10</TempetureUp>
+	</Consequence>
+	
+	<Consequence type="cons_humidity_up_10">
+		<HumidityUp>10</HumidityUp>
+	</Consequence>
+	
+	<Consequence type="cons_health_up_10">
+		<HealthUp>10</HealthUp>
+	</Consequence>
+	
+	<Consequence type="cons_health_up_50">
+		<HealthUp>50</HealthUp>
+	</Consequence>
+	
+	<Consequence type="cons_health_up_100">
+		<HealthUp>100</HealthUp>
+	</Consequence>
+	
+	<Consequence type="cons_pop_up_1">
+		<CurrentPopulationUp>1</CurrentPopulationUp>
+	</Consequence>
+	
+	<Consequence type="cons_pop_up_2">
+		<CurrentPopulationUp>2</CurrentPopulationUp>
+	</Consequence>
+	
+	<Consequence type="cons_pop_up_3">
+		<CurrentPopulationUp>3</CurrentPopulationUp>
+	</Consequence>
+	
+	<Consequence type="cons_pop_up_5">
+		<CurrentPopulationUp>5</CurrentPopulationUp>
+	</Consequence>
+	
+	<Consequence type="cons_pop_down_2">
+		<CurrentPopulationDown>2</CurrentPopulationDown>
+	</Consequence>
+	
+	<Consequence type="cons_pop_down_3">
+		<CurrentPopulationDown>3</CurrentPopulationDown>
+	</Consequence>
+	
+	<Consequence type="cons_lose_carrot_10">
+		<Require class="Food" category="Item" type="carrot">
+			<Count>10</Count>
+		</Require>
+	</Consequence>
+	
+	<Consequence type="cons_lose_carrot_20">
+		<Require class="Food" category="Item" type="carrot">
+			<Count>20</Count>
+		</Require>
+	</Consequence>
+	
+	
+	<Consequence type="cons_lose_potato_5">
+		<Require class="Food" category="Item" type="potato">
+			<Count>5</Count>
+		</Require>
+	</Consequence>
+	
+	<Consequence type="cons_lose_potato_10">
+		<Require class="Food" category="Item" type="potato">
+			<Count>10</Count>
+		</Require>
+	</Consequence>
+	
+	<Consequence type="cons_lose_tomato_10">
+		<Require class="Food" category="Item" type="tomato">
+			<Count>10</Count>
+		</Require>
+	</Consequence>
+	
+	<Consequence type="cons_lose_tomato_20">
+		<Require class="Food" category="Item" type="tomato">
+			<Count>10</Count>
+		</Require>
+	</Consequence>
+	
+	<Consequence type="cons_lose_wood_10">
+		<Require class="Resource" category="Item" type="wood">
+			<Count>10</Count>
+		</Require>
+	</Consequence>
+	
+	<Consequence type="cons_lose_redwood_10">
+		<Require class="Resource" category="Item" type="redwood">
+			<Count>10</Count>
+		</Require>
+	</Consequence>
+
+	<Consequence type="cons_lose_lamp_10">
+		<Require class="Food" category="Item" type="lamp">
+			<Count>10</Count>
+		</Require>
+	</Consequence>
+
+  
+  <Consequence type="cons_goodness_up">
+    <Result>
+      <MethodName>ConsGoodnessUp</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_goodness_down">
+    <Result>
+      <MethodName>ConsGoodnessDown</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_gain_random_food">
+		<Result>
+			<MethodName>GainRandomFood</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_gain_random_normal_resource">
+		<Result>
+			<MethodName>GainRandomResourceNormal</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_gain_random_rare_resource">
+		<Result>
+			<MethodName>GainRandomResourceRare</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_gain_random_tool">
+		<Result>
+			<MethodName>GainRandomTool</MethodName>
+		</Result>
+	</Consequence>
+	
+	
+	<Consequence type="cons_loose_random_resource">
+		<Result>
+			<MethodName>LooseRandomResource</MethodName>
+		</Result>
+	</Consequence>
+
+  
+  <Consequence type="cons_loose_random_resource_from_wet">
+    <Result>
+      <MethodName>LooseRandomResourceFromWet</MethodName>
+    </Result>
+  </Consequence>
+
+  
+  <Consequence type="cons_loose_random_food_from_heat">
+  <Result>
+    <MethodName>LooseRandomFoodFromHeat</MethodName>
+  </Result>
+</Consequence>
+
+
+<Consequence type="cons_loose_random_food">
+		<Result>
+			<MethodName>LooseRandomFood</MethodName>
+		</Result>
+	</Consequence>
+
+
+<Consequence type="cons_ask_professor">
+  <Result>
+    <MethodName>AskProfessor</MethodName>
+  </Result>
+</Consequence>
+  
+<Consequence type="cons_exchange_potato">
+  <Result>
+    <MethodName>ExchangePotato</MethodName>
+  </Result>
+</Consequence>
+
+  <Consequence type="cons_exchange_lamp">
+    <Result>
+      <MethodName>ExchangeLamp</MethodName>
+    </Result>
+  </Consequence>
+  
+
+  <Consequence type="cons_fight_vipers">
+    <Result>
+      <MethodName>FightVipers</MethodName>
+    </Result>
+  </Consequence>
+  
+
+  <Consequence type="cons_kill_bear">
+    <Result>
+      <MethodName>KillBear</MethodName>
+    </Result>
+  </Consequence>
+
+
+  <Consequence type="cons_pop_down_5">
+		<CurrentPopulationDown>5</CurrentPopulationDown>
+	</Consequence>
+	
+	<Consequence type="cons_wooden_house_broken">
+		<Require class="House" category="Building" type="wooden_house">
+			<Count>1</Count>
+		</Require>
+	</Consequence>
+	
+	<Consequence type="cons_wooden_house_broken_3">
+		<Require class="House" category="Building" type="wooden_house">
+			<Count>3</Count>
+		</Require>
+	</Consequence>
+	
+	<Consequence type="cons_get_map_dust_land">
+		<Result>
+			<MethodName>getMap</MethodName>
+			<MapType>map_dust_land</MapType>
+		</Result>
+	</Consequence>
+	
+	
+	<Consequence type="cons_poisoned">
+    <Result>
+      <MethodName>AddGlobalState</MethodName>
+      <Duration>100</Duration>
+      <Type>state_dizzy</Type>
+    </Result>
+		<Result>
+			<MethodName>LogStory</MethodName>
+			<ResultContent>cons_poisoned</ResultContent>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_nothing">
+		<Result>
+			<MethodName>LogStory</MethodName>
+			<ResultContent>cons_nothing_inbox</ResultContent>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_hint_rain">
+		<Result>
+			<MethodName>HintRain</MethodName>
+		</Result>
+	</Consequence>
+	
+	
+	<Consequence type="cons_hint_snow">
+		<Result>
+			<MethodName>HintSnow</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_hint_sunny">
+		<Result>
+			<MethodName>HintSunny</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_hint_fog">
+		<Result>
+			<MethodName>HintFog</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_hint_night">
+		<Result>
+			<MethodName>HintNight</MethodName>
+		</Result>
+	</Consequence>
+
+  <Consequence type ="cons_evil_totem">
+    <Result>
+      <MethodName>AttracksEvilMonsters</MethodName>
+    </Result>
+  </Consequence>
+  
+  
+  <Consequence type ="cons_fight_holy_keeper">
+  <Result>
+    <MethodName>FightHolyKeeper</MethodName>
+  </Result>
+</Consequence>
+  
+
+  <Consequence type ="cons_make_with_black_smith">
+    <Result>
+      <MethodName>MakeWithBlackSmith</MethodName>
+    </Result>
+  </Consequence>
+  
+
+  <Consequence type ="cons_trade_crystal_suit">
+    <Result>
+      <MethodName>TradeCrystalSuit</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type ="cons_trade_normal_sword">
+    <Result>
+      <MethodName>TradeFireTeeth</MethodName>
+    </Result>
+  </Consequence>
+
+
+  <Consequence type ="cons_search_dead_body">
+    <Result>
+      <MethodName>SearchDeadBody</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_gain_ice_core">
+		<Produce class="Resource" category="Item" type="ice_core">
+			<Count>1</Count>
+		</Produce>
+		<Result>
+			<MethodName>LogStory</MethodName>
+			<ResultContent>cons_gain_ice_core</ResultContent>
+		</Result>
+	</Consequence>
+	
+	
+	<Consequence type="cons_ice_box">
+		<Result>
+			<MethodName>ConsOpenSnowBox</MethodName>
+		</Result>
+	</Consequence>
+	
+		
+	<Consequence type="cons_mud_box">
+		<Result>
+			<MethodName>ConsOpenMudBox</MethodName>
+		</Result>
+	</Consequence>
+	
+	
+	<Consequence type="cons_gain_10_crystal">
+		<Produce class="Resource" category="Item" type="crystal">
+			<Count>10</Count>
+		</Produce>
+		<Result>
+			<MethodName>LogStory</MethodName>
+			<ResultContent>cons_gain_10_crystal</ResultContent>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_tramp_took_10_potato">
+		<Require class="Food" category="Item" type="potato">
+			<Count>10</Count>
+		</Require>
+		<Result>
+			<MethodName>LogStory</MethodName>
+			<ResultContent>cons_tramp_took_10_potato</ResultContent>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_shadow_in_fog">
+		<Result>
+			<MethodName>ConsShadowInFog</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_bear_destroy_tree">
+    <Result>
+      <MethodName>BearDestroyTree</MethodName>
+    </Result>
+    <Result>
+			<MethodName>LogStory</MethodName>
+			<ResultContent>cons_bear_destroy_tree</ResultContent>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_stop_bear">
+		<Result>
+			<MethodName>LaunchBattle</MethodName>
+			<MonsterType>bear</MonsterType>
+			<Count>1</Count>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_stop_treeman">
+		<Result>
+			<MethodName>LogThenBattle</MethodName>
+			<MonsterType>tree_man</MonsterType>
+			<Count>1</Count>
+			<ResultContent>cons_tree_man_attack</ResultContent>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_fight_boss_20">
+		<Result>
+			<MethodName>LaunchBattle</MethodName>
+			<MonsterType>boss_day_20</MonsterType>
+			<Count>1</Count>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_fight_boss_35">
+		<Result>
+			<MethodName>LaunchBattle</MethodName>
+			<MonsterType>boss_day_35</MonsterType>
+			<Count>1</Count>
+		</Result>
+	</Consequence>
+	
+	
+	<Consequence type="cons_fight_boss_50">
+		<Result>
+			<MethodName>LogThenBattle</MethodName>
+			<MonsterType>boss_day_50</MonsterType>
+			<Count>1</Count>
+			<ResultContent>cons_battle_start</ResultContent>
+		</Result>
+	</Consequence>
+	
+	
+	<Consequence type="cons_fight_boss_65">
+		<Result>
+			<MethodName>LogThenBattle</MethodName>
+			<MonsterType>boss_day_65</MonsterType>
+			<Count>1</Count>
+			<ResultContent>cons_battle_start</ResultContent>
+		</Result>
+	</Consequence>
+	
+	
+	<Consequence type="cons_wolf_not_found">
+		<Result>
+			<MethodName>LogStory</MethodName>
+			<ResultContent>cons_wolf_not_found</ResultContent>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_wolf_found">
+		<Result>
+			<MethodName>LogThenBattle</MethodName>
+			<MonsterType>wolf</MonsterType>
+			<Count>3</Count>
+			<ResultContent>cons_wolf_attack</ResultContent>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_lost_soldier">
+		<Require class="Food" category="Item" type="potato">
+			<Count>30</Count>
+		</Require>
+		<Result>
+			<MethodName>ConsLostSoldiers</MethodName>
+		</Result>
+	</Consequence>
+
+	
+	<Consequence type="cons_scholar_take_one_seed">
+		<Require class="Resource" category="Item" type="seed">
+			<Count>1</Count>
+		</Require>
+		<Result>
+			<MethodName>ScholarTakeSeed</MethodName>
+		</Result>
+	</Consequence>
+  
+
+
+  <Consequence type="cons_heal_injured_hunter">
+    <Result>
+      <MethodName>HealInjuredHunter</MethodName>
+    </Result>
+  </Consequence>
+
+
+
+  <Consequence type="cons_take_blue_crystal">
+		<Result>
+			<MethodName>LogThenBattle</MethodName>
+			<MonsterType>alive_statue</MonsterType>
+			<Count>1</Count>
+			<ResultContent>cons_statue_alive</ResultContent>
+		</Result>
+		<Produce class="Resource" category="Item" type="blue_crystal">
+			<Count>1</Count>
+		</Produce>
+	</Consequence>
+	
+	<Consequence type="cons_harvest_stop">
+		<Result>
+			<MethodName>AddGlobalState</MethodName>
+			<Duration>300</Duration>
+      <Type>state_harvest_stopped</Type>
+		</Result>
+	</Consequence>
+
+  <Consequence type="cons_harvest_stop_1day">
+    <Result>
+      <MethodName>AddGlobalState</MethodName>
+      <Duration>310</Duration>
+      <Type>state_harvest_stopped</Type>
+
+    </Result>
+  </Consequence>
+	
+
+	<Consequence type="cons_fight_young_blade_master">
+		<Result>
+			<MethodName>LaunchBattle</MethodName>
+			<MonsterType>young_blade_master</MonsterType>
+			<Count>1</Count>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_fight_old_blade_master">
+		<Result>
+			<MethodName>LaunchBattle</MethodName>
+			<MonsterType>old_blade_master</MonsterType>
+			<Count>1</Count>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_fight_great_blade_master">
+		<Result>
+			<MethodName>LaunchBattle</MethodName>
+			<MonsterType>great_blade_master</MonsterType>
+			<Count>1</Count>
+		</Result>
+	</Consequence>
+
+  <Consequence type="cons_rob_hungary_hunter">
+    <Result>
+      <MethodName>LaunchBattle</MethodName>
+      <MonsterType>hungary_hunter</MonsterType>
+      <Count>1</Count>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_give_hunter_food">
+    <Result>
+      <MethodName>GiveHunterFood</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_investigate_song">
+    <Result>
+      <MethodName>LogThenBattle</MethodName>
+      <MonsterType>shadow_ghost</MonsterType>
+      <Count>1</Count>
+      <ResultContent>sing_mosnter_attack</ResultContent>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_ignore_song">
+    <Result>
+      <MethodName>LogStory</MethodName>
+      <ResultContent>elfs_killed_by_song</ResultContent>
+    </Result>
+    <CurrentPopulationDown>20</CurrentPopulationDown>
+  </Consequence>
+  
+  
+  <Consequence type="cons_engjoy_song">
+    <Result>
+      <MethodName>LogStory</MethodName>
+      <ResultContent>enjoy_song</ResultContent>
+    </Result>
+    <Result>
+      <MethodName>AddGlobalState</MethodName>
+      <Duration>600</Duration>
+      <Type>state_song_singing</Type>
+    </Result>
+  </Consequence>
+
+
+  <Consequence type="cons_save_elfs">
+    <Result>
+      <MethodName>LaunchBattle</MethodName>
+      <MonsterType>fury_hunter</MonsterType>
+      <Count>1</Count>
+    </Result>
+  </Consequence>
+
+
+  <Consequence type="cons_hide">
+    <Result>
+      <MethodName>LogStory</MethodName>
+      <ResultContent>elfs_dead_15</ResultContent>
+    </Result>
+    <CurrentPopulationDown>15</CurrentPopulationDown>
+  </Consequence>
+
+  <Consequence type="cons_accept_blessing">
+    <Result>
+      <MethodName>AcceptBlessing</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_offer_blessing">
+    <Result>
+      <MethodName>OfferBlessing</MethodName>
+    </Result>
+  </Consequence>
+
+
+  
+
+<Consequence type="cons_rob_rich_man">
+  <Result>
+    <MethodName>RobRichMan</MethodName>
+  </Result>
+</Consequence>
+
+
+  <Consequence type="cons_beg_rich_man">
+    <Result>
+      <MethodName>BegRichMan</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_steal_honey">
+    <Result>
+      <MethodName>StealHoney</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_attack_vulture">
+    <Result>
+      <MethodName>LaunchBattle</MethodName>
+      <MonsterType>vulture</MonsterType>
+      <Count>3</Count>
+    </Result>
+  </Consequence>
+
+
+  <Consequence type="cons_ignore_vulture">
+    <Result>
+      <MethodName>IgnoreVulture</MethodName>
+    </Result>
+  </Consequence>
+
+
+  <Consequence type="cons_save_elfs_from_poison">
+    <Result>
+      <MethodName>LogStory</MethodName>
+      <ResultContent>poisoned_by_smoke</ResultContent>
+    </Result>
+    <Result>
+      <MethodName>AddGlobalState</MethodName>
+      <Duration>900</Duration>
+      <Type>state_dizzy</Type>
+    </Result>
+  </Consequence>
+
+
+
+  <Consequence type="cons_leave_elfs_with_poison">
+    <Result>
+      <MethodName>LogStory</MethodName>
+      <ResultContent>elfs_poisoned</ResultContent>
+    </Result>
+    <CurrentPopulationDown>10</CurrentPopulationDown>
+  </Consequence>
+
+
+  <Consequence type="cons_sacrifice_elf">
+    <Result>
+      <MethodName>SacrificeElfToWitch</MethodName>
+    </Result>
+    <CurrentPopulationDown>20</CurrentPopulationDown>
+  </Consequence>
+
+  <Consequence type="cons_no_sacrifice_elf">
+    <Result>
+      <MethodName>LogStory</MethodName>
+      <ResultContent>witch_take_10_elfs</ResultContent>
+    </Result>
+    <CurrentPopulationDown>10</CurrentPopulationDown>
+  </Consequence>
+
+
+
+
+  <!--Cons for Map1 Event  888888888888888888888888888888888888888888888888888888888888888888888888888-->
+	
+	<Consequence type="cons_dig_grave">
+		<Result>
+			<MethodName>DigGrave</MethodName>
+			<MonsterType>zombie</MonsterType>
+			<Count>1</Count>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_fight_young_witch">
+		<Result>
+			<MethodName>FightYoungWitch</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_dig_mine">
+		<Result>
+			<MethodName>DigMine</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_enter_yeti_house">
+		<Result>
+			<MethodName>EnterYetiHouse</MethodName>
+		</Result>
+	</Consequence>
+
+
+  <Consequence type="cons_open_yeti_box">
+    <Result>
+      <MethodName>OpenYetiBox</MethodName>
+    </Result>
+  </Consequence>
+  
+	
+	<Consequence type="cons_take_scroll_lvl1">
+		<Result>
+			<MethodName>LaunchBattleMapEvent</MethodName>
+			<MonsterType>acient_keeper</MonsterType>
+      <NeedFinish>false</NeedFinish>
+			<Count>1</Count>
+		</Result>
+	</Consequence>
+
+
+  <Consequence type="cons_take_scroll_lvl2">
+    <Result>
+      <MethodName>LaunchBattleMapEvent</MethodName>
+      <MonsterType>acient_keeper_2</MonsterType>
+      <NeedFinish>false</NeedFinish>
+      <Count>1</Count>
+    </Result>
+  </Consequence>
+
+
+
+  <Consequence type="cons_exchange_soul">
+		<Result>
+			<MethodName>ExchangeSoul</MethodName>
+		</Result>
+	</Consequence>
+	
+	
+	<Consequence type="cons_life_water_take">
+		<Result>
+			<MethodName>LifeWaterTake</MethodName>
+		</Result>
+	</Consequence>
+
+
+	<Consequence type="cons_life_water_heal">
+		<Result>
+			<MethodName>LifeWaterHeal</MethodName>
+		</Result>
+	</Consequence>
+	
+	
+	<Consequence type="cons_deal_soul">
+		<Result>
+			<MethodName>DealSoul</MethodName>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_break_fire_soul">
+		<Result>
+			<MethodName>LaunchBattleMapEvent</MethodName>
+			<MonsterType>fire_soul</MonsterType>
+      <NeedFinish>true</NeedFinish>
+			<Count>1</Count>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_break_ice_soul">
+		<Result>
+			<MethodName>LaunchBattleMapEvent</MethodName>
+			<MonsterType>ice_soul</MonsterType>
+      <NeedFinish>true</NeedFinish>
+      <Count>1</Count>
+		</Result>
+	</Consequence>
+	
+	<Consequence type="cons_break_wind_soul">
+		<Result>
+			<MethodName>LaunchBattleMapEvent</MethodName>
+			<MonsterType>wind_soul</MonsterType>
+      <NeedFinish>true</NeedFinish>
+
+      <Count>1</Count>
+		</Result>
+	</Consequence>
+
+  
+  <Consequence type="cons_fish_in_the_pool">
+    <Result>
+      <MethodName>FishInThePool</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_chop_winter_wood">
+    <Result>
+      <MethodName>ChopWinterWood</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_open_high_altar">
+    <Result>
+      <MethodName>OpenHighAltar</MethodName>
+    </Result>
+  </Consequence>
+
+
+  <Consequence type="cons_break_ice_cave">
+    <Result>
+      <MethodName>BreakIceCave</MethodName>
+    </Result>
+  </Consequence>
+
+
+  <Consequence type="cons_attracks_ice_beast">
+    <Result>
+      <MethodName>AttracksIceBeast</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_forge_light_flower">
+    <Result>
+      <MethodName>ForgeLightFlower</MethodName>
+    </Result>
+  </Consequence>
+  
+  <Consequence type="cons_trade_light_flower">
+    <Result>
+      <MethodName>TradeLightFlower</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_fill_dead_spirit">
+    <Result>
+      <MethodName>FillDeadSpirit</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_summon_skelecton_king">
+    <Result>
+      <MethodName>SummonSkelectionKing</MethodName>
+    </Result>
+  </Consequence>
+
+  <Consequence type="cons_pull_light_water">
+    <Result>
+      <MethodName>PullLightWater</MethodName>
+    </Result>
+  </Consequence>
+
+
+  <Consequence type="cons_summon_light_fete">
+    <Result>
+      <MethodName>SummonLightFete</MethodName>
+    </Result>
+  </Consequence>
+
+  
+  <Consequence type="cons_pull_sword_from_stone">
+    <Result>
+      <MethodName>LaunchBattleMapEvent</MethodName>
+      <MonsterType>stone_giant</MonsterType>
+      <NeedFinish>false</NeedFinish>
+      <Count>1</Count>
+    </Result>
+  </Consequence>
+  
+
+  <Consequence type="cons_open_treasure_ghost_box">
+    <Result>
+      <MethodName>LaunchBattleMapEvent</MethodName>
+      <MonsterType>treasure_ghost</MonsterType>
+      <NeedFinish>false</NeedFinish>
+      <Count>1</Count>
+    </Result>
+  </Consequence>
+
+
+  <Consequence type="cons_trade_with_research_man">
+    <Result>
+      <MethodName>TradeWithReasearchMan</MethodName>
+    </Result>
+  </Consequence>
+  
+  <Consequence type="cons_take_reward_from_saved_man">
+    <Result>
+      <MethodName>TakeRewardFromSavedMan</MethodName>
+    </Result>
+  </Consequence>
+
+
+
+
+
+  
+
+</Consequences>

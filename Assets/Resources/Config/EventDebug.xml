@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Events>
+
+  <!-- Rresource -->
+  <Event type="spawn_seed" class="spawn_resource_event">
+    <CoolDown>303</CoolDown>
+    <Probability>1</Probability>
+    <Produce class="Resource" category="Item" type="seed">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_branch" class="spawn_resource_event">
+    <CoolDown>0</CoolDown>
+    <Probability>1</Probability>
+    <Produce class="Resource" category="Item" type="branch">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_branch_2" class="spawn_resource_event">
+    <CoolDown>2</CoolDown>
+    <Probability>1</Probability>
+    <Require class="Tool" category="Item" type="big_scissor">
+      <Cost>0.1</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="branch">
+      <Count>50</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_hay" class="spawn_resource_event">
+    <CoolDown>4</CoolDown>
+    <Probability>0.6</Probability>
+    <Require class="Tool" category="Item" type="wood_shovel">
+      <Cost>0.05</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="hay">
+      <Count>10</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_flint" class="spawn_resource_event">
+    <CoolDown>5</CoolDown>
+    <Probability>0.6</Probability>
+    <Require class="Tool" category="Item" type="wood_shovel">
+      <Cost>0.05</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="flint">
+      <Count>10</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_wood" class="spawn_resource_event">
+    <CoolDown>5</CoolDown>
+    <Probability>0.7</Probability>
+    <Require class="Tool" category="Item" type="axe">
+      <Cost>0.04</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="wood">
+      <Count>15</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_wood_2" class="spawn_resource_event">
+    <CoolDown>5</CoolDown>
+    <Probability>0.5</Probability>
+    <Require class="Tool" category="Item" type="gold_axe">
+      <Cost>0.02</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="wood">
+      <Count>15</Count>
+    </Produce>
+  </Event>
+
+
+  <Event type="spawn_iron" class="spawn_resource_event">
+    <CoolDown>6</CoolDown>
+    <Probability>0.65</Probability>
+    <Require class="Tool" category="Item" type="chisel">
+      <Cost>0.025</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="iron">
+      <Count>10</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_iron_2" class="spawn_resource_event">
+    <CoolDown>6</CoolDown>
+    <Probability>0.5</Probability>
+    <Require class="Tool" category="Item" type="gold_chisel">
+      <Cost>0.010</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="iron">
+      <Count>5</Count>
+    </Produce>
+  </Event>
+
+
+
+  <Event type="spawn_gold" class="spawn_resource_event">
+    <CoolDown>6</CoolDown>
+    <Probability>0.16</Probability>
+    <Require class="Tool" category="Item" type="chisel">
+      <Cost>0.05</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="gold">
+      <Count>5</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_gold_2" class="spawn_resource_event">
+    <CoolDown>6</CoolDown>
+    <Probability>0.16</Probability>
+    <Require class="Tool" category="Item" type="gold_chisel">
+      <Cost>0.03</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="gold">
+      <Count>10</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_redwood" class="spawn_resource_event">
+    <CoolDown>5</CoolDown>
+    <Probability>0.3</Probability>
+    <Require class="Tool" category="Item" type="gold_axe">
+      <Cost>0.025</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="redwood">
+      <Count>10</Count>
+    </Produce>
+  </Event>
+
+
+  <Event type="spawn_crystal" class="spawn_resource_event">
+    <CoolDown>5</CoolDown>
+    <Probability>0.3</Probability>
+    <Require class="Tool" category="Item" type="gold_chisel">
+      <Cost>0.02</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="crystal">
+      <Count>5</Count>
+    </Produce>
+  </Event>
+
+
+  <Event type="spawn_teeth" class="spawn_resource_event">
+    <CoolDown>10</CoolDown>
+    <Probability>0.3</Probability>
+    <Require class="Tool" category="Item" type="wood_trap">
+      <Cost>0.035</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="teeth">
+      <Count>10</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_pig_tail" class="spawn_resource_event">
+    <CoolDown>10</CoolDown>
+    <Probability>0.1</Probability>
+    <Require class="Tool" category="Item" type="spike_trap">
+      <Cost>0.02</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="pig_tail">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_cowhide" class="spawn_resource_event">
+    <CoolDown>5</CoolDown>
+    <Probability>0.13</Probability>
+    <Require class="Tool" category="Item" type="spike_trap">
+      <Cost>0.035</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="cowhide">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+
+  <Event type="spawn_moon_grass" class="spawn_resource_event">
+    <CoolDown>1500</CoolDown>
+    <Probability>1</Probability>
+    <Condition>
+      <MethodName>isAtNight</MethodName>
+    </Condition>
+    <Require class="Tool" category="Item" type="iron_shovel">
+      <Cost>0.035</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="moon_grass">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+
+  <Event type="spawn_blue_crystal" class="spawn_resource_event">
+    <CoolDown>50</CoolDown>
+    <Probability>0.5</Probability>
+    <CurrentSeason>Winter</CurrentSeason>
+    <Require class="Tool" category="Item" type="gold_chisel">
+      <Cost>0.03</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="blue_crystal">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+
+  <Event type="spawn_red_crystal" class="spawn_resource_event">
+    <CoolDown>50</CoolDown>
+    <Probability>0.5</Probability>
+    <CurrentSeason>Summer</CurrentSeason>
+    <Require class="Tool" category="Item" type="gold_chisel">
+      <Cost>0.03</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="red_crystal">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+
+  <Event type="spawn_winter_wood" class="spawn_resource_event">
+    <CoolDown>10</CoolDown>
+    <Probability>0.3</Probability>
+    <CurrentSeason>Winter</CurrentSeason>
+    <Require class="Tool" category="Item" type="gold_axe">
+      <Cost>0.035</Cost>
+    </Require>
+    <Produce class="Resource" category="Item" type="winter_wood">
+      <Count>20</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_flower" class="spawn_resource_event">
+    <CoolDown>10</CoolDown>
+    <Probability>0.07</Probability>
+    <CurrentSeason>Spring</CurrentSeason>
+    <Produce class="Resource" category="Item" type="flower">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+
+
+  <!-- Food -->
+  <Event type="spawn_carrot" class="spawn_resource_event">
+    <CoolDown>3</CoolDown>
+    <Probability>0.2</Probability>
+    <Produce class="Food" category="Item" type="carrot">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_potato" class="spawn_resource_event">
+    <CoolDown>5</CoolDown>
+    <Probability>0.3</Probability>
+    <Require class="Tool" category="Item" type="iron_shovel">
+      <Cost>0.025</Cost>
+    </Require>
+    <Produce class="Food" category="Item" type="potato">
+      <Count>3</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_mushroom" class="spawn_resource_event">
+    <CoolDown>8</CoolDown>
+    <Probability>0.3</Probability>
+    <Require class="Tool" category="Item" type="iron_shovel">
+      <Cost>0.025</Cost>
+    </Require>
+    <Produce class="Food" category="Item" type="mushroom">
+      <Count>4</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_fig" class="spawn_resource_event">
+    <CoolDown>5</CoolDown>
+    <Probability>0.02</Probability>
+    <Require class="Tool" category="Item" type="iron_shovel">
+      <Cost>0.025</Cost>
+    </Require>
+    <CurrentWeather>Rain</CurrentWeather>
+    <Produce class="Food" category="Item" type="fig">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+
+  <Event type="spawn_dream_fruit" class="spawn_resource_event">
+    <CoolDown>10</CoolDown>
+    <Probability>0.2</Probability>
+    <CurrentWeather>Fog</CurrentWeather>
+    <Require class="Tool" category="Item" type="iron_shovel">
+      <Cost>0.025</Cost>
+    </Require>
+    <Produce class="Food" category="Item" type="dream_fruit">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+
+  <Event type="spawn_snow_ball" class="spawn_resource_event">
+    <CoolDown>10</CoolDown>
+    <Probability>0.5</Probability>
+    <CurrentWeather>Snow</CurrentWeather>
+    <Require class="Tool" category="Item" type="iron_shovel">
+      <Cost>0.025</Cost>
+    </Require>
+    <Produce class="Food" category="Item" type="snow_ball">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+
+  <Event type="spawn_rabbit_meat" class="spawn_resource_event">
+    <CoolDown>5</CoolDown>
+    <Probability>0.3</Probability>
+    <Require class="Tool" category="Item" type="wood_trap">
+      <Cost>0.035</Cost>
+    </Require>
+    <Produce class="Food" category="Item" type="rabbit_meat">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_unicon_blood" class="spawn_resource_event">
+    <CoolDown>50</CoolDown>
+    <Probability>0.02</Probability>
+    <Require class="Tool" category="Item" type="wood_trap">
+      <Cost>0.02</Cost>
+    </Require>
+    <Produce class="Food" category="Item" type="unicon_blood">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_pork" class="spawn_resource_event">
+    <CoolDown>8</CoolDown>
+    <Probability>0.35</Probability>
+    <Require class="Tool" category="Item" type="spike_trap">
+      <Cost>0.05</Cost>
+    </Require>
+    <Produce class="Food" category="Item" type="pork">
+      <Count>3</Count>
+    </Produce>
+  </Event>
+
+  <Event type="spawn_yeti_heart" class="spawn_resource_event">
+    <CoolDown>10</CoolDown>
+    <Probability>0.025</Probability>
+    <CurrentWeather>Snow</CurrentWeather>
+    <Require class="Tool" category="Item" type="spike_trap">
+      <Cost>0.05</Cost>
+    </Require>
+    <Produce class="Food" category="Item" type="yeti_heart">
+      <Count>1</Count>
+    </Produce>
+  </Event>
+
+  <!--storys .................................................................................................................-->
+  <Event type="spawn_story_rain" class="spawn_story_event">
+    <CoolDown>300</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentWeather>Rain</CurrentWeather>
+    <Story type="story_rain" />
+  </Event>
+
+  <Event type="spawn_story_snow" class="spawn_story_event">
+    <CoolDown>300</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentWeather>Snow</CurrentWeather>
+    <Story type="story_snow"/>
+  </Event>
+
+  <Event type="spawn_story_sunny" class="spawn_story_event">
+    <CoolDown>300</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentWeather>Sunny</CurrentWeather>
+    <GameTimeAfter>5</GameTimeAfter>
+    <Condition>
+      <MethodName>NotAtNight</MethodName>
+    </Condition>
+    <Story type="story_sunny"/>
+  </Event>
+
+  <Event type="spawn_story_fog" class="spawn_story_event">
+    <CoolDown>300</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentWeather>Fog</CurrentWeather>
+    <Story type="story_fog"/>
+  </Event>
+
+  <Event type="spawn_story_spring" class="spawn_story_event">
+    <CoolDown>7500</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Spring</CurrentSeason>
+    <Story type="story_spring"/>
+  </Event>
+
+  <Event type="spawn_story_spring_hint_monsters" class="spawn_story_event">
+    <GameTimeAfter>7603</GameTimeAfter>
+    <CurrentSeason>Spring</CurrentSeason>
+    <Story type="story_spring_hint_monsters"/>
+  </Event>
+
+
+
+  <Event type="spawn_story_summer" class="spawn_story_event">
+    <CoolDown>7500</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Summer</CurrentSeason>
+    <Story type="story_summer"/>
+  </Event>
+
+  <Event type="spawn_story_autumn" class="spawn_story_event">
+    <CoolDown>7500</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Autumn</CurrentSeason>
+    <GameTimeAfter>38</GameTimeAfter>
+    <Story type="story_autumn"/>
+  </Event>
+
+  <Event type="spawn_story_winter" class="spawn_story_event">
+    <CoolDown>7500</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Winter</CurrentSeason>
+    <Story type="story_winter"/>
+  </Event>
+
+
+
+  <Event type="spawn_story_frozen" class="spawn_story_event">
+    <CoolDown>305</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>NotWearingWarmProtection</MethodName>
+    </Condition>
+    <Condition>
+      <MethodName>NotInLuckyState</MethodName>
+    </Condition>
+    <TempetureBelow>0</TempetureBelow>
+    <Story type="story_frozen" />
+  </Event>
+
+  <Event type="spawn_story_heatstroke" class="spawn_story_event">
+    <CoolDown>310</CoolDown>
+    <Repeatable>true</Repeatable>
+    <TempetureAbove>38</TempetureAbove>
+    <Condition>
+      <MethodName>NotInLuckyState</MethodName>
+    </Condition>
+    <Story type="story_heatstroke" />
+  </Event>
+
+  <Event type="spawn_story_dizzy" class="spawn_story_event">
+    <Probability>1</Probability>
+    <CoolDown>100</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentWeather>Rain</CurrentWeather>
+    <HumidityAbove>85</HumidityAbove>
+    <Condition>
+      <MethodName>notEquippedWith</MethodName>
+      <ToolCategory>Tool</ToolCategory>
+      <ToolType>umbrella</ToolType>
+    </Condition>
+    <Condition>
+      <MethodName>NotInLuckyState</MethodName>
+    </Condition>
+    <Story type="story_dizzy" />
+  </Event>
+
+
+  <!-- hint stories -->
+
+  <Event type="spawn_story_hint_soul" class="spawn_story_event">
+    <GameTimeAfter>1520</GameTimeAfter>
+    <Story type="story_hint_soul" />
+  </Event>
+
+  <Event type="spawn_story_hint_world_story_1" class="spawn_story_event">
+    <GameTimeAfter>3020</GameTimeAfter>
+    <Story type="story_hint_world_story_1" />
+  </Event>
+
+  <Event type="spawn_story_hint_world_story_2" class="spawn_story_event">
+    <GameTimeAfter>4520</GameTimeAfter>
+    <Story type="story_hint_world_story_2" />
+  </Event>
+
+  <Event type="spawn_story_hint_world_story_3" class="spawn_story_event">
+    <GameTimeAfter>6020</GameTimeAfter>
+    <Story type="story_hint_world_story_3" />
+  </Event>
+
+  <Event type="spawn_story_hint_world_story_4" class="spawn_story_event">
+    <GameTimeAfter>7520</GameTimeAfter>
+    <Story type="story_hint_world_story_4" />
+  </Event>
+
+  <Event type="spawn_story_hint_world_story_5" class="spawn_story_event">
+    <GameTimeAfter>9020</GameTimeAfter>
+    <Story type="story_hint_world_story_5" />
+  </Event>
+
+  <Event type="spawn_story_hint_world_story_6" class="spawn_story_event">
+    <GameTimeAfter>10520</GameTimeAfter>
+    <Story type="story_hint_world_story_6" />
+  </Event>
+
+  <Event type="spawn_story_hint_world_story_7" class="spawn_story_event">
+    <GameTimeAfter>12020</GameTimeAfter>
+    <Story type="story_hint_world_story_7" />
+  </Event>
+
+  <Event type="spawn_story_hint_world_story_8" class="spawn_story_event">
+    <GameTimeAfter>13520</GameTimeAfter>
+    <Story type="story_hint_world_story_8" />
+  </Event>
+
+  <Event type="spawn_story_hint_world_story_9" class="spawn_story_event">
+    <GameTimeAfter>15020</GameTimeAfter>
+    <Story type="story_hint_world_story_9" />
+  </Event>
+
+  <Event type="spawn_story_hint_welcome" class="spawn_story_event">
+    <GameTimeAfter>3</GameTimeAfter>
+    <Story type="story_hint_welcome" />
+  </Event>
+
+  <Event type="spawn_story_hint_death" class="spawn_story_event">
+    <GameTimeAfter>5</GameTimeAfter>
+    <IsInSurvivalMode>1</IsInSurvivalMode>
+    <Story type="story_hint_death" />
+  </Event>
+
+  <Event type="spawn_story_hint_night_bad_for_adventure" class="spawn_story_event">
+    <GameTimeAfter>1233</GameTimeAfter>
+    <Story type="story_hint_night_bad_for_adventure" />
+  </Event>
+
+  <Event type="spawn_story_hint_tool" class="spawn_story_event">
+    <GameTimeAfter>30</GameTimeAfter>
+    <Story type="story_hint_tool" />
+  </Event>
+
+  <Event type="spawn_story_hint_tool_change" class="spawn_story_event">
+    <GameTimeAfter>4550</GameTimeAfter>
+    <Story type="story_hint_tool_change" />
+  </Event>
+
+
+  <Event type="spawn_story_hint_house" class="spawn_story_event">
+    <Require class="Resource" category="Item" type="wood">
+      <Count>1</Count>
+    </Require>
+    <Require class="Resource" category="Item" type="seed">
+      <Count>1</Count>
+    </Require>
+    <Story type="story_hint_house" />
+  </Event>
+
+  <Event type="spawn_story_hint_umbrella" class="spawn_story_event">
+    <Probability>0.2</Probability>
+    <CurrentWeather>Rain</CurrentWeather>
+    <Story type="story_hint_umbrella" />
+  </Event>
+
+  <Event type="spawn_story_hint_hungary" class="spawn_story_event">
+    <CoolDown>280</CoolDown>
+    <Repeatable>true</Repeatable>
+    <HealthBelow>50</HealthBelow>
+    <Story type="story_hint_hungary" />
+  </Event>
+
+  <Event type="spawn_story_hint_trap" class="spawn_story_event">
+    <Require class="Tool" category="Item" type="wood_trap">
+      <Cost>0</Cost>
+    </Require>
+    <Story type="story_hint_trap" />
+  </Event>
+
+  <Event type="spawn_story_hint_battle" class="spawn_story_event">
+    <GameTimeAfter>2800</GameTimeAfter>
+    <Story type="story_hint_battle" />
+  </Event>
+
+  <Event type="spawn_story_hint_special_resource" class="spawn_story_event">
+    <GameTimeAfter>3000</GameTimeAfter>
+    <Story type="story_hint_special_resource" />
+  </Event>
+
+  <Event type="spawn_story_hint_cook" class="spawn_story_event">
+    <Require class="TechnologyConstruction" category="Building" type="iron_cook_pot" />
+    <Story type="story_hint_cook" />
+  </Event>
+
+
+  <Event type="spawn_story_hint_cook_two" class="spawn_story_event">
+    <GameTimeAfter>1800</GameTimeAfter>
+    <Require class="TechnologyConstruction" category="Building" type="iron_cook_pot" />
+    <Story type="story_hint_cook_two" />
+  </Event>
+
+  <Event type="spawn_story_hint_darknees" class="spawn_story_event">
+    <CoolDown>300</CoolDown>
+    <Repeatable>true</Repeatable>
+    <ShouldLightOn>false</ShouldLightOn>
+    <Condition>
+      <MethodName>isDarknessApproaching</MethodName>
+    </Condition>
+    <Story type="story_hint_darknees" />
+  </Event>
+
+
+  <Event type="spawn_story_hint_night" class="spawn_story_event">
+    <Probability>0.5</Probability>
+    <CoolDown>286</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>isAtNight</MethodName>
+    </Condition>
+    <Story type="story_hint_night" />
+  </Event>
+
+  <Event type="spawn_story_hint_night_summer_two" class="spawn_story_event">
+    <Probability>0.1</Probability>
+    <CoolDown>400</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Summer</CurrentSeason>
+    <Condition>
+      <MethodName>isAtNight</MethodName>
+    </Condition>
+    <Story type="story_hint_night_summer_two" />
+  </Event>
+
+
+  <Event type="spawn_story_hint_sunny" class="spawn_story_event">
+    <Probability>0.5</Probability>
+    <CoolDown>287</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentWeather>Sunny</CurrentWeather>
+    <GameTimeAfter>44</GameTimeAfter>
+    <Condition>
+      <MethodName>NotAtNight</MethodName>
+    </Condition>
+    <Story type="story_hint_sunny" />
+  </Event>
+
+
+  <Event type="spawn_story_hint_rain" class="spawn_story_event">
+    <Probability>0.5</Probability>
+    <CoolDown>280</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentWeather>Rain</CurrentWeather>
+    <GameTimeAfter>100</GameTimeAfter>
+    <Story type="story_hint_rain"/>
+  </Event>
+
+  <Event type="spawn_story_hint_snow" class="spawn_story_event">
+    <Probability>0.5</Probability>
+    <CoolDown>287</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentWeather>Snow</CurrentWeather>
+    <Story type="story_hint_snow" />
+  </Event>
+
+  <Event type="spawn_story_hint_fog" class="spawn_story_event">
+    <Probability>0.5</Probability>
+    <CoolDown>287</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentWeather>Fog</CurrentWeather>
+    <Story type="story_hint_fog" />
+  </Event>
+
+  <Event type="spawn_story_hint_winter_comming" class="spawn_story_event">
+    <GameTimeAfter>7223</GameTimeAfter>
+    <Story type="story_hint_winter_comming" />
+  </Event>
+
+
+  <!--Event with consequences-->
+  <!---the following should also add require not having an object-->
+  <Event type="spawn_story_injured_bear" class="spawn_story_event">
+    <Probability>0.07</Probability>
+    <CoolDown>285</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Spring</CurrentSeason>
+    <Story type="story_injured_bear" />
+  </Event>
+
+  <Event type="spawn_story_find_dead_body" class="spawn_story_event">
+    <Probability>0.13</Probability>
+    <CoolDown>285</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Winter</CurrentSeason>
+    <Story type="story_find_dead_body" />
+  </Event>
+
+  <Event type="spawn_story_crow_attack" class="spawn_story_event">
+    <Probability>0.05</Probability>
+    <CoolDown>150</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>NotInTimedState</MethodName>
+      <StateType>state_scarecrow</StateType>
+    </Condition>
+    <Require class="ProductionConstruction" category="Building" type="basic_farm"/>
+    <Story type="story_crow_attack" />
+  </Event>
+
+  <Event type="spawn_story_mouse_attack_one" class="spawn_story_event">
+    <Probability>0.15</Probability>
+    <CoolDown>278</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Spring</CurrentSeason>
+    <Condition>
+      <MethodName>NotInTimedState</MethodName>
+      <StateType>state_scarecrow</StateType>
+    </Condition>
+    <Require class="Food" category="Item" type="carrot">
+      <Count>1</Count>
+    </Require>
+    <Story type="story_mouse_attack_one"/>
+  </Event>
+
+
+  <Event type="spawn_story_weather_too_humid_loose_resource" class="spawn_story_event">
+    <Probability>0.5</Probability>
+    <CoolDown>258</CoolDown>
+    <Repeatable>true</Repeatable>
+    <HumidityAbove>80</HumidityAbove>
+    <Story type="story_weather_too_humid_loose_resource"/>
+  </Event>
+
+  <Event type="spawn_story_weather_too_hot_loose_food" class="spawn_story_event">
+    <Probability>0.5</Probability>
+    <CoolDown>180</CoolDown>
+    <Repeatable>true</Repeatable>
+    <TempetureAbove>37</TempetureAbove>
+    <Story type="story_weather_too_hot_loose_food"/>
+  </Event>
+
+
+  <Event type="spawn_story_villagers_frozen" class="spawn_story_event">
+    <Probability>0.3</Probability>
+    <CoolDown>300</CoolDown>
+    <Repeatable>true</Repeatable>
+    <PopulationAbove>5</PopulationAbove>
+    <TempetureBelow>0</TempetureBelow>
+    <Story type="story_villagers_frozen" />
+  </Event>
+
+  <Event type="spawn_story_villagers_heatstroke" class="spawn_story_event">
+    <Probability>0.3</Probability>
+    <CoolDown>295</CoolDown>
+    <Repeatable>true</Repeatable>
+    <PopulationAbove>3</PopulationAbove>
+    <TempetureAbove>35</TempetureAbove>
+    <Story type="story_villagers_heatstroke" />
+  </Event>
+
+  <Event type="spawn_story_villagers_stonemine_accident" class="spawn_story_event">
+    <Probability>0.25</Probability>
+    <CoolDown>295</CoolDown>
+    <Repeatable>true</Repeatable>
+    <PopulationAbove>2</PopulationAbove>
+    <HumidityAbove>70</HumidityAbove>
+    <Require class="ProductionConstruction" category="Building" type="stone_mine"/>
+    <Story type="story_villagers_stonemine_accident" />
+  </Event>
+
+  <Event type="spawn_story_elf_dry" class="spawn_story_event">
+    <Probability>0.5</Probability>
+    <CoolDown>270</CoolDown>
+    <Repeatable>true</Repeatable>
+    <PopulationAbove>2</PopulationAbove>
+    <HumidityBelow>10</HumidityBelow>
+    <Story type="story_elf_dry" />
+  </Event>
+
+  <Event type="spawn_story_too_dry_to_work" class="spawn_story_event">
+    <Probability>0.3</Probability>
+    <CoolDown>1000</CoolDown>
+    <Repeatable>true</Repeatable>
+    <HumidityBelow>5</HumidityBelow>
+    <GameTimeAfter>3000</GameTimeAfter>
+    <Story type="story_too_dry_to_work" />
+  </Event>
+
+
+
+  <Event type="spawn_story_wooden_house_rain_broken" class="spawn_story_event">
+    <Probability>0.1</Probability>
+    <CoolDown>295</CoolDown>
+    <Repeatable>true</Repeatable>
+    <PopulationLimitAbove>5</PopulationLimitAbove>
+    <CurrentWeather>Rain</CurrentWeather>
+    <Condition>
+      <MethodName>notEquippedWith</MethodName>
+      <ToolCategory>Tool</ToolCategory>
+      <ToolType>umbrella</ToolType>
+    </Condition>
+    <Story type="story_wooden_house_rain_broken" />
+  </Event>
+
+  <Event type="spawn_story_wooden_house_burn" class="spawn_story_event">
+    <Probability>0.3</Probability>
+    <CoolDown>303</CoolDown>
+    <Repeatable>true</Repeatable>
+    <PopulationAbove>20</PopulationAbove>
+    <TempetureAbove>38</TempetureAbove>
+    <Story type="story_wooden_house_burn" />
+  </Event>
+
+
+
+  <Event type="spawn_story_people_enter_one" class="spawn_story_event">
+    <Probability>0.35</Probability>
+    <CoolDown>50</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>isPopulationVacancyAbove</MethodName>
+      <RequireVacancy>1</RequireVacancy>
+    </Condition>
+    <Story type="story_people_enter_one" />
+  </Event>
+
+
+  <Event type="spawn_story_people_enter_two" class="spawn_story_event">
+    <Probability>0.1</Probability>
+    <CoolDown>60</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>isPopulationVacancyAbove</MethodName>
+      <RequireVacancy>2</RequireVacancy>
+    </Condition>
+    <Story type="story_people_enter_two" />
+  </Event>
+
+  <Event type="spawn_story_people_enter_three" class="spawn_story_event">
+    <Probability>0.15</Probability>
+    <CoolDown>75</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>isPopulationVacancyAbove</MethodName>
+      <RequireVacancy>3</RequireVacancy>
+    </Condition>
+    <Story type="story_people_enter_three" />
+  </Event>
+
+  <Event type="spawn_story_people_enter_five" class="spawn_story_event">
+    <Probability>0.08</Probability>
+    <CoolDown>50</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>isPopulationVacancyAbove</MethodName>
+      <RequireVacancy>5</RequireVacancy>
+    </Condition>
+    <Story type="story_people_enter_five" />
+  </Event>
+
+
+  <Event type="spawn_story_new_elf_one_by_totem" class="spawn_story_event">
+    <Probability>0.2</Probability>
+    <CoolDown>10</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Require class="Tool" category="Item" type="moonlight_totem">
+      <Cost>0.05</Cost>
+    </Require>
+    <Condition>
+      <MethodName>isAtNight</MethodName>
+    </Condition>
+    <Condition>
+      <MethodName>isPopulationVacancyAbove</MethodName>
+      <RequireVacancy>1</RequireVacancy>
+    </Condition>
+    <Story type="story_new_elf_one_by_totem" />
+  </Event>
+
+
+  <Event type="spawn_story_find_map_dust_land" class="spawn_story_event">
+    <PopulationAbove>1</PopulationAbove>
+    <Require class="TechnologyConstruction" category="Building" type="black_smith" />
+    <Story type="story_find_map_dust_land" />
+  </Event>
+
+  <Event type="spawn_story_lucky_one" class="spawn_story_event">
+    <Probability>0.05</Probability>
+    <CoolDown>266</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Story type="story_lucky_one" />
+  </Event>
+
+  <Event type="spawn_story_lucky_two" class="spawn_story_event">
+    <Probability>0.05</Probability>
+    <CoolDown>10</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>IsInLuckyState</MethodName>
+    </Condition>
+    <Story type="story_lucky_two" />
+  </Event>
+
+  <Event type="spawn_story_unlucky_one" class="spawn_story_event">
+    <Probability>0.08</Probability>
+    <CoolDown>10</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>IsInUnLuckyState</MethodName>
+    </Condition>
+    <Story type="story_unlucky_one"/>
+  </Event>
+
+  <Event type="spawn_story_spring_mouse_eaten" class="spawn_story_event">
+    <Probability>0.35</Probability>
+    <CoolDown>277</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Spring</CurrentSeason>
+    <Condition>
+      <MethodName>NotInTimedState</MethodName>
+      <StateType>state_scarecrow</StateType>
+    </Condition>
+    <Story type="story_spring_mouse_eaten"/>
+  </Event>
+
+  <Event type="spawn_story_viper_attack_elf" class="spawn_story_event">
+    <Probability>0.15</Probability>
+    <CoolDown>277</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Spring</CurrentSeason>
+    <PopulationAbove>5</PopulationAbove>
+    <Condition>
+      <MethodName>NotInTimedState</MethodName>
+      <StateType>state_scarecrow</StateType>
+    </Condition>
+    <Story type="story_viper_attack_elf"/>
+  </Event>
+
+
+  <Event type="spawn_story_evil_totem_attracks_monster" class="spawn_story_event">
+    <Probability>0.5</Probability>
+    <CoolDown>50</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>IsInTimedState</MethodName>
+      <StateType>state_evil</StateType>
+    </Condition>
+    <Story type="story_evil_totem_attracks_monster"/>
+  </Event>
+
+
+
+  <Event type="spawn_story_boss_day_20" class="spawn_story_event">
+    <GameTimeAfter>20000</GameTimeAfter>
+    <Story type="story_boss_day_20"/>
+  </Event>
+
+  <Event type="spawn_story_boss_day_35" class="spawn_story_event">
+    <GameTimeAfter>200000</GameTimeAfter>
+    <Story type="story_boss_day_35"/>
+  </Event>
+
+  
+
+  <Event type="spawn_story_high_keeper_come" class="spawn_story_event">
+    <CoolDown>280</CoolDown>
+    <Probability>0.1</Probability>
+    <Repeatable>true</Repeatable>
+    <GoodnessAbove>5</GoodnessAbove>
+    <Story type="story_high_keeper_come"/>
+  </Event>
+
+  <!--story with options-->
+
+  <Event type="spawn_story_strange_box_one" class="spawn_story_event">
+    <Probability>0.08</Probability>
+    <CoolDown>286</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Winter</CurrentSeason>
+    <Story type="story_strange_box_one" />
+  </Event>
+
+  <Event type="spawn_story_strange_box_two" class="spawn_story_event">
+    <Probability>0.15</Probability>
+    <CoolDown>286</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentSeason>Autumn</CurrentSeason>
+    <Story type="story_strange_box_two" />
+  </Event>
+
+  <Event type="spawn_story_strange_fish" class="spawn_story_event">
+    <Probability>0.08</Probability>
+    <CoolDown>333</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Require class="Tool" category="Item" type="fishing_rod">
+      <Cost>0</Cost>
+    </Require>
+    <Story type="story_strange_fish" />
+  </Event>
+
+  <Event type="spawn_story_tramp" class="spawn_story_event">
+    <Probability>0.08</Probability>
+    <CoolDown>216</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Require class="Food" category="Item" type="potato">
+      <Count>10</Count>
+    </Require>
+    <Story type="story_tramp" />
+  </Event>
+
+  <Event type="spawn_story_shadow_in_fog" class="spawn_story_event">
+    <Probability>0.3</Probability>
+    <CoolDown>249</CoolDown>
+    <Repeatable>true</Repeatable>
+    <CurrentWeather>Fog</CurrentWeather>
+    <Story type="story_shadow_in_fog" />
+  </Event>
+
+  <Event type="spawn_story_bear" class="spawn_story_event">
+    <Probability>1</Probability>
+    <CoolDown>50</CoolDown>
+    <Repeatable>true</Repeatable>
+    <PopulationLimitAbove>5</PopulationLimitAbove>
+    <Story type="story_bear" />
+  </Event>
+
+  <Event type="spawn_story_wolf" class="spawn_story_event">
+    <Probability>0.08</Probability>
+    <CoolDown>335</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>2000</GameTimeAfter>
+    <Story type="story_wolf" />
+  </Event>
+
+  <Event type="spawn_story_lost_soldier" class="spawn_story_event">
+    <Probability>0.06</Probability>
+    <CoolDown>300</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Require class="Food" category="Item" type="potato">
+      <Count>30</Count>
+    </Require>
+    <Condition>
+      <MethodName>notAlreadyHaveScroll</MethodName>
+      <ScrollType>scroll_crystal_sword</ScrollType>
+    </Condition>
+    <Story type="story_lost_soldier" />
+  </Event>
+
+
+  <Event type="spawn_story_scholar" class="spawn_story_event">
+    <Probability>1</Probability>
+    <CoolDown>330</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Require class="Resource" category="Item" type="seed">
+      <Count>1</Count>
+    </Require>
+    <Story type="story_scholar" />
+  </Event>
+
+
+  <Event type="spawn_story_live_tree" class="spawn_story_event">
+    <Probability>0.06</Probability>
+    <CoolDown>300</CoolDown>
+    <Repeatable>true</Repeatable>
+    <PopulationLimitAbove>30</PopulationLimitAbove>
+    <PopulationAbove>10</PopulationAbove>
+    <GameTimeAfter>3000</GameTimeAfter>
+    <Story type="story_live_tree" />
+  </Event>
+
+  <Event type="spawn_story_stone_statue" class="spawn_story_event">
+    <Probability>1</Probability>
+    <GameTimeAfter>30</GameTimeAfter>
+    <Story type="story_stone_statue" />
+  </Event>
+
+
+  <Event type="spawn_story_young_blade_master" class="spawn_story_event">
+    <Probability>1</Probability>
+    <CoolDown>100</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>90</GameTimeAfter>
+    <Story type="story_young_blade_master" />
+  </Event>
+
+  <Event type="spawn_story_old_blade_master" class="spawn_story_event">
+    <Probability>1</Probability>
+    <CoolDown>450</CoolDown>
+    <Repeatable>true</Repeatable>
+
+    <Story type="story_old_blade_master" />
+  </Event>
+
+  <Event type="spawn_story_great_blade_master" class="spawn_story_event">
+    <Probability>0.25</Probability>
+    <CoolDown>320</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>11500</GameTimeAfter>
+    <GameTimeBefore>15000</GameTimeBefore>
+    <Story type="story_great_blade_master" />
+  </Event>
+
+
+
+  <Event type="spawn_story_injured_hunter" class="spawn_story_event">
+    <Probability>1</Probability>
+    <CoolDown>330</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Condition>
+      <MethodName>notAlreadyHaveScroll</MethodName>
+      <ScrollType>scroll_armor_break</ScrollType>
+    </Condition>
+    <Story type="story_injured_hunter" />
+  </Event>
+
+
+  <Event type="spawn_story_exchange_potato" class="spawn_story_event">
+    <Probability>1</Probability>
+    <CoolDown>350</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>9300</GameTimeAfter>
+    <Story type="story_exchange_potato"/>
+  </Event>
+
+  <Event type="spawn_story_exchange_lamp" class="spawn_story_event">
+    <Probability>1</Probability>
+    <CoolDown>20</CoolDown>
+    <Repeatable>true</Repeatable>
+    <Story type="story_exchange_lamp"/>
+  </Event>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <Event type="spawn_story_hungary_hunter" class="spawn_story_event">
+    <Probability>0.1</Probability>
+    <CoolDown>266</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>4500</GameTimeAfter>
+    <GameTimeBefore>9000</GameTimeBefore>
+    <Condition>
+      <MethodName>notAlreadyHaveScroll</MethodName>
+      <ScrollType>scroll_qumo_sword</ScrollType>
+    </Condition>
+    <Story type="story_hungary_hunter" />
+  </Event>
+
+
+  <Event type="spawn_story_sound_sing" class="spawn_story_event">
+    <Probability>0.1</Probability>
+    <CoolDown>362</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>10500</GameTimeAfter>
+    <GameTimeBefore>18000</GameTimeBefore>
+    <PopulationAbove>21</PopulationAbove>
+    <GoodnessBelow>-3</GoodnessBelow>
+    <Story type="story_sound_sing" />
+  </Event>
+
+
+  <Event type="spawn_story_fury_hunter" class="spawn_story_event">
+    <Probability>1</Probability>
+    <CoolDown>4000</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeBefore>12000</GameTimeBefore>
+    <Story type="story_fury_hunter" />
+  </Event>
+
+
+  <Event type="spawn_story_holy_blessing" class="spawn_story_event">
+    <Probability>0.1</Probability>
+    <CoolDown>366</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>12000</GameTimeAfter>
+    <GameTimeBefore>18000</GameTimeBefore>
+    <GoodnessAbove>7</GoodnessAbove>
+    <Story type="story_holy_blessing" />
+  </Event>
+
+  <Event type="spawn_story_rich_man" class="spawn_story_event">
+    <Probability>0.05</Probability>
+    <CoolDown>269</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>4500</GameTimeAfter>
+    <GameTimeBefore>10500</GameTimeBefore>
+    <Story type="story_rich_man" />
+  </Event>
+
+  <Event type="spawn_story_honey_bee" class="spawn_story_event">
+    <Probability>0.135</Probability>
+    <CoolDown>288</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>30</GameTimeAfter>
+    <Story type="story_honey_bee" />
+  </Event>
+
+  <Event type="spawn_story_vulture_attack" class="spawn_story_event">
+    <Probability>1</Probability>
+    <CoolDown>600</CoolDown>
+    <GameTimeAfter>30000</GameTimeAfter>
+    <Repeatable>true</Repeatable>
+    <Story type="story_vulture_attack" />
+  </Event>
+
+  <Event type="spawn_story_poison_smoke" class="spawn_story_event">
+    <CoolDown>333</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>3</GameTimeAfter>
+    <Story type="story_poison_smoke" />
+  </Event>
+
+  <Event type="spawn_story_dark_witch" class="spawn_story_event">
+    <Probability>0.07</Probability>
+    <CoolDown>316</CoolDown>
+    <Repeatable>true</Repeatable>
+    <GameTimeAfter>6000</GameTimeAfter>
+    <GameTimeBefore>15000</GameTimeBefore>
+    <GoodnessBelow>-3</GoodnessBelow>
+    <Condition>
+      <MethodName>notAlreadyHaveScroll</MethodName>
+      <ScrollType>scroll_demon_energy_suit</ScrollType>
+    </Condition>
+    <PopulationAbove>22</PopulationAbove>
+    <Story type="story_dark_witch" />
+  </Event>
+
+
+	
+	
+	<Event type="spawn_story_boss_day_65" class="spawn_story_event">
+		<GameTimeAfter>31000</GameTimeAfter>
+		<Story type="story_boss_day_65"/>
+	</Event>
+
+  <Event type="spawn_story_go_to_shop" class="spawn_story_event">
+    <Probability>1</Probability>
+    <GameTimeAfter>30</GameTimeAfter>
+    <Story type="story_go_to_shop" />
+  </Event>
+
+  <Event type="spawn_story_boss_20_hint" class="spawn_story_event">
+    <GameTimeAfter>1000</GameTimeAfter>
+    <Story type="story_boss_20_hint"/>
+  </Event>
+
+
+  <Event type="spawn_story_boss_35_hint" class="spawn_story_event">
+    <GameTimeAfter>2000</GameTimeAfter>
+    <Story type="story_boss_35_hint"/>
+  </Event>
+
+
+  <Event type="spawn_story_boss_50_hint" class="spawn_story_event">
+    <GameTimeAfter>30000</GameTimeAfter>
+    <Story type="story_boss_50_hint"/>
+  </Event>
+
+
+</Events>
